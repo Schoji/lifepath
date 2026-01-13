@@ -17,7 +17,7 @@ const Questionaire = () => {
     }, [selectedQuestion]);
 
     return (
-        <div className='flex gap-5 flex-col min-h-screen items-center justify-center bg-zinc-100 text-black font-sans '>
+        <div className='flex gap-5 flex-col min-h-screen items-center justify-center bg-zinc-100 text-black font-sans'>
             <progress className="progress progress-primary w-2xl" value={questionHistory.length} max={questions.length / 3}></progress>
             {selectedQuestion.image != null &&
                 <div className='relative w-2xl h-64 '>
