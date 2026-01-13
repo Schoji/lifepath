@@ -2,12 +2,14 @@
 import React, { useEffect, useState } from 'react';
 import { findQuestionById, QuestionNode, questions } from './questions';
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
 
 
 const Questionaire = () => {
     const [selectedQuestion, setSelectedQuestion] = useState<QuestionNode>(questions[0]);
     const [questionHistory, setQuestionHistory] = useState<number[]>([questions[0].id]);
+    const router = useRouter();
 
     useEffect(() => {
         // getShortestPath(selectedQuestion.id);
@@ -36,9 +38,13 @@ const Questionaire = () => {
                                     setSelectedQuestion(nextQuestion);
                                 }
                             }
+                            else {
+                                console.log(answer);
+                                router.push("/result");
+                            }
                         }
                         }
-                        className='btn btn-primary w-full h-16 rounded-lg shadow-sm'
+                        className={`btn w-full h-16 rounded-lg shadow-sm ${answer.color ?? "btn-primary"} `}
                         key={answer.title}>
                         {answer.title}
 

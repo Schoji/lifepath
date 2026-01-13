@@ -8,14 +8,27 @@ export type QuestionNode = {
 export type AnswerNode = {
     title: string;
     next_question_id?: number;
-    result?: ResultNode;
+    result?: number;
+    color?: Colors;
 };
 
 export type ResultNode = {
+    id: number;
     title: string;
     content: string;
     image?: string;
+    links?: string[];
 };
+
+export enum Colors {
+    BLUE = "btn-info",
+    GREEN = "btn-success",
+    RED = "btn-error",
+    YELLOW = "btn-warning",
+    PURPLE = "btn-primary",
+    TEAL = "btn-accent",
+    PINK = "btn-secondary",
+}
 
 export function findQuestionById(id: number) {
     return questions.find((question) => question.id == id);
@@ -41,10 +54,10 @@ export const questions: QuestionNode[] = [
         "id": 0,
         "title": "ile masz lat",
         "answers": [
-            { "title": "1", "next_question_id": 1 },
-            { "title": "20", "next_question_id": 2 },
-            { "title": "4", "next_question_id": 3 },
-            { "title": "6", "next_question_id": 4 }
+            { "title": "1", "next_question_id": 1, color: Colors.BLUE },
+            { "title": "20", "next_question_id": 2, color: Colors.GREEN },
+            { "title": "4", "next_question_id": 3, color: Colors.PURPLE },
+            { "title": "6", "next_question_id": 4, color: Colors.YELLOW }
         ],
         image: "/1.png"
     },
@@ -85,10 +98,7 @@ export const questions: QuestionNode[] = [
             { "title": "Pizza", "next_question_id": 9 },
             { "title": "Kuchnia domowa", "next_question_id": 10 },
             {
-                "title": "Coś słodkiego", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Coś słodkiego", result: 1
             }
         ],
     },
@@ -98,16 +108,10 @@ export const questions: QuestionNode[] = [
         "answers": [
             { "title": "Papierowe", "next_question_id": 11 },
             {
-                "title": "Ebooki", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Ebooki", result: 1
             },
             {
-                "title": "Obojętnie", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Obojętnie", result: 1
             }
         ],
     },
@@ -118,10 +122,7 @@ export const questions: QuestionNode[] = [
             { "title": "Singleplayer", "next_question_id": 11 },
             { "title": "Multiplayer", "next_question_id": 12 },
             {
-                "title": "Oba rodzaje", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Oba rodzaje", result: 1
             }
         ],
     },
@@ -132,10 +133,7 @@ export const questions: QuestionNode[] = [
             { "title": "Tak, regularnie", "next_question_id": 12 },
             { "title": "Okazjonalnie", "next_question_id": 13 },
             {
-                "title": "Nie", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Nie", result: 1
             }
         ],
     },
@@ -146,10 +144,7 @@ export const questions: QuestionNode[] = [
             { "title": "Góry", "next_question_id": 13 },
             { "title": "Morze", "next_question_id": 14 },
             {
-                "title": "Nie mam zdania", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Nie mam zdania", result: 1
             }
         ],
     },
@@ -159,16 +154,10 @@ export const questions: QuestionNode[] = [
         "answers": [
             { "title": "Kawa", "next_question_id": 14 },
             {
-                "title": "Herbata", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Herbata", result: 1
             },
             {
-                "title": "Żadna", result: {
-                    title: "Hello",
-                    content: "Content",
-                }
+                "title": "Żadna", result: 1
             }
         ],
     },
@@ -218,3 +207,9 @@ export const questions: QuestionNode[] = [
         ],
     }
 ];
+
+export const results: ResultNode[] = [{
+    "id": 1,
+    title: "",
+    content: ""
+}];
