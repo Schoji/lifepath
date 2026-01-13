@@ -1,5 +1,48 @@
 {
     "home": {
         "header": "Find your path in your new life. We'll help you step by step."
+    },
+    "your_path": {
+        "home": "Home",
+        "tips_and_tricks": "Tips & tricks",
+        "next_steps": "Next steps",
+        "further_resources": "Further resources (free of charge, reputable)",
+        "main": {
+            "title": "Welcome to Pathways",
+            "description": "This guide will help you navigate your options in Germany. Whether you want to earn money, continue your education, or learn German, we have resources and step-by-step guidance for you. Choose the path that best fits your current situation and goals.",
+            "tips": {
+                "explore_multiple_paths": "You can explore multiple paths - they are not mutually exclusive",
+                "paths_complement_eachother": "Many paths complement each other (e.g., learning German while working)",
+                "take_your_time": "Take your time to read through each option before deciding"
+            },
+            "steps": {
+                "earn_money": "Earn Money – Work & Career",
+                "get_school_certificate": "Get / Upgrade a School Certificate",
+                "learn_german": "Learn German"
+            }
+        },
+        "earn_money": {
+            "title": "Earn Money – Work & Career",
+            "description": "You want to earn money or gain your first work experience, but you are not yet sure which profession suits you? Here you will find pathways into work and careers – even without a perfect school certificate or with limited German skills. Whether it is a job, apprenticeship, internship or voluntary service: there are more options than you might think. We show you where to start and which steps make sense.",
+            "tips": {
+                "no_need_for_plan": "You do not need a perfect plan right away. Many paths begin with trying things out.",
+                "practical_experience": "Practical experience often matters more than certificates, especially at the beginning.",
+                "german_skills": "German language skills improve significantly through work and practical experience.",
+                "low_age_opportunity": "Even at the age of 16 or 17, there are legal opportunities to work or prepare for a career.",
+                "jobs_at_mecklenburg": "In Mecklenburg-Vorpommern, there are many entry-level jobs in: Skilled trades / crafts, Health care & social services, Gastronomy & tourism, Logistics & warehousing, Rural regions often offer more opportunities because skilled workers are needed.",
+                "without_contract": "Be careful with offers without a contract or with cash payment.",
+                "private_offers": "Always check private offers to see whether costs apply.",
+                "if_unsure": "If you are unsure: get advice first (e.g. Jobcenter, Youth Employment Agency). Counselling is free – use it!"
+            },
+            "links": {
+                "check-u": "Check-U (Federal Employment Agency) → free interests and strengths test",
+                "berufe_tv": "BerufeTV → videos about professions (also suitable for weaker German skills)",
+                "federal_employment_agency": "Job portal of the Federal Employment Agency",
+                "ausbildung": "Ausbildung.de",
+                "meinestadt": "meinestadt.de (especially useful regionally in MV)",
+                "jba": "Youth Employment Agency (JBA)",
+                "migration_councelling": "Migration counselling for young people (MBE / JMD)"
+            }
+        }
     }
 }
