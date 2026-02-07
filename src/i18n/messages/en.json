@@ -42,6 +42,88 @@
                 "meinestadt": "meinestadt.de (especially useful regionally in MV)",
                 "jba": "Youth Employment Agency (JBA)",
                 "migration_councelling": "Migration counselling for young people (MBE / JMD)"
+            },
+            "steps": {
+                "no_idea": "I have no idea. What profession? What training?",
+                "have_idea": "I have a wish/ an idea about what I`d like to do"
+            }
+        },
+        "no_idea": {
+            "title": "I have no idea: What profession? What training?",
+            "description": "This is the case for a lot of people—don't panic. Here you can find out: - what options are available - what might suit you - how to learn a profession - where to find support and advice. Even at 16 or 17, there are legal ways to work or prepare for a career. Just click on. You can try out different paths (e.g., internships or vocational preparation) – you can always decide later. There are no wrong answers here; the important thing is that you get started. Let's see which path suits you best.",
+            "tips": {
+                "job_centers_advice": "Advice from job centers, employment agencies, and youth career agencies is free—take advantage of it!",
+                "career_guidance_websites": "Career guidance websites are very easy to understand and informative—watch VIDEOS about different professions and take tests.",
+                "several_tests": "Take SEVERAL tests for guidance—a single test is almost never perfect. Which professions are suggested most often?",
+                "trial_and_error": "Many paths begin with trial and error. Practical experience often counts for more than certificates, especially at the beginning.",
+                "check_costs_involved": "When it comes to private counseling and placement services, always check first whether there are any costs involved.",
+                "be_wary_jobs": "Be wary of job offers without a contract or with cash payments.",
+                "use_chatgpt": "💡 Tip:\nIf you are unsure or don't understand something, you can use digital aids such as AI (e.g., ChatGPT):\n– to get directions explained to you\n– to describe professions\n– to practice applications or texts\n– to ask questions that you would otherwise not dare to ask."
+            },
+            "links": {
+                "orientation_careers": "Orientation: Career fields are presented, with many references across the topic",
+                "check_u": "Orientation: Check-U (Employment Agency) Career orientation & entry → free interest and strengths test",
+                "arbeits_agentur": "Orientation: Finding the right career, entry → free interest and strengths test",
+                "jugend_berufs_agentur": "Counseling: Youth Career Agency (JBA)",
+                "jobcenter_digital": "Counseling: Job center / Employment Agency",
+                "jmd4you": "Counseling at the Youth Migration Service: jmd4YOU - Counseling portal for your life in Germany",
+                "arbeits_agentur_students": "Career counseling for students What does the Employment Agency's career counseling service do? Is career counseling useful? When is the right time for it?",
+                "berufe_tv": "Career videos — you can see real workplaces",
+                "azubi_de": "Job descriptions with tasks, salary, and requirements",
+                "berufe_net": "Detailed information on almost every profession (for advanced learners)",
+                "planet_beruf": "Very good, simple explanations of apprenticeship professions (also for those with weaker German skills)"
+            },
+            "steps": {
+                "what_workers_demand": "What kind of workers are in demand in MV?",
+                "ask_your_school": "Ask your school, job center, or career counselor about internship opportunities.",
+                "find_which_occupation": "Find out for yourself which occupations are in short supply in your region. Use AI: “Which occupations are in demand and have a future in MV?",
+                "orientation_test": "Take a career orientation test. Compare the demand with your interests. ",
+                "search_for_companies": "Search for companies in your area yourself and ask about internships. Use AI to write an inquiry email or resume."
+            }
+        },
+        "demand_in_mv": {
+            "title": "Which professions are in demand in MV?",
+            "description": "Where you live makes a difference. Every region needs different professions. This gives you opportunities—even without perfect school grades. In Mecklenburg-Western Pomerania, practical professions are particularly sought after: e.g., skilled trades, nursing, gastronomy, or logistics. Here you can find out which professions are really needed in your area and where you can get an apprenticeship, internship, or entry-level position more quickly. You don't have to commit 'forever.' First look, try things out, gain experience → then decide.",
+            "tips": {
+                "entry_level_sectors": "In Mecklenburg-Vorpommern, there are many entry-level jobs in: Skilled trades / crafts, Health care & social services, Gastronomy & tourism, Logistics & warehousing.",
+                "rural_opportunities": "Rural areas sometimes even offer more chances - because there is a lack of skillful workers."
+            },
+            "links": {
+                "discover_tests": "Discover lots of different tests on career choices, study choices, self-perception and external perception, strengths, and interests",
+                "job_exchange": "Job exchange of the Federal Employment Agency",
+                "meinestadt": "Find everything within your zip code area—even jobs",
+                "check_u_alt": "Orientation: Check-U (Employment Agency) Career orientation & entry → free interest and strengths test"
+            },
+            "steps": {
+                "bop_internship": "Vocational orientation internship (BOP)",
+                "bvj_year": "Vocational preparation year (BVJ)",
+                "bvj_s_language": "Vocational preparation year LANGUAGE (BVJ-S)",
+                "pre_vocational_prog": "Pre-Vocational Preparation Program",
+                "entry_qualification": "Entry-level qualification",
+                "dual_pre_vocational": "(Dual) Pre-Vocational Training"
+            }
+        },
+        "bop_internship": {
+            "title": "Career Exploration Internship (BOP)",
+            "description": "A short internship to try out a profession. You spend a few weeks in a company to see if the job fits you. You gain practical experience in a company and receive support from the Employment Agency or Job Center.",
+            "tips": {
+                "duration": "The internship lasts between 1 and 6 weeks. It can be extended to a maximum of 6 weeks.",
+                "free_of_charge": "Participation in the career orientation internship is free of charge.",
+                "remuneration_travel": "As a rule, no remuneration is paid. BUT: Travel or accommodation costs can be covered if necessary. Apply to the Jobcenter or Employment Agency to have your costs covered!",
+                "prerequisite": "The prerequisite is that compulsory schooling has been completed and you are not currently attending school.",
+                "important_job_center": "⚠️ Important: ALWAYS get the job center involved beforehand: They can check and decide what help you can get! That's why the internship can only start after approval by the job center or employment agency."
+            },
+            "links": {
+                "fed_agency_bop": "Federal Employment Agency - Career Orientation Internship",
+                "vplt_info": "VPLT info folders"
+            },
+            "steps": {
+                "consultation_appointment": "Arrange a consultation appointment",
+                "consultation_interview": "Conduct a consultation interview",
+                "find_company": "Find a company for the internship",
+                "apply_bop": "Apply for a vocational orientation internship",
+                "wait_approval": "Wait for approval",
+                "search_vacancies_dual": "Search for vacancies for (Dual) Pre-Vocational Training"
             }
         }
     }

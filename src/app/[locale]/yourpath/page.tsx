@@ -15,7 +15,7 @@ const YourPath = () => {
     const [currentQuestion, setCurrentQuestion] = useState<QuestionNode>(questions[0]);
     const [questionHistory, setQuestionHistory] = useState<HistoryItem[]>([{ question: questions[0], label: "home" }]);
 
-    const ChangeQuestion = (questionId: number, label: string) => {
+    const ChangeQuestion = (questionId: string, label: string) => {
         const nextQuestion = findQuestionById(questionId);
         if (!nextQuestion) {
             console.log("Invalid question ID in ChangeQuestion");
@@ -38,11 +38,12 @@ const YourPath = () => {
         <div className='w-screen min-h-screen flex justify-center bg-zinc-100 text-black font-sans'>
             <div className='w-5xl flex flex-col gap-10 p-6 rounded-xl mx-auto'>
                 {questionHistory != null && questionHistory.length !== 0 &&
-                    <div className='breadcrumbs text-sm'>
-                        <ul>
+                    <div className='breadcrumbs text-sm whitespace-normal'>
+                        {/* TODO: FIX  */}
+                        <ul className='flex flex-wrap leading-relaxed'>
                             {questionHistory.map((question, index) =>
                                 <li key={index} className={question.question.id === currentQuestion.id ? "font-bold" : "font-normal"}>
-                                    <a onClick={() => GoBackQuestion(index)}>{t(question.label)}
+                                    <a className="hover:cursor-pointer" onClick={() => GoBackQuestion(index)}>{t(question.label)}
                                     </a>
                                 </li>
                             )}
@@ -77,7 +78,7 @@ const YourPath = () => {
                             <button
                                 key={index}
                                 onClick={() => ChangeQuestion(step.next_question_id, step.title)}
-                                className='btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm text-sm font-normal pt-5 pb-5 text-md'>
+                                className='btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm text-sm font-normal pt-5 pb-5 text-md rounded-lg'>
                                 {t(step.title)}
                                 <ArrowRight size={16} />
                             </button>
@@ -86,12 +87,12 @@ const YourPath = () => {
                     </div>
                 }
                 {currentQuestion.links != null &&
-                    <div className='flex flex-col gap-1'>
+                    <div className='flex flex-col gap-2'>
                         <h1 className='text-2xl font-bold'>{t("further_resources")}</h1>
                         {currentQuestion.links.map((link, index) =>
                             <Link key={index}
                                 href={link.url}
-                                className='btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm text-sm font-normal pt-5 pb-5 text-md'>
+                                className='btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm cursor-pointer text-sm font-normal pt-5 pb-5 text-md text-left rounded-lg'>
                                 {t(link.title)}
                                 <ExternalLink size={16} />
                             </Link>)}

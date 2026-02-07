@@ -1,5 +1,48 @@
 {
     "home": {
-        "header": "Finden Sie Ihren Weg in Ihrem neuen Leben. Wir helfen Ihnen Schritt für Schritt."
+        "header": "Finde deinen Weg in deinem neuen Leben. Wir helfen dir Schritt für Schritt."
+    },
+    "your_path": {
+        "home": "Startseite",
+        "tips_and_tricks": "Tipps & Tricks",
+        "next_steps": "Nächste Schritte",
+        "further_resources": "Weitere Ressourcen (kostenlos, seriös)",
+        "main": {
+            "title": "Willkommen bei Pathways",
+            "description": "Dieser Leitfaden hilft dir, deine Möglichkeiten in Deutschland zu überblicken. Ob du Geld verdienen, deine Ausbildung fortsetzen oder Deutsch lernen möchtest – wir bieten dir Ressourcen und schrittweise Anleitungen. Wähle den Weg, der am besten zu deiner aktuellen Situation und deinen Zielen passt.",
+            "tips": {
+                "explore_multiple_paths": "Du kannst mehrere Wege gleichzeitig erkunden – sie schließen sich nicht aus",
+                "paths_complement_eachother": "Viele Wege ergänzen sich (z. B. Deutsch lernen während der Arbeit)",
+                "take_your_time": "Nimm dir Zeit, jede Option sorgfältig durchzulesen, bevor du dich entscheidest"
+            },
+            "steps": {
+                "earn_money": "Geld verdienen – Arbeit & Karriere",
+                "get_school_certificate": "Schulabschluss erwerben/aufbessern",
+                "learn_german": "Deutsch lernen"
+            }
+        },
+        "earn_money": {
+            "title": "Geld verdienen – Arbeit & Karriere",
+            "description": "Du willst Geld verdienen oder erste Arbeitserfahrungen sammeln, bist dir aber noch nicht sicher, welcher Beruf zu dir passt? Hier findest du Wege in Arbeit und Beruf – auch ohne perfekten Schulabschluss oder mit eingeschränkten Deutschkenntnissen. Ob Job, Ausbildung, Praktikum oder Freiwilligendienst: Es gibt mehr Möglichkeiten, als du denkst. Wir zeigen dir, wo du anfangen kannst und welche Schritte sinnvoll sind.",
+            "tips": {
+                "no_need_for_plan": "Du brauchst nicht sofort einen perfekten Plan. Viele Wege beginnen damit, Dinge auszuprobieren.",
+                "practical_experience": "Praktische Erfahrung zählt oft mehr als Zeugnisse, besonders am Anfang.",
+                "german_skills": "Deutschkenntnisse verbessern sich durch Arbeit und praktische Erfahrungen erheblich.",
+                "low_age_opportunity": "Schon mit 16 oder 17 Jahren gibt es legale Möglichkeiten zu arbeiten oder sich auf eine Karriere vorzubereiten.",
+                "jobs_at_mecklenburg": "In Mecklenburg‑Vorpommern gibt es viele Einstiegsjobs in: Handwerk, Gesundheits‑ und Sozialwesen, Gastronomie & Tourismus, Logistik & Lager. Ländliche Regionen bieten oft mehr Chancen, weil Fachkräfte gebraucht werden.",
+                "without_contract": "Sei vorsichtig bei Angeboten ohne Vertrag oder mit Barzahlung.",
+                "private_offers": "Prüfe private Angebote immer darauf, ob Kosten anfallen.",
+                "if_unsure": "Wenn du unsicher bist: such dir zuerst Beratung (z. B. Jobcenter, Jugendberufsagentur). Beratung ist kostenlos – nutze sie!"
+            },
+            "links": {
+                "check-u": "Check-U (Bundesagentur für Arbeit) → kostenloser Interessen- und Stärkentest",
+                "berufe_tv": "BerufeTV → Videos zu Berufen (auch für schwächere Deutschkenntnisse geeignet)",
+                "federal_employment_agency": "Jobportal der Bundesagentur für Arbeit",
+                "ausbildung": "Ausbildung.de",
+                "meinestadt": "meinestadt.de (besonders regional in MV nützlich)",
+                "jba": "Jugendberufsagentur (JBA)",
+                "migration_councelling": "Migrationsberatung für junge Menschen (MBE / JMD)"
+            }
+        }
     }
 }
