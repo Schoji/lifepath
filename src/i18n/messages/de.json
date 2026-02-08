@@ -42,6 +42,246 @@
                 "meinestadt": "meinestadt.de (besonders regional in MV nützlich)",
                 "jba": "Jugendberufsagentur (JBA)",
                 "migration_councelling": "Migrationsberatung für junge Menschen (MBE / JMD)"
+            },
+            "steps": {
+                "no_idea": "Ich habe keine Ahnung. Welcher Beruf? Welche Ausbildung?",
+                "have_idea": "Ich habe einen Wunsch/eine Idee, was ich gerne tun möchte"
+            }
+        },
+        "no_idea": {
+            "title": "Ich habe keine Ahnung: Welcher Beruf? Welche Ausbildung?",
+            "description": "Das ist bei vielen Menschen der Fall – keine Panik. Hier kannst du herausfinden: - welche Möglichkeiten es gibt - was zu dir passen könnte - wie du einen Beruf lernst - wo du Unterstützung und Beratung findest. Auch mit 16 oder 17 Jahren gibt es legale Wege zu arbeiten oder sich auf eine Karriere vorzubereiten. Klick einfach weiter. Du kannst verschiedene Wege ausprobieren (z. B. Praktika oder Berufsvorbereitungsprogramme) – später kannst du dich immer noch entscheiden. Es gibt hier keine falschen Antworten; das Wichtigste ist, dass du anfängst. Lass uns schauen, welcher Weg zu dir passt.",
+            "tips": {
+                "job_centers_advice": "Beratung von Jobcentern, Arbeitsagenturen und Jugendberufsagenturen ist kostenlos – nutze sie!",
+                "career_guidance_websites": "Career-Guidance-Websites sind sehr leicht verständlich und informativ – schau dir VIDEOS über verschiedene Berufe an und absolviere Tests.",
+                "several_tests": "Absolviere MEHRERE Tests zur Orientierung – ein einzelner Test ist fast nie perfekt. Welche Berufe werden am häufigsten vorgeschlagen?",
+                "trial_and_error": "Viele Wege beginnen mit Versuch und Irrtum. Praktische Erfahrung zählt oft mehr als Zeugnisse, besonders am Anfang.",
+                "check_costs_involved": "Bei privaten Beratungs- und Vermittlungsdienstleistungen solltest du immer vorher prüfen, ob Kosten anfallen.",
+                "be_wary_jobs": "Sei vorsichtig bei Jobanboten ohne Vertrag oder mit Barzahlungen.",
+                "use_chatgpt": "💡 Tipp:\nWenn du unsicher bist oder etwas nicht verstehst, kannst du digitale Hilfsmittel wie KI (z. B. ChatGPT) nutzen:\n– um dir Anweisungen erklären zu lassen\n– um Berufe zu beschreiben\n– um Bewerbungen oder Texte zu üben\n– um Fragen zu stellen, die du sonst nicht wagen würdest."
+            },
+            "links": {
+                "orientation_careers": "Orientierung: Berufsfelder werden vorgestellt, mit vielen Referenzen über das Thema hinweg",
+                "check_u": "Orientierung: Check-U (Agentur für Arbeit) Berufsorientierung & Einstieg → kostenloser Interessen- und Stärkentest",
+                "arbeits_agentur": "Orientierung: Den richtigen Beruf finden, Einstieg → kostenloser Interessen- und Stärkentest",
+                "jugend_berufs_agentur": "Beratung: Jugendberufsagentur (JBA)",
+                "jobcenter_digital": "Beratung: Jobcenter / Agentur für Arbeit",
+                "jmd4you": "Beratung der Jugendmigrationsdienste: jmd4YOU - Beratungsportal für dein Leben in Deutschland",
+                "arbeits_agentur_students": "Berufliche Beratung für Schüler Was macht der Beratungsdienst der Agentur für Arbeit? Ist berufliche Beratung sinnvoll? Wann ist der richtige Zeitpunkt dafür?",
+                "berufe_tv": "Berufsvideos — du kannst echte Arbeitsplätze sehen",
+                "azubi_de": "Jobbeschreibungen mit Aufgaben, Gehalt und Anforderungen",
+                "berufe_net": "Detaillierte Informationen zu fast jedem Beruf (für fortgeschrittene Lerner)",
+                "planet_beruf": "Sehr gute, einfache Erklärungen von Ausbildungsberufen (auch für Personen mit schwächeren Deutschkenntnissen)"
+            },
+            "steps": {
+                "what_workers_demand": "Welche Art von Arbeitskräften werden in MV gebraucht?",
+                "ask_your_school": "Frag deine Schule, das Jobcenter oder deinen Berufsberater nach Praktikumsmöglichkeiten.",
+                "find_which_occupation": "Finde selbst heraus, welche Berufe in deiner Region Mangelware sind. Nutze KI: \"Welche Berufe werden gebraucht und haben eine Zukunft in MV?\"",
+                "orientation_test": "Arbeite einen Berufsorienterungstest ab. Vergleiche die Nachfrage mit deinen Interessen.",
+                "search_for_companies": "Suche selbst nach Unternehmen in deiner Nähe und frag nach Praktika. Nutz KI, um eine Anfrage-Email oder einen Lebenslauf zu schreiben."
+            }
+        },
+        "demand_in_mv": {
+            "title": "Welche Berufe werden in MV nachgefragt?",
+            "description": "Wo du lebst, macht einen Unterschied. Jede Region braucht unterschiedliche Berufe. Das bietet dir Chancen – auch ohne perfekte Schulnoten. In Mecklenburg-Vorpommern werden besonders praktische Berufe gesucht: z. B. Handwerk, Pflege, Gastronomie oder Logistik. Hier kannst du herausfinden, welche Berufe wirklich in deiner Gegend gebraucht werden und wo du schneller eine Ausbildung, ein Praktikum oder einen Einstiegsjob bekommst. Du musst dich nicht 'für immer' festlegen. Schau erst, probiers aus, sammel Erfahrung → dann entscheide.",
+            "tips": {
+                "entry_level_sectors": "In Mecklenburg-Vorpommern gibt es viele Einstiegsjobs in: Handwerk, Gesundheits- und Sozialwesen, Gastronomie & Tourismus, Logistik & Lagerwirtschaft.",
+                "rural_opportunities": "Ländliche Gegenden bieten manchmal sogar mehr Chancen – weil es an Fachkräften mangelt."
+            },
+            "links": {
+                "discover_tests": "Entdecke viele verschiedene Tests zu Berufswahl, Studienwahl, Selbst- und Fremdwahrnehmung, Stärken und Interessen",
+                "job_exchange": "Jobbörse der Bundesagentur für Arbeit",
+                "meinestadt": "Finde alles im Bereich deiner Postleitzahl – sogar Jobs",
+                "check_u_alt": "Orientierung: Check-U (Agentur für Arbeit) Berufsorientierung & Einstieg → kostenloser Interessen- und Stärkentest"
+            },
+            "steps": {
+                "bop_internship": "Berufsorientierer Praktikum (BOP)",
+                "bvj_year": "Berufsvorbereitungsjahr (BVJ)",
+                "bvj_s_language": "Berufsvorbereitungsjahr SPRACHE (BVJ-S)",
+                "pre_vocational_prog": "Berufsvorbereitungsprogramm",
+                "entry_qualification": "Einstiegsqualifizierung",
+                "dual_pre_vocational": "(Duales) Berufsvorbereitungsjahr"
+            }
+        },
+        "bop_internship": {
+            "title": "Berufsorientierendes Praktikum (BOP)",
+            "description": "Ein kurzes Praktikum, um einen Beruf auszuprobieren. Du verbringst einige Wochen in einem Unternehmen, um zu sehen, ob der Job zu dir passt. Du sammelst praktische Erfahrung in einem Unternehmen und wirst von der Arbeitsagentur oder dem Jobcenter unterstützt.",
+            "tips": {
+                "duration": "Das Praktikum dauert zwischen 1 und 6 Wochen. Es kann bis zu max. 6 Wochen verlängert werden.",
+                "free_of_charge": "Die Teilnahme am Berufsorientierspraktikum ist kostenlos.",
+                "remuneration_travel": "Grundsätzlich wird keine Vergütung gezahlt. ABER: Fahrt- oder Unterkunftskosten können ggf. übernommen werden. Beantrag beim Jobcenter oder der Agentur für Arbeit, dass deine Kosten übernommen werden!",
+                "prerequisite": "Voraussetzung ist, dass die Schulpflicht erfüllt ist und du derzeit nicht zur Schule gehst.",
+                "important_job_center": "⚠️ Wichtig: IMMER vorher das Jobcenter einbeziehen: Sie können und müssen entscheiden, welche Hilfe du bekommen kannst! Deshalb kann das Praktikum nur nach Zustimmung des Jobcenters oder der Agentur für Arbeit beginnen."
+            },
+            "links": {
+                "fed_agency_bop": "Bundesagentur für Arbeit - Berufsorientierendes Praktikum",
+                "vplt_info": "VPLT Informationsmaterialien"
+            },
+            "steps": {
+                "consultation_appointment": "Vereinbare einen Beratungstermin",
+                "consultation_interview": "Führe ein Beratungsgespräch durch",
+                "find_company": "Finde ein Unternehmen für das Praktikum",
+                "apply_bop": "Beantrage ein berufsorientierendes Praktikum",
+                "wait_approval": "Warte auf die Zustimmung",
+                "search_vacancies_dual": "Suche nach Stellen für (Duales) Berufsvorbereitungsjahr"
+            }
+        },
+        "bvj_program": {
+            "title": "Berufsvorbereitungsjahr (BVJ)",
+            "description": "Das Berufsvorbereitungsjahr (BVJ) ist ein einjähriges Schulprogramm für junge Menschen, die noch keine Ausbildung oder klare berufliche Perspektive haben. Es verbindet Unterricht an einer Berufsschule mit praktischer Arbeitserfahrung in Unternehmen. Für junge Menschen, die kürzlich migriert sind und über begrenzte Deutschkenntnisse verfügen, gibt es eine spezialisierte sprachfokussierte Version namens BVJ-S. Die genauen Regeln können je nach Bundesland leicht variieren.",
+            "tips": {
+                "daz_focus": "Deutsch als Zweitsprache (DaZ) ist der zentrale Fokus des Programms. Frag speziell nach intensiven DaZ-Lektionen, wenn dein Deutschniveau noch niedrig ist.",
+                "language_practice_mix": "Sprachenlernen und praktische Erfahrung werden im BVJ-S gut kombiniert, um dir zu helfen, dein Vokabular in einer Arbeitsumgebung zu verbessern.",
+                "attendance_compulsory": "Regelmäßige Teilnahme ist wichtig – BVJ-S unterliegt der Schulpflicht für junge Menschen.",
+                "early_start": "Ein früher Start zahlt sich aus – besseres Deutsch macht den Alltag und deine zukünftige Ausbildung viel leichter.",
+                "parents_involvement": "Eltern oder Erziehungsberechtigte sollten früh in den Planungsprozess einbezogen werden, um dich zu unterstützen."
+            },
+            "links": {
+                "ba_info": "Informationen der Bundesagentur für Arbeit zu Beruflicher Beratung und BVJ",
+                "ausbildung_de_bvj": "BVJ: Dein Sprungbrett in die Berufsausbildung",
+                "ausbildungspark_abc": "Das ABC der Ausbildung: Berufsvorbereitungsjahr (BVJ)",
+                "kmk_education": "Konferenz der Kultusminister – Schulbildungsinformation",
+                "dqr_certificate": "Informationen über Abschlüsse und deren Gleichwertigkeit im BVJ",
+                "videos_bvj": "Schau dir Videos zum Berufsvorbereitungsjahr (BVJ) an"
+            },
+            "steps": {
+                "contact_schools_mv": "Kontaktiere Berufsschulen in Mecklenburg-Vorpommern und frag, ob sie BVJ-S anbieten.",
+                "check_regional_options": "Prüfe, welche Berufsschule in deiner Gegend BVJ-S anbietet.",
+                "prepare_documents": "Bereite Bewerbungsunterlagen vor (letztes Schulzeugnis, ggf. einen Lebenslauf). Lass dich von KI helfen!",
+                "plan_internships": "Plane Praktika und zusätzliches Sprachtraining frühzeitig."
+            }
+        },
+        "bvj_s_program": {
+            "title": "Berufsvorbereitungsjahr mit Sprachschwerpunkt (BVJ-S)",
+            "description": "Das Berufsvorbereitungsjahr mit Sprachschwerpunkt (BVJ-S) ist ein schulisches Programm an Berufsschulen in Deutschland, das speziell für neu angekommene junge Menschen mit begrenzten Deutschkenntnissen konzipiert ist. Das Hauptziel ist die Verbesserung der Deutschkenntnisse und Unterstützung bei der Berufsorientierung. Das Programm kombiniert intensiven Deutsch-als-Zweitsprache-Unterricht (DaZ) mit praktischen Aktivitäten. Es dauert in der Regel ein Schuljahr und bereitet dich auf die nächsten Schritte vor, wie eine Berufsausbildung oder weitere Schulung.",
+            "tips": {
+                "helpful_for_limited_german": "Besonders hilfreich, wenn die Deutschkenntnisse für eine Berufsausbildung noch nicht ausreichend sind.",
+                "internships_orientation": "Praktika helfen bei der Berufsorientierung und verbessern gleichzeitig die Alltagssprache."
+            },
+            "links": {
+                "mv_schools_overview": "Übersicht der Berufsschulen in Mecklenburg-Vorpommern",
+                "mv_education_server": "Bildungsserver MV – Informationen zu Berufsvorbereitungsprogrammen",
+                "ba_vocational_schools": "Informationen der Arbeitsagentur über Berufsschulen",
+                "vhs_portal": "Kostenlose Online-Deutschkurse (A1–B2) von Volkshochschulen",
+                "dw_learn_german": "Kostenlose Deutschlernressourcen der Deutschen Welle",
+                "goethe_practice": "Kostenlose Deutschübungsmaterialien vom Goethe-Institut"
+            },
+            "steps": {
+                "ask_entry_dates": "Frag nach Eintrittsterminen – ein Einstieg in der Mitte des Jahres kann möglich sein.",
+                "contact_social_workers": "Nutze Beratungsdienste von Jugendberufsagenturen oder Schulsozialarbeitern."
+            }
+        },
+        "bvb_program": {
+            "title": "Berufsvorbereitungsprogramm (BvB)",
+            "description": "Das Berufsvorbereitungsprogramm (BvB) ist ein Angebot der Bundesagentur für Arbeit für junge Menschen unter 25 Jahren. Es unterstützt Berufsorientierung, Vorbereitung auf eine Berufsausbildung oder direkten Einstieg in Arbeit. Das Programm wird von zertifizierten Anbietern durchgeführt und kann auch die Möglichkeit beinhalten, einen niedrigeren Schulabschluss zu erhalten.",
+            "tips": {
+                "no_plan_suitable": "Geeignet, wenn du noch keine Ausbildung oder klaren Berufsplan hast.",
+                "no_certificate_ok": "Auch ohne Schulabschluss möglich.",
+                "learning_practice_mix": "Kombiniert Lernen, Praxis und Berufsorientierung.",
+                "several_internships": "Mehrere Praktika helfen dir, verschiedene Berufe auszuprobieren.",
+                "obtain_certificate": "Ein Schulabschluss kann oft während des Programms erworben werden.",
+                "flexible_adapted": "Das Programm ist flexibel und auf individuelle Bedürfnisse abgestimmt."
+            },
+            "links": {
+                "official_ba_info": "Offizielle Informationen der Bundesagentur für Arbeit zum BvB-Programm",
+                "local_agency": "Finde deine örtliche Arbeitsagentur (auch gültig für Mecklenburg-Vorpommern)"
+            },
+            "steps": {
+                "make_appointment": "Vereinbare einen Termin bei der Arbeitsagentur",
+                "attend_counselling": "Nimm an einer Berufsberatungssitzung teil",
+                "check_suitability": "Prüfe, ob BVB für dich geeignet ist",
+                "get_assigned": "Werde einem zertifizierten Schulungsanbieter zugeteilt",
+                "apply_bvb": "Beantrage das Programm über die Arbeitsagentur",
+                "use_internships": "Nutze aktiv Praktika und Berufslaufbahnberatung"
+            }
+        },
+        "eq_internship": {
+            "title": "Einstiegsqualifizierung (EQ)",
+            "description": "Die Einstiegsqualifizierung (EQ) ist ein Programm der Arbeitsagentur und funktioniert wie ein erweitertes Praktikum in einem Unternehmen (6–12 Monate). Du arbeitest wie ein Auszubildender und bekommst danach oft eine Ausbildung.",
+            "tips": {
+                "duration": "Eine Einstiegsqualifizierung dauert mindestens 4 Monate und maximal 12 Monate.",
+                "transition": "Ein Übergang in eine Ausbildung ist jederzeit möglich.",
+                "time_model": "Die EQ findet normalerweise in Vollzeit statt, kann aber bei Bedarf auch in Teilzeit absolviert werden.",
+                "prerequisite": "Die Teilnahme ist nur möglich, wenn du noch keine berufliche Qualifikation oder einen Abschluss erworben hast.",
+                "school_mandatory": "Falls du unter die Berufsschulpflicht fällst, bleibt der Besuch der Berufsschule Pflicht.",
+                "allowance": "Während der EQ erhältst du eine monatliche Beihilfe von 276 € finanziert durch die Arbeitsagentur.",
+                "costs": "Fahrtkosten können übernommen werden; das Unternehmen kann die Beihilfe auf freiwilliger Basis aufstocken.",
+                "company_based_only": "⚠️ Wichtig: Einstiegsqualifizierungen sind nur für betriebliche Ausbildungen möglich, nicht für schulische Berufsausbildungen."
+            },
+            "links": {
+                "employment_agency": "Arbeitsagentur – Einstiegsqualifizierung",
+                "ihk": "Industrie- und Handelskammer – Einstiegsqualifizierung",
+                "videos": "VIDEOS über Einstiegsqualifizierungen"
+            },
+            "steps": {
+                "check_reqs": "Prüfe, ob du die Anforderungen erfüllst",
+                "find_company": "Finde ein Unternehmen für die Einstiegsqualifizierung",
+                "apply": "Beantrage Einstiegsqualifizierung"
+            }
+        },
+        "dual_apprenticeship": {
+            "title": "Ausbildung (Duales System)",
+            "description": "Im dualen System arbeitest du in einem Unternehmen und besuchst gleichzeitig eine Berufsschule. Du verdienst Geld, während du einen Beruf von Grund auf lernst. Es dauert normalerweise 3 bis 3,5 Jahre. Du erhältst ein Ausbildungsgehalt (Ausbildungsvergütung), das jedes Jahr steigt.",
+            "tips": {
+                "german_level": "Du musst nicht perfekt Deutsch sprechen, um anzufangen; viele Unternehmen unterstützen dich, wenn du Engagement zeigst.",
+                "motivation_over_grades": "Viele Arbeitgeber schätzen Motivation, Zuverlässigkeit und praktisches Interesse mehr als perfekte Schulnoten.",
+                "internships_impact": "Vorherige Praktika oder Einstiegsqualifizierungen (EQ) erhöhen deine Chancen auf einen Ausbildungsvertrag erheblich.",
+                "application_help": "Mach das nicht allein – lass dir Hilfe bei deinem Lebenslauf von Jobcentern oder Schulberatungsdiensten geben.",
+                "labor_shortage": "Suche nach 'Mangelberufen' – die Chancen auf eine Ausbildung sind dort besonders hoch.",
+                "take_your_time": "Nimm dir Zeit, herauszufinden, welcher Beruf wirklich zu deinen Talenten passt.",
+                "parallel_channels": "Nutze mehrere Kanäle: Online-Portale, Ausbildungsbörsen und direkten Kontakt mit lokalen Unternehmen.",
+                "networking": "Netzwerken zahlt sich aus – sprich mit Familie, Freunden und Lehrern über deine Pläne.",
+                "training_fairs": "Besuche Ausbildungsmessen (Ausbildungsmessen), um direkt mit potenziellen Arbeitgebern zu sprechen."
+            },
+            "links": {
+                "ihk_platform": "Meine Ausbildung in Deutschland (IHK-Plattform)",
+                "mv_market": "Ausbildungsmarkt in Mecklenburg-Vorpommern",
+                "mv_positions": "Aktuelle Ausbildungsstellen in MV",
+                "mv_azubi_de": "Ausbildungsbörse für Mecklenburg-Vorpommern",
+                "resume_templates_1": "Lebenslauf: Professionelle Tipps und Vorlagen",
+                "resume_templates_2": "Lebenslauf: Moderne Vorlagen und Designs",
+                "cover_letter_templates": "Anschreiben: Tipps und Vorlagen für Ausbildungen"
+            },
+            "steps": {
+                "full_time_job": "Ich möchte jetzt einen Vollzeitjob",
+                "interest_check": "Überlege: Welche Berufsfelder interessieren mich? (Handwerk, Pflege, Technik?)",
+                "search_online": "Suche online oder regional nach Ausbildungsstellen",
+                "apply_multiple": "Bewerbe dich gleichzeitig bei mehreren Unternehmen",
+                "create_resume": "Erstelle einen klaren, tabellarischen Lebenslauf",
+                "write_application": "Schreibe deine erste Bewerbung (sie muss nicht perfekt sein!)"
+            }
+        },
+        "school_certificate": {
+            "title": "Schulabschluss (Nachholen / Verbessern)",
+            "description": "Du hast noch keinen Schulabschluss oder möchtest einen höheren Abschluss erwerben? In Deutschland gibt es viele Möglichkeiten, einen Schulabschluss nachzuholen oder zu verbessern – auch wenn du die Schule verlassen musstest, neu in Deutschland bist oder noch Deutsch lernst. Hier findest du einen Überblick über die wichtigsten Wege und Unterstützungsmöglichkeiten.",
+            "tips": {
+                "obtain_after_compulsory": "Ein Schulabschluss kann auch nach Ende der Schulpflicht erworben werden.",
+                "advice_saves_time": "Beratung zu bekommen, bevor du anfängst, spart Zeit und hilft, Umwege zu vermeiden.",
+                "language_improvement": "Die Deutschkenntnisse können parallel zum Erwerben eines Schulabschlusses verbessert werden.",
+                "free_programmes": "Viele Programme sind kostenlos oder öffentlich finanziert.",
+                "several_pathways": "Es ist normal, mehrere Wege zu durchdenken, bevor man eine Entscheidung trifft."
+            },
+            "links": {
+                "ba_school_advice": "Arbeitsagentur – Schulische Qualifikationen & Beratung",
+                "jba_advice": "Jugendberufsagentur (JBA) - persönliche Beratung für junge Menschen bis 25 Jahre",
+                "vhs_main": "Volkshochschule (VHS) – Deutschlandweite Suche nach Kursen",
+                "vhs_finder": "VHS-Kurssucher (Filter nach Standort)",
+                "mv_educational_counseling": "Schulbehörde / Schulische Beratung in MV",
+                "mv_school_types": "Schultypen, Qualifikationen und Lernwege in MV",
+                "jmd_service": "JMD (Jugendmigrationsdienste) - Persönliche Beratung für 12-27 Jahre alte Personen",
+                "jmd4you_portal": "Online-Beratungsportal (jmd4YOU) – verfügbar in Russisch/Ukrainisch",
+                "mbeon_app": "MBE (Migrationsberatung für Erwachsene) – App-Beratung und Chat"
+            },
+            "steps": {
+                "vocational_qual": "Berufsqualifikationen nachholen (Berufsreife, Hauptschulabschluss)",
+                "intermediate_qual": "Mittlere Reife nachholen (Realschulabschluss)",
+                "abitur": "Abitur / Hochschulzugangsberechtigung",
+                "ukrainian_qual": "Informationen zur Gleichwertigkeit von ukrainischen Schulabschlüssen",
+                "bvj_pathway": "BVJ (Berufsvorbereitungsjahr) – nützlich, wenn du dir noch unsicher bist",
+                "evening_school": "Abendschule / Erwachsenenbildungszentrum",
+                "distance_learning": "Fernunterricht / Fernstudium",
+                "external_exam": "Externe Prüfung / Nicht-Schüler-Prüfung",
+                "check_form": "Prüfe, welche Variante (Abendschule, Fernunterricht, Externe Studien) zu dir passt"
             }
         }
     }

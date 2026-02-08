@@ -5,6 +5,7 @@ import { findQuestionById, QuestionNode, questions } from './questions';
 import React, { useState } from 'react';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { motion } from 'motion/react';
 
 type HistoryItem = {
     question: QuestionNode,
@@ -35,11 +36,16 @@ const YourPath = () => {
     const t = useTranslations("your_path");
 
     return (
-        <div className='w-screen min-h-screen flex justify-center bg-zinc-100 text-black font-sans'>
-            <div className='w-5xl flex flex-col gap-10 p-6 rounded-xl mx-auto'>
+        <div className='w-screen min-h-screen flex justify-center bg-linear-to-br from-zinc-100 to-zinc-200 text-black font-sans'>
+            <motion.div
+                className='w-5xl flex flex-col gap-10 p-6 rounded-xl mx-auto'
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ duration: 0.3 }}
+                key={currentQuestion.id}
+            >
                 {questionHistory != null && questionHistory.length !== 0 &&
                     <div className='breadcrumbs text-sm whitespace-normal'>
-                        {/* TODO: FIX  */}
                         <ul className='flex flex-wrap leading-relaxed'>
                             {questionHistory.map((question, index) =>
                                 <li key={index} className={question.question.id === currentQuestion.id ? "font-bold" : "font-normal"}>
@@ -54,9 +60,9 @@ const YourPath = () => {
                     <Image src={currentQuestion.image} alt={"image"} fill={true} className='rounded-lg shadow-md object-cover'></Image>
                 </div>
                 <h1 className='text-5xl font-bold'>{t(currentQuestion.title)}</h1>
-                <p className='whitespace-normal text-xl'>{t(currentQuestion.content)}</p>
+                <p className='whitespace-normal text-xl text-gray-700'>{t(currentQuestion.content)}</p>
                 {currentQuestion.tips != null &&
-                    <div className='bg-blue-100 border-blue-200 border w-full p-8 rounded-lg flex flex-col gap-3 shadow-sm'>
+                    <div className='bg-blue-100/50 border-blue-200 border w-full p-8 rounded-xl flex flex-col gap-3 shadow-sm'>
                         <h1 className='font-bold text-xl flex gap-2 items-center'>
                             <Lightbulb size={24} className='text-blue-500' />{t("tips_and_tricks")}
                         </h1>
@@ -80,7 +86,7 @@ const YourPath = () => {
                             <button
                                 key={index}
                                 onClick={() => ChangeQuestion(step.next_question_id, step.title)}
-                                className='btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm text-sm font-medium pt-5 pb-5 text-md rounded-lg'>
+                                className={`btn btn-xl w-full btn-outline flex justify-between border-zinc-300 shadow-sm text-sm font-medium pt-5 pb-5 text-md rounded-lg ${step.next_question_id == "TODO" && 'pointer-events-none'}`}>
                                 {t(step.title)}
                                 {step.next_question_id != "TODO" &&
                                     <ArrowRight size={16} />}
@@ -101,7 +107,7 @@ const YourPath = () => {
                             </Link>)}
                     </div>
                 }
-            </div>
+            </motion.div>
         </div>
     );
 };

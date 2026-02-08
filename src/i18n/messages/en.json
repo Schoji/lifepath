@@ -283,6 +283,80 @@
                 "external_exam": "External examination / non-school examination",
                 "check_form": "Check which form (evening school, distance learning, external studies) suits you best"
             }
+        },
+        "lower_secondary_certificate": {
+            "title": "Lower secondary school certificate (Berufsreife)",
+            "description": "The 'Regionale Schule' is not a separate school type—the final certificate depends on your performance. The basic school certificate (Berufsreife) is an officially recognised German school qualification after grade 9. It is usually the minimum requirement to start vocational training (Ausbildung).",
+            "tips": {
+                "not_immediate": "You don't have to finish your school certificate immediately. Many people first start with a vocational preparation year (BVJ), an internship, or a job — and complete the certificate later.",
+                "get_later": "If you didn't finish school, that's not a problem. In Germany you can still get a school certificate later — in several ways: BVJ, vocational school, evening school, external exams.",
+                "ukraine_recognition": "If you already have a Ukrainian school certificate, it can often be officially recognised."
+            },
+            "links": {
+                "vhs_mv": "VHS Mecklenburg-Vorpommern: Courses and preparation programmes to obtain a school certificate as an adult",
+                "recognition_mv": "Recognition of foreign school certificates (MV): Official state authority that checks whether your Ukrainian school certificate is equivalent to a German one"
+            },
+            "steps": {
+                "photo_certificate": "First, take a photo of your latest school certificate (Ukrainian is fine).",
+                "make_appointment": "Ask your school, Jobcenter or Youth Employment Agency (JBA) for an appointment — you don't need to prepare anything.",
+                "check_equivalence": "They will check which German qualification your certificate equals.",
+                "no_certificate_query": "If you have no certificate: ask about BVJ or vocational schools.",
+                "decide_pathway": "Decide what fits you better: daily school (BVJ) or flexible learning (evening school / distance learning).",
+                "use_ai_tools": "Use learning websites or AI tools to practise and understand school topics.",
+                "financial_support": "Ask if you can get financial support."
+            }
+        },
+        "intermediate_certificate": {
+            "title": "Intermediate secondary school certificate",
+            "description": "The Intermediate secondary school certificate (formerly Realschulabschluss) is a medium-level school qualification in Germany. In Mecklenburg-Vorpommern it is usually completed after grade 10 at a Regional School or a comprehensive school. With this certificate you can: start a vocational training (apprenticeship), attend further vocational schools and, with good grades, later continue to the Abitur (university entrance qualification).",
+            "tips": {
+                "performance_decides": "A \"Regional School\" is not a special school type — your performance decides the certificate you get.",
+                "attendance_matters": "If you are still in school: attendance and participation matter a lot.",
+                "key_subjects": "Focus especially on German, Maths and English — they are key subjects in the final exams.",
+                "ukraine_recognition": "If you already have a Ukrainian school certificate, it may be officially recognised in Germany.",
+                "parallel_learning": "You do not have to do everything at once — language learning and school qualification can run in parallel."
+            },
+            "links": {
+                "mv_education_info": "Ministry of Education Mecklenburg-Vorpommern — Information on catching up school qualifications"
+            },
+            "steps": {
+                "recognize_certificate": "Have your Ukrainian school certificate officially recognised (if you have one).",
+                "contact_vhs": "Contact a local Adult Education Centre (VHS) for courses and preparation classes.",
+                "evening_distance_option": "Consider evening school or distance learning if you need to work during the day.",
+                "learning_schedule": "Create a realistic learning schedule (German, Maths, English)."
+            }
+        },
+        "remote_school": {
+            "title": "Remote secondary school",
+            "description": "Distance learning means you study from home at your own pace. You receive materials online or by mail and have access to tutors for support. This is a great option if you need to work, care for family, or live far from a physical school. Important: Unlike public adult education centers, distance learning usually involves fees, but you can often get financial support.",
+            "tips": {
+                "compare_schools": "Compare several schools before choosing one (check price, support, and reviews).",
+                "former_students": "Read experiences from former students to see how they managed their studies.",
+                "fixed_study_times": "Set fixed study times — otherwise it is very easy to keep postponing your work.",
+                "contact_tutors": "Always contact your tutors or teachers if you do not understand something.",
+                "quiet_place": "Create a quiet, regular study place to help you stay focused.",
+                "early_prep": "Start your exam preparation early to avoid stress.",
+                "cost_levels": "Costs depend on the certificate: Lower secondary < Intermediate < Abitur.",
+                "funding_options": "Possible support: Education vouchers (Bildungsgutschein), BAföG (student funding), or scholarships.",
+                "ask_agency_first": "Always ask your Jobcenter or Employment Agency about funding BEFORE you pay for anything yourself."
+            },
+            "links": {
+                "ils_school": "ILS - Private distance-learning school with tutor support",
+                "sgd_school": "SGD - Large correspondence school for various school certificates",
+                "klett_academy": "Fernakademie Klett - Distance education provider with personal mentoring",
+                "scholarships": "Overview of scholarships and financial support for school certificates",
+                "comparison_portal": "Compare and read reviews of different distance-learning providers",
+                "ba_funding": "Official information on financial support from the Employment Agency",
+                "funding_search": "Search tool for funding programs, grants, and education support in Germany",
+                "bafog_mv": "Information about BAföG student funding specifically for Mecklenburg-Vorpommern"
+            },
+            "steps": {
+                "research_schools": "Research different distance schools and available certificates.",
+                "choose_and_apply": "Choose a school that fits your needs and apply.",
+                "create_study_plan": "Order your learning materials and create a weekly study plan.",
+                "use_support_systems": "Actively use tutors, forums, and study groups provided by the school.",
+                "register_exams": "Don't forget to register for the official final exams in time."
+            }
         }
     }
 }

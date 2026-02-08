@@ -30,6 +30,9 @@ export type QuestionID =
     | "EQ_INTERNSHIP"
     | "DUAL_APPRENTICESHIP"
     | "SCHOOL_CERTIFICATE"
+    | "LOWER_SECONDARY_CERTIFICATE"
+    | "INTERMEDIATE_CERTIFICATE"
+    | "REMOTE_SCHOOL"
     | "TODO";
 
 
@@ -78,7 +81,7 @@ export const questions: QuestionNode[] = [
             { title: "earn_money.steps.no_idea", next_question_id: "NO_IDEA" },
             { title: "earn_money.steps.have_idea", next_question_id: "TODO" }
         ],
-        image: "/career_paths.png",
+        image: "/earn_money.png",
     },
     {
         id: "NO_IDEA",
@@ -117,7 +120,7 @@ export const questions: QuestionNode[] = [
             { title: "no_idea.steps.orientation_test", next_question_id: "TODO" },
             { title: "no_idea.steps.search_for_companies", next_question_id: "TODO" },
         ],
-        image: "/1.png",
+        image: "/no_idea.png",
     },
     {
         id: "DEMAND_IN_MV",
@@ -161,7 +164,7 @@ export const questions: QuestionNode[] = [
             { title: "no_idea.steps.orientation_test", next_question_id: "TODO" },
             { title: "no_idea.steps.search_for_companies", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/demand_in_mv.png",
     },
     {
         id: "BOP_INTERNSHIP",
@@ -193,7 +196,7 @@ export const questions: QuestionNode[] = [
             { title: "no_idea.steps.ask_your_school", next_question_id: "TODO" },
             { title: "no_idea.steps.search_for_companies", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/bop_internship.png",
     },
     {
         id: "BVJ_PROGRAM",
@@ -227,7 +230,7 @@ export const questions: QuestionNode[] = [
             { title: "no_idea.steps.ask_your_school", next_question_id: "TODO" },
             { title: "no_idea.steps.search_for_companies", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/bvj_program.png",
     },
     {
         id: "BVJ_S_PROGRAM",
@@ -263,7 +266,7 @@ export const questions: QuestionNode[] = [
             { title: "bvj_program.steps.contact_social_workers", next_question_id: "TODO" },
             { title: "bop_internship.steps.consultation_appointment", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/bvj_s_program.png",
     },
     {
         id: "BVB_PROGRAM",
@@ -294,7 +297,7 @@ export const questions: QuestionNode[] = [
             { title: "bvb_program.steps.use_internships", next_question_id: "TODO" },
             { title: "bop_internship.steps.consultation_appointment", next_question_id: "TODO" }
         ],
-        image: "/career_paths.png",
+        image: "/bvb_program.png",
     },
     {
         id: "EQ_INTERNSHIP",
@@ -327,7 +330,7 @@ export const questions: QuestionNode[] = [
             { title: "bop_internship.steps.wait_approval", next_question_id: "TODO" },
             { title: "no_idea.steps.search_for_companies", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/eq_internship.png",
     },
     {
         id: "DUAL_APPRENTICESHIP",
@@ -370,7 +373,7 @@ export const questions: QuestionNode[] = [
             { title: "bop_internship.steps.find_company", next_question_id: "TODO" },
             { title: "eq_internship.steps.apply", next_question_id: "TODO" }
         ],
-        image: "/career_paths.png",
+        image: "/dual_apprenticeship.png",
     },
     {
         id: "SCHOOL_CERTIFICATE",
@@ -407,6 +410,98 @@ export const questions: QuestionNode[] = [
             { title: "school_certificate.steps.external_exam", next_question_id: "TODO" },
             { title: "school_certificate.steps.check_form", next_question_id: "TODO" }
         ],
-        image: "/1.png",
+        image: "/school_certificate.png",
+    },
+    {
+        id: "LOWER_SECONDARY_CERTIFICATE",
+        title: "lower_secondary_certificate.title",
+        content: "lower_secondary_certificate.description",
+        tips: [
+            "lower_secondary_certificate.tips.not_immediate",
+            "lower_secondary_certificate.tips.get_later",
+            "lower_secondary_certificate.tips.ukraine_recognition",
+            "no_idea.tips.job_centers_advice",
+            "no_idea.tips.use_chatgpt"
+        ],
+        links: [
+            { title: "lower_secondary_certificate.links.vhs_mv", url: "https://www.vhs-verband-mv.de/leistungen/zweiter-bildungsweg" },
+            { title: "lower_secondary_certificate.links.recognition_mv", url: "https://www.bildung-mv.de/erwachsenenbildung/anerkennung-von-abschluessen/auslaendische-schulabschluesse/index.html" },
+            { title: "no_idea.links.jugend_berufs_agentur", url: "https://www.jugendberufsagentur.de" },
+            { title: "no_idea.links.jobcenter_digital", url: "https://www.jobcenter.digital" }
+        ],
+        steps: [
+            { title: "lower_secondary_certificate.steps.photo_certificate", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.make_appointment", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.check_equivalence", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.no_certificate_query", next_question_id: "BVJ_PROGRAM" },
+            { title: "lower_secondary_certificate.steps.decide_pathway", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.use_ai_tools", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.financial_support", next_question_id: "TODO" }
+        ],
+        image: "/lower_secondary_certificate.png",
+    },
+    {
+        id: "INTERMEDIATE_CERTIFICATE",
+        title: "intermediate_certificate.title",
+        content: "intermediate_certificate.description",
+        tips: [
+            "intermediate_certificate.tips.performance_decides",
+            "intermediate_certificate.tips.attendance_matters",
+            "intermediate_certificate.tips.key_subjects",
+            "intermediate_certificate.tips.ukraine_recognition",
+            "intermediate_certificate.tips.parallel_learning",
+            "no_idea.tips.use_chatgpt"
+        ],
+        links: [
+            { title: "intermediate_certificate.links.mv_education_info", url: "https://www.regierung-mv.de/Landesregierung/bm/Erwachsenenbildung/Nachholen-von-Schulabschluessen" },
+            { title: "school_certificate.links.vhs_main", url: "https://www.volkshochschule.de" }
+        ],
+        steps: [
+            { title: "intermediate_certificate.steps.recognize_certificate", next_question_id: "TODO" },
+            { title: "school_certificate.steps.make_appointment", next_question_id: "TODO" },
+            { title: "intermediate_certificate.steps.contact_vhs", next_question_id: "TODO" },
+            { title: "intermediate_certificate.steps.evening_distance_option", next_question_id: "TODO" },
+            { title: "school_certificate.steps.external_exam", next_question_id: "TODO" },
+            { title: "intermediate_certificate.steps.learning_schedule", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.use_ai_tools", next_question_id: "TODO" },
+            { title: "lower_secondary_certificate.steps.financial_support", next_question_id: "TODO" }
+        ],
+        image: "/intermediate_certificate.png",
+    },
+    {
+        id: "REMOTE_SCHOOL",
+        title: "remote_school.title",
+        content: "remote_school.description",
+        tips: [
+            "remote_school.tips.compare_schools",
+            "remote_school.tips.former_students",
+            "remote_school.tips.fixed_study_times",
+            "remote_school.tips.contact_tutors",
+            "remote_school.tips.quiet_place",
+            "remote_school.tips.early_prep",
+            "no_idea.tips.use_chatgpt",
+            "remote_school.tips.cost_levels",
+            "remote_school.tips.funding_options",
+            "remote_school.tips.ask_agency_first"
+        ],
+        links: [
+            { title: "remote_school.links.ils_school", url: "https://www.ils.de" },
+            { title: "remote_school.links.sgd_school", url: "https://www.sgd.de" },
+            { title: "remote_school.links.klett_academy", url: "https://www.fernakademie-klett.de" },
+            { title: "remote_school.links.scholarships", url: "https://www.mystipendium.de/schulabschluss" },
+            { title: "remote_school.links.comparison_portal", url: "https://www.fernstudiumcheck.de/fernstudium/schule-allgemeinbildung/schulabschluss-nachholen" },
+            { title: "remote_school.links.ba_funding", url: "https://www.arbeitsagentur.de/karriere-und-weiterbildung/foerderung-berufliche-weiterbildung" },
+            { title: "remote_school.links.funding_search", url: "https://mein-now.de/privatpersonen/foerderungen" },
+            { title: "remote_school.links.bafog_mv", url: "https://www.regierung-mv.de/regierungen/wkm/Wissenschaft/Studium/Studienfinanzierung-(Bafog)/" }
+        ],
+        steps: [
+            { title: "remote_school.steps.research_schools", next_question_id: "TODO" },
+            { title: "remote_school.steps.choose_and_apply", next_question_id: "TODO" },
+            { title: "remote_school.steps.create_study_plan", next_question_id: "TODO" },
+            { title: "remote_school.steps.use_support_systems", next_question_id: "TODO" },
+            { title: "remote_school.steps.register_exams", next_question_id: "TODO" },
+            { title: "school_certificate.steps.check_form", next_question_id: "SCHOOL_CERTIFICATE" }
+        ],
+        image: "/remote_school.png",
     },
 ];
