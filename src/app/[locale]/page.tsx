@@ -13,6 +13,7 @@ export default function Home() {
         </div>
         <p>{t('header')}</p>
         <Link className="btn btn-primary" href={"/questionaire"}>Get Started</Link>
+        <Link className="btn btn-primary" href={"/yourpath"}>Your Path</Link>
       </div>
     </div>
   );

@@ -125,6 +125,164 @@
                 "wait_approval": "Wait for approval",
                 "search_vacancies_dual": "Search for vacancies for (Dual) Pre-Vocational Training"
             }
+        },
+        "bvj_program": {
+            "title": "Pre-Vocational School Program (BVJ)",
+            "description": "The Vocational Preparation Year (BVJ) is a one-year school programme for young people who do not yet have an apprenticeship or a clear career perspective. It combines lessons at a vocational school with practical work experience in companies. For young people who have recently migrated and have limited German skills, there is a specialised language-focused version called BVJ-S. The exact rules may vary slightly depending on the federal state.",
+            "tips": {
+                "daz_focus": "German as a Second Language (DaZ) is the central focus of the programme. Ask specifically about intensive DaZ lessons if your German level is still low.",
+                "language_practice_mix": "Language learning and practical experience are well combined in BVJ-S, helping you improve your vocabulary in a work environment.",
+                "attendance_compulsory": "Regular attendance is important – BVJ-S is subject to compulsory schooling for young people.",
+                "early_start": "Starting early pays off – better German makes everyday life and your future training much easier.",
+                "parents_involvement": "Parents or guardians should be involved early in the process to support your planning."
+            },
+            "links": {
+                "ba_info": "Information from the Federal Employment Agency on career guidance and BVJ",
+                "ausbildung_de_bvj": "BVJ: Your springboard into vocational training",
+                "ausbildungspark_abc": "The ABCs of training: Vocational preparation year (BVJ)",
+                "kmk_education": "Conference of Ministers of Education and Cultural Affairs – School education info",
+                "dqr_certificate": "Information about BVJ leaving certificates and their equivalence",
+                "videos_bvj": "Watch videos about the Vocational Preparation Year (BVJ)"
+            },
+            "steps": {
+                "contact_schools_mv": "Contact vocational schools in Mecklenburg-Western Pomerania and ask if they offer BVJ-S.",
+                "check_regional_options": "Check which vocational school in your region offers BVJ-S.",
+                "prepare_documents": "Prepare application documents (last school report, possibly a CV). Use AI for help!",
+                "plan_internships": "Plan internships and additional language practice early."
+            }
+        },
+        "bvj_s_program": {
+            "title": "Pre-Vocational School Program with Language Focus (BVJ-S)",
+            "description": "The Vocational Preparation Year with Language Focus (BVJ-S) is a school-based programme at vocational schools in Germany designed specifically for newly arrived young people with limited German language skills. Its main goal is to improve German language skills and support career orientation. The programme combines intensive German as a second language (DaZ) lessons with practical activities. It usually lasts one school year and prepares you for the next steps, such as vocational training or further schooling.",
+            "tips": {
+                "helpful_for_limited_german": "Especially helpful if German skills are not yet sufficient for vocational training.",
+                "internships_orientation": "Internships help with career orientation and improve everyday language skills simultaneously."
+            },
+            "links": {
+                "mv_schools_overview": "Overview of vocational schools in Mecklenburg-Western Pomerania",
+                "mv_education_server": "Education server of MV – Information on vocational preparation programmes",
+                "ba_vocational_schools": "Information from the Employment Agency about vocational schools",
+                "vhs_portal": "Free online German courses (A1–B2) provided by adult education centres",
+                "dw_learn_german": "Free German-learning resources by Deutsche Welle",
+                "goethe_practice": "Free German practice materials from the Goethe-Institut"
+            },
+            "steps": {
+                "ask_entry_dates": "Ask about entry dates – mid-year entry may be possible.",
+                "contact_social_workers": "Use counselling services from youth career agencies or school social workers."
+            }
+        },
+        "bvb_program": {
+            "title": "Career Preparation Program (BvB)",
+            "description": "The Vocational Preparation Programme (BvB) is an offer provided by the Federal Employment Agency for young people under the age of 25. It supports career orientation, preparation for vocational training or direct entry into work. The programme is carried out by certified training providers and can also include the opportunity to obtain a lower secondary school certificate.",
+            "tips": {
+                "no_plan_suitable": "Suitable if you do not yet have an apprenticeship or clear career plan.",
+                "no_certificate_ok": "Possible even without a school certificate.",
+                "learning_practice_mix": "Combines learning, practice and career orientation.",
+                "several_internships": "Several internships help you try out different professions.",
+                "obtain_certificate": "A school certificate can often be obtained during the programme.",
+                "flexible_adapted": "The programme is flexible and adapted to individual needs."
+            },
+            "links": {
+                "official_ba_info": "Official information from the Federal Employment Agency about the BvB programme",
+                "local_agency": "Find your local Employment Agency (also valid for Mecklenburg-Vorpommern)"
+            },
+            "steps": {
+                "make_appointment": "Make an appointment with the Employment Agency",
+                "attend_counselling": "Attend a career counselling session",
+                "check_suitability": "Check whether BVB is suitable for you",
+                "get_assigned": "Get assigned to a certified training provider",
+                "apply_bvb": "Apply for the programme through the Employment Agency",
+                "use_internships": "Actively use internships and career guidance"
+            }
+        },
+        "eq_internship": {
+            "title": "Pre-Apprenticeship Internship (EQ)",
+            "description": "Pre-Apprenticeship Internship (EQ) is a programme run by the Employment Agency and works like an extended internship in a company (6–12 months). You work like a trainee and often get an apprenticeship afterwards.",
+            "tips": {
+                "duration": "An entry qualification lasts at least 4 months and up to a maximum of 12 months.",
+                "transition": "A transition into an apprenticeship is possible at any time.",
+                "time_model": "The EQ usually takes place full-time, but can also be completed part-time if needed.",
+                "prerequisite": "Participation is only possible if you have not yet completed a vocational qualification or a degree.",
+                "school_mandatory": "If you are subject to compulsory vocational school attendance, attending vocational school remains mandatory.",
+                "allowance": "During the EQ, you receive a monthly allowance of €276 funded by the Employment Agency.",
+                "costs": "Travel costs may be covered; the company may voluntarily top up the allowance.",
+                "company_based_only": "⚠️ Important: Entry qualifications are only possible for company-based training, not for school-based vocational training."
+            },
+            "links": {
+                "employment_agency": "Employment Agency – Entry Qualification",
+                "ihk": "Chamber of Industry and Commerce – Entry qualification",
+                "videos": "VIDEOS on entry qualifications"
+            },
+            "steps": {
+                "check_reqs": "Check whether you meet the requirements",
+                "find_company": "Find a company for the entry qualification",
+                "apply": "Apply for entry qualification"
+            }
+        },
+        "dual_apprenticeship": {
+            "title": "Apprenticeship (Dual System)",
+            "description": "In the dual system, you work in a company and attend a vocational school at the same time. You earn money while learning a profession from scratch. It usually lasts 3 to 3.5 years. You receive a trainee salary (Ausbildungsvergütung) that increases each year.",
+            "tips": {
+                "german_level": "You don't have to speak perfect German to start; many companies support you if you show commitment.",
+                "motivation_over_grades": "Many employers value motivation, reliability, and practical interest more than perfect school grades.",
+                "internships_impact": "Previous internships or entry-level qualifications (EQ) significantly increase your chances of getting a contract.",
+                "application_help": "Don't do it alone – get help with your resume from job centers or school counseling services.",
+                "labor_shortage": "Look for 'shortage occupations' (Mangelberufe) – the chances for an apprenticeship are particularly high there.",
+                "take_your_time": "Take your time to find out which profession really suits your talents.",
+                "parallel_channels": "Use multiple channels: online portals, apprenticeship exchanges, and direct contact with local companies.",
+                "networking": "Networking pays off – talk to family, friends, and teachers about your plans.",
+                "training_fairs": "Visit training fairs (Ausbildungsmessen) to talk directly to potential employers."
+            },
+            "links": {
+                "ihk_platform": "My training in Germany (IHK platform)",
+                "mv_market": "Training market in Mecklenburg-Western Pomerania",
+                "mv_positions": "Current training positions in MV",
+                "mv_azubi_de": "Apprenticeship exchange for Mecklenburg-Western Pomerania",
+                "resume_templates_1": "Resume: Professional tips and templates",
+                "resume_templates_2": "Resume: Modern templates and designs",
+                "cover_letter_templates": "Cover letter: Tips and templates for apprenticeships"
+            },
+            "steps": {
+                "full_time_job": "I want a full-time job now",
+                "interest_check": "Think about it: Which professional fields interest me? (Crafts, nursing, tech?)",
+                "search_online": "Search for apprenticeships online or regionally",
+                "apply_multiple": "Apply to several companies at the same time",
+                "create_resume": "Create a clear, tabular resume",
+                "write_application": "Write your first application (it doesn't have to be perfect!)"
+            }
+        },
+        "school_certificate": {
+            "title": "School Certificate (Catch up / Upgrade)",
+            "description": "You do not yet have a school certificate or would like to achieve a higher qualification? In Germany, there are many ways to catch up on or improve a school certificate – even if you had to leave school, are new to Germany or are still learning German. Here you will find an overview of the most important pathways and support options.",
+            "tips": {
+                "obtain_after_compulsory": "A school certificate can also be obtained after compulsory schooling has ended.",
+                "advice_saves_time": "Getting advice before you start saves time and helps avoid detours.",
+                "language_improvement": "German language skills can be improved alongside completing a school certificate.",
+                "free_programmes": "Many programmes are free of charge or publicly funded.",
+                "several_pathways": "It is normal to consider several pathways before making a decision."
+            },
+            "links": {
+                "ba_school_advice": "Employment Agency – School Qualifications & Advice",
+                "jba_advice": "Youth Employment Agency (JBA) - personal advice for young people up to age 25",
+                "vhs_main": "Adult Education Center (VHS) – Germany-wide search for courses",
+                "vhs_finder": "VHS Course Finder (Filter by location)",
+                "mv_educational_counseling": "School Authority / Educational Counseling in MV",
+                "mv_school_types": "Regional schools, qualifications and pathways in MV",
+                "jmd_service": "JMD (Youth Migration Service) - Personal advice for 12-27 year olds",
+                "jmd4you_portal": "Online advice portal (jmd4YOU) – available in Russian/Ukrainian",
+                "mbeon_app": "MBE (Migration Counseling for Adults) – App counseling and chat"
+            },
+            "steps": {
+                "vocational_qual": "Catching up on vocational qualifications (Berufsreife, Hauptschulabschluss)",
+                "intermediate_qual": "Catching up on intermediate qualifications (Mittlere Reife, Realschulabschluss)",
+                "abitur": "Abitur / university entrance qualification",
+                "ukrainian_qual": "Information on Ukrainian school qualification equivalence",
+                "bvj_pathway": "BVJ (vocational preparation year) – useful if you are still unsure",
+                "evening_school": "Evening school / adult education center",
+                "distance_learning": "Distance learning / distance education",
+                "external_exam": "External examination / non-school examination",
+                "check_form": "Check which form (evening school, distance learning, external studies) suits you best"
+            }
         }
     }
 }
