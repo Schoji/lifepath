@@ -1,6 +1,6 @@
 {
     "home": {
-        "header": "Find your path in your new life. We'll help you step by step."
+        "header": "Find your path in your new life. We help you navigate education, career, and integration step by step."
     },
     "your_path": {
         "home": "Home",
@@ -83,24 +83,43 @@
         },
         "demand_in_mv": {
             "title": "Which professions are in demand in MV?",
-            "description": "Where you live makes a difference. Every region needs different professions. This gives you opportunities—even without perfect school grades. In Mecklenburg-Western Pomerania, practical professions are particularly sought after: e.g., skilled trades, nursing, gastronomy, or logistics. Here you can find out which professions are really needed in your area and where you can get an apprenticeship, internship, or entry-level position more quickly. You don't have to commit 'forever.' First look, try things out, gain experience → then decide.",
+            "description": "Where you live makes a difference. Every region needs different professions. This gives you opportunities - even without perfect school grades. In Mecklenburg-Western Pomerania, practical professions are particularly sought after: e.g. skilled trades, nursing, gastronomy, or logistics. Here you can find out which professions are really needed in your area and where you can get an apprenticeship, internship, or entry-level position more quickly. You don't have to commit \"forever.\" First look, try things out, gain experience > then decide.",
             "tips": {
-                "entry_level_sectors": "In Mecklenburg-Vorpommern, there are many entry-level jobs in: Skilled trades / crafts, Health care & social services, Gastronomy & tourism, Logistics & warehousing.",
-                "rural_opportunities": "Rural areas sometimes even offer more chances - because there is a lack of skillful workers."
+                "mv_sectors": "In Mecklenburg-Vorpommern, there are many entry-level jobs in: Skilled trades/crafts, Health care & social services, Gastronomy & tourism, Logistics & warehousing.",
+                "rural_opportunities": "Rural areas sometimes offer even more chances - because there is a lack of skillful workers.",
+                "trial_error": "Many paths begin with trial and error. Practical experience often counts for more than certificates, especially at the beginning.",
+                "language_improvement": "Your German language skills will improve greatly through work and practice.",
+                "free_advice": "Advice from job centers, employment agencies, and youth career agencies is free - take advantage of it!",
+                "check_costs": "When it comes to private counseling and placement services, always check first whether there are any costs involved.",
+                "wary_jobs": "Be wary of job offers without a contract or with cash payments.",
+                "legal_ways_minors": "Even at the age of 15 or 17, there are legal ways to work or prepare for a career.",
+                "guidance_websites": "Career guidance websites are very easy to understand and informative—watch VIDEOS about different professions and take tests.",
+                "take_tests": "Take SEVERAL tests for guidance—a single test is almost never perfect. Which professions are suggested most often?",
+                "use_ai": "Tip: Use AI tools (e.g., ChatGPT) to get directions explained, to describe professions, to practice applications or texts, or to ask questions that you would otherwise not dare to ask."
             },
             "links": {
-                "discover_tests": "Discover lots of different tests on career choices, study choices, self-perception and external perception, strengths, and interests",
-                "job_exchange": "Job exchange of the Federal Employment Agency",
-                "meinestadt": "Find everything within your zip code area—even jobs",
-                "check_u_alt": "Orientation: Check-U (Employment Agency) Career orientation & entry → free interest and strengths test"
+                "check_u_guidance": "Check-U (Employment Agency) Career guidance & entry -> free interest and strengths test.",
+                "step_by_step_tests": "Discover lots of different tests on career choices, study choices, self perception and external perception, strengths, and interests.",
+                "jobboerse": "Job exchange of the Federal Employment Agency.",
+                "ausbildung_de": "Find your apprenticeship or dual study program.",
+                "meinestadt": "Find everything within your zip code area - even jobs.",
+                "check_u_entry": "Orientation: Check-U (Employment Agency) Career orientation & entry -> free interest and strengths test.",
+                "berufe_tv": "Orientation: BerufeTV -> videos about professions (also good for those with weaker German skills).",
+                "jobcenter_digital": "Advice: Job center / Employment Agency.",
+                "jmd4you": "Advice: jmd4YOU - Advice portal for your life in Germany.",
+                "career_advice_report": "Employment Agency - Career advice."
             },
             "steps": {
-                "bop_internship": "Vocational orientation internship (BOP)",
-                "bvj_year": "Vocational preparation year (BVJ)",
-                "bvj_s_language": "Vocational preparation year LANGUAGE (BVJ-S)",
-                "pre_vocational_prog": "Pre-Vocational Preparation Program",
-                "entry_qualification": "Entry-level qualification",
-                "dual_pre_vocational": "(Dual) Pre-Vocational Training"
+                "career_exploration_internship": "Career Exploration Internship.",
+                "bvj_program": "Pre-Vocational School Program (BVJ).",
+                "bvj_s_language": "Vocational preparation year (language) (BVJ-S).",
+                "bvb_prep": "Career Preparation Program (BvB).",
+                "eq_internship": "Pre-Apprenticeship Internship (EQ).",
+                "dual_training": "(Dual) Pre-Vocational Training.",
+                "ask_internship": "Ask your school, job center, or career counselor about internship opportunities.",
+                "find_shortage_jobs": "Find out for yourself about regional shortage occupations. Use AI: 'Which occupations are in demand and have a future in MV?'.",
+                "orientation_test": "Take a career orientation test. Compare the demand with your interests.",
+                "search_companies": "Search for companies in your area yourself and ask about internships. Use AI to write an inquiry email or resume."
             }
         },
         "bop_internship": {
@@ -108,115 +127,149 @@
             "description": "A short internship to try out a profession. You spend a few weeks in a company to see if the job fits you. You gain practical experience in a company and receive support from the Employment Agency or Job Center.",
             "tips": {
                 "duration": "The internship lasts between 1 and 6 weeks. It can be extended to a maximum of 6 weeks.",
-                "free_of_charge": "Participation in the career orientation internship is free of charge.",
-                "remuneration_travel": "As a rule, no remuneration is paid. BUT: Travel or accommodation costs can be covered if necessary. Apply to the Jobcenter or Employment Agency to have your costs covered!",
-                "prerequisite": "The prerequisite is that compulsory schooling has been completed and you are not currently attending school.",
-                "important_job_center": "⚠️ Important: ALWAYS get the job center involved beforehand: They can check and decide what help you can get! That's why the internship can only start after approval by the job center or employment agency."
+                "free_participation": "Participation in the career orientation internship is free of charge.",
+                "remuneration_costs": "As a rule, no remuneration is paid. BUT: Travel or accommodation costs can be covered if necessary. Apply to the Jobcenter or Employment Agency to have your costs covered!",
+                "prerequisites": "The prerequisite is that compulsory schooling has been completed and you are not currently attending school.",
+                "jobcenter_approval": "Important: ALWAYS get the job center involved beforehand! They can check and decide what help you can get! That's why the internship can only start after approval by the job center or employment agency."
             },
             "links": {
-                "fed_agency_bop": "Federal Employment Agency - Career Orientation Internship",
-                "vplt_info": "VPLT info folders"
+                "career_counseling": "Employment Agency – career counselling.",
+                "info_sheet": "Federal Employment Agency - Career Orientation Internship.",
+                "vplt_info": "VPLT Info folders.",
+                "check_u": "Check-U (Federal Employment Agency) Career orientation & entry -> interests and strengths test."
             },
             "steps": {
-                "consultation_appointment": "Arrange a consultation appointment",
-                "consultation_interview": "Conduct a consultation interview",
-                "find_company": "Find a company for the internship",
-                "apply_bop": "Apply for a vocational orientation internship",
-                "wait_approval": "Wait for approval",
-                "search_vacancies_dual": "Search for vacancies for (Dual) Pre-Vocational Training"
+                "apprenticeship_dual": "Apprenticeship (dual system).",
+                "bvj_program": "Pre-Vocational School Program (BVJ).",
+                "consultation": "Arrange a consultation appointment and conduct a consultation interview.",
+                "find_company": "Find a company for the internship.",
+                "apply_internship": "Apply for a vocational orientation internship.",
+                "wait_approval": "Wait for approval.",
+                "search_vacancies": "Search for vacancies for (Dual) Pre-Vocational Training.",
+                "ask_services": "Ask your school, job center, or career counseling service about internship opportunities.",
+                "search_self": "Search for companies in your area yourself and ask about internships.",
+                "use_ai": "Use AI to write a short inquiry email or resume."
             }
         },
         "bvj_program": {
             "title": "Pre-Vocational School Program (BVJ)",
-            "description": "The Vocational Preparation Year (BVJ) is a one-year school programme for young people who do not yet have an apprenticeship or a clear career perspective. It combines lessons at a vocational school with practical work experience in companies. For young people who have recently migrated and have limited German skills, there is a specialised language-focused version called BVJ-S. The exact rules may vary slightly depending on the federal state.",
+            "description": "The Vocational Preparation Year (BVJ) is a one-year school programme for young people who do not yet have an apprenticeship or a clear career perspective. It combines lessons at a vocational school with practical work experience in companies. For young people who have recently migrated and have limited German skills, there is a specialised language-focused version called BVJ-S. The exact rules may vary slightly depending on the federal state. For detailed information, contact a vocational school or career counselling service.",
             "tips": {
-                "daz_focus": "German as a Second Language (DaZ) is the central focus of the programme. Ask specifically about intensive DaZ lessons if your German level is still low.",
-                "language_practice_mix": "Language learning and practical experience are well combined in BVJ-S, helping you improve your vocabulary in a work environment.",
-                "attendance_compulsory": "Regular attendance is important – BVJ-S is subject to compulsory schooling for young people.",
-                "early_start": "Starting early pays off – better German makes everyday life and your future training much easier.",
-                "parents_involvement": "Parents or guardians should be involved early in the process to support your planning."
+                "language_focus": "Especially helpful if German skills are not yet sufficient for vocational training. Language learning and practical experience are well combined in BVJ-S.",
+                "daz_central": "German as a Second Language (DaZ) is the central focus of the programme. Ask specifically about intensive DaZ lessons if your German level is still low.",
+                "compulsory_schooling": "Regular attendance is important - BVJ-S is subject to compulsory schooling.",
+                "internships_help": "Internships help with career orientation and improve everyday language skills.",
+                "start_early": "Starting early pays off – better German makes everyday life and training easier.",
+                "parents_involved": "Parents or guardians should be involved early in the process."
             },
             "links": {
-                "ba_info": "Information from the Federal Employment Agency on career guidance and BVJ",
-                "ausbildung_de_bvj": "BVJ: Your springboard into vocational training",
-                "ausbildungspark_abc": "The ABCs of training: Vocational preparation year (BVJ)",
-                "kmk_education": "Conference of Ministers of Education and Cultural Affairs – School education info",
-                "dqr_certificate": "Information about BVJ leaving certificates and their equivalence",
-                "videos_bvj": "Watch videos about the Vocational Preparation Year (BVJ)"
+                "arbeitsagentur_info": "Information from the Federal Employment Agency on career guidance and BVJ.",
+                "kmk_info": "Conference of Ministers of Education and Cultural Affairs - Information on school education programs.",
+                "ausbildungspark": "The ABCs of training: Vocational preparation year (BVJ).",
+                "vocational_schools_equiv": "Vocational preparation year (BVJ) at vocational schools: leaving certificate with equivalence to secondary school leaving certificate.",
+                "ausbildung_de_guide": "Vocational preparation year (BVJ): Your springboard into vocational training.",
+                "videos_bvj": "VIDEOS on BVJ."
             },
             "steps": {
-                "contact_schools_mv": "Contact vocational schools in Mecklenburg-Western Pomerania and ask if they offer BVJ-S.",
-                "check_regional_options": "Check which vocational school in your region offers BVJ-S.",
-                "prepare_documents": "Prepare application documents (last school report, possibly a CV). Use AI for help!",
-                "plan_internships": "Plan internships and additional language practice early."
+                "apprenticeship_dual": "Apprenticeship (dual system).",
+                "pre_apprenticeship_internship": "Pre-Apprenticeship Internship.",
+                "school_certificate": "School Certificate (Catch up / Upgrade).",
+                "learn_german": "Learn German.",
+                "job_related_lang": "Job related Language Courses.",
+                "ask_counselor_cert": "Ask at your counselor in the Jobcenter, which school certificate you really need.",
+                "prolong_internship": "Prolong your practical working experience with another internship.",
+                "work_minijob": "Start to work part-time or in a minijob and meanwhile write applications to jobs that you really want.",
+                "prepare_docs": "Prepare application documents (last school report, possibly a CV).",
+                "ask_entry_dates": "Ask about entry dates – mid-year entry may be possible.",
+                "plan_internships": "Plan internships and additional language practice early.",
+                "ask_company": "Ask for an internship at your desired company or a company nearby.",
+                "use_ai": "Use AI for: creating a CV style, motivation letter, practicing words of an employer."
             }
         },
         "bvj_s_program": {
             "title": "Pre-Vocational School Program with Language Focus (BVJ-S)",
-            "description": "The Vocational Preparation Year with Language Focus (BVJ-S) is a school-based programme at vocational schools in Germany designed specifically for newly arrived young people with limited German language skills. Its main goal is to improve German language skills and support career orientation. The programme combines intensive German as a second language (DaZ) lessons with practical activities. It usually lasts one school year and prepares you for the next steps, such as vocational training or further schooling.",
+            "description": "The Vocational Preparation Year with Language Focus (BVJ-S) is a school-based programme at vocational schools in Germany. It is designed for newly arrived young people who have limited German language skills. The main goal of the BVJ-S is to improve German language skills and to support career orientation. Alongside language learning, students gain basic knowledge about working life and different professions. The programme combines intensive German as a second language (DaZ) lessons with practical activities and vocational orientation. Students can take part in practical training phases (internships) and learn how school, training and work in Germany function. The BVJ-S is a full-time educational programme and usually lasts one school year, depending on language level. It helps prepare students for the next step, such as vocational training, further schooling or other educational pathways.",
             "tips": {
-                "helpful_for_limited_german": "Especially helpful if German skills are not yet sufficient for vocational training.",
-                "internships_orientation": "Internships help with career orientation and improve everyday language skills simultaneously."
+                "language_focus_help": "Especially helpful if German skills are not yet sufficient for vocational training.",
+                "combination": "Language learning and practical experience are well combined in BVJ-S.",
+                "daz_focus": "German as a Second Language (DaZ) is the central focus of the programme.",
+                "intensive_lessons": "Ask specifically about intensive DaZ lessons if your German level is still low.",
+                "attendance": "Regular attendance is important – BVJ-S is subject to compulsory schooling.",
+                "internships": "Internships help with career orientation and improve everyday language skills.",
+                "start_early": "Starting early pays off – better German makes everyday life and training easier.",
+                "parents": "Parents or guardians should be involved early in the process."
             },
             "links": {
-                "mv_schools_overview": "Overview of vocational schools in Mecklenburg-Western Pomerania",
-                "mv_education_server": "Education server of MV – Information on vocational preparation programmes",
-                "ba_vocational_schools": "Information from the Employment Agency about vocational schools",
-                "vhs_portal": "Free online German courses (A1–B2) provided by adult education centres",
-                "dw_learn_german": "Free German-learning resources by Deutsche Welle",
-                "goethe_practice": "Free German practice materials from the Goethe-Institut"
+                "mv_schools": "Overview of vocational schools in Mecklenburg-Western Pomerania.",
+                "mv_education": "Education server of Mecklenburg-Western Pomerania – information on vocational preparation programmes.",
+                "agency_vocational": "Information from the Employment Agency about vocational schools.",
+                "agency_general": "Career counselling and support services.",
+                "vhs_portal": "Free online German courses (A1–B2) provided by adult education centres.",
+                "dw_learn": "Free German-learning resources by Deutsche Welle.",
+                "goethe": "Free German practice materials from the Goethe Institut."
             },
             "steps": {
-                "ask_entry_dates": "Ask about entry dates – mid-year entry may be possible.",
-                "contact_social_workers": "Use counselling services from youth career agencies or school social workers."
+                "apprenticeship_dual": "Apprenticeship (dual system).",
+                "contact_schools": "Contact vocational schools in Mecklenburg-Western Pomerania and ask if they offer BVJ-S.",
+                "use_counselling": "Use counselling services from youth career agencies or school social workers.",
+                "agency_counselling": "Make use of free career counselling provided by the Employment Agency.",
+                "check_region": "Check which vocational school in your region offers BVJ-S.",
+                "prepare_docs": "Prepare application documents (last school report, possibly a CV).",
+                "ask_entry": "Ask about entry dates – mid-year entry may be possible.",
+                "plan_internships": "Plan internships and additional language practice early."
             }
         },
         "bvb_program": {
             "title": "Career Preparation Program (BvB)",
-            "description": "The Vocational Preparation Programme (BvB) is an offer provided by the Federal Employment Agency for young people under the age of 25. It supports career orientation, preparation for vocational training or direct entry into work. The programme is carried out by certified training providers and can also include the opportunity to obtain a lower secondary school certificate.",
+            "description": "The Vocational Preparation Programme (BVB) is an offer provided by the Federal Employment Agency for young people under the age of 25. It supports career orientation, preparation for vocational training or direct entry into work. The programme is carried out by certified training providers and can also include the opportunity to obtain a lower secondary school certificate.",
             "tips": {
-                "no_plan_suitable": "Suitable if you do not yet have an apprenticeship or clear career plan.",
-                "no_certificate_ok": "Possible even without a school certificate.",
-                "learning_practice_mix": "Combines learning, practice and career orientation.",
-                "several_internships": "Several internships help you try out different professions.",
-                "obtain_certificate": "A school certificate can often be obtained during the programme.",
-                "flexible_adapted": "The programme is flexible and adapted to individual needs."
+                "target_group": "Suitable if you do not yet have an apprenticeship or clear career plan.",
+                "no_certificate_needed": "Possible even without a school certificate.",
+                "combination": "Combines learning, practice and career orientation.",
+                "internships": "Several internships help you try out different professions.",
+                "get_certificate": "A school certificate can often be obtained during the programme.",
+                "flexibility": "The programme is flexible and adapted to individual needs."
             },
             "links": {
-                "official_ba_info": "Official information from the Federal Employment Agency about the BvB programme",
-                "local_agency": "Find your local Employment Agency (also valid for Mecklenburg-Vorpommern)"
+                "official_info": "Official information from the Federal Employment Agency about the BVB programme.",
+                "counselling": "Career counselling for young people and young adults.",
+                "education_offers": "Nice site with counselling about education offers, projects, sponsoring possibilities, even with chat bot."
             },
             "steps": {
-                "make_appointment": "Make an appointment with the Employment Agency",
-                "attend_counselling": "Attend a career counselling session",
-                "check_suitability": "Check whether BVB is suitable for you",
-                "get_assigned": "Get assigned to a certified training provider",
-                "apply_bvb": "Apply for the programme through the Employment Agency",
-                "use_internships": "Actively use internships and career guidance"
+                "apprenticeship_dual": "Apprenticeship (dual system).",
+                "make_appointment": "Make an appointment with the Employment Agency.",
+                "attend_counselling": "Attend a career counselling session.",
+                "check_suitability": "Check whether BVB is suitable for you.",
+                "get_assigned": "Get assigned to a certified training provider.",
+                "apply_program": "Apply for the programme through the Employment Agency.",
+                "use_guidance": "Actively use internships and career guidance."
             }
         },
         "eq_internship": {
             "title": "Pre-Apprenticeship Internship (EQ)",
-            "description": "Pre-Apprenticeship Internship (EQ) is a programme run by the Employment Agency and works like an extended internship in a company (6–12 months). You work like a trainee and often get an apprenticeship afterwards.",
+            "description": "Pre-Apprenticeship Internship (EQ) is a programme run by the Employment Agency and works like an extended internship in a company (6-12 months). You work like a trainee and often get an apprenticeship afterwards.",
             "tips": {
-                "duration": "An entry qualification lasts at least 4 months and up to a maximum of 12 months.",
+                "duration": "An entry qualification lasts at least 6 months and up to a maximum of 12 months.",
                 "transition": "A transition into an apprenticeship is possible at any time.",
-                "time_model": "The EQ usually takes place full-time, but can also be completed part-time if needed.",
-                "prerequisite": "Participation is only possible if you have not yet completed a vocational qualification or a degree.",
-                "school_mandatory": "If you are subject to compulsory vocational school attendance, attending vocational school remains mandatory.",
+                "schedule": "The EQ usually takes place full-time, but can also be completed part-time if needed.",
+                "eligibility": "Participation is only possible if you have not yet completed a vocational qualification or a degree.",
+                "school_obligation": "If you are subject to compulsory vocational school attendance, attending vocational school remains mandatory.",
                 "allowance": "During the EQ, you receive a monthly allowance of €276 funded by the Employment Agency.",
                 "costs": "Travel costs may be covered; the company may voluntarily top up the allowance.",
-                "company_based_only": "⚠️ Important: Entry qualifications are only possible for company-based training, not for school-based vocational training."
+                "restriction": "Important: Entry qualifications are only possible for company-based training, not for school-based vocational training."
             },
             "links": {
-                "employment_agency": "Employment Agency – Entry Qualification",
-                "ihk": "Chamber of Industry and Commerce – Entry qualification",
-                "videos": "VIDEOS on entry qualifications"
+                "agency_eq": "Employment Agency – Entry Qualification.",
+                "ihk_eq": "Chamber of Industry and Commerce Entry qualification.",
+                "videos_eq": "VIDEOS on entry qualifications."
             },
             "steps": {
-                "check_reqs": "Check whether you meet the requirements",
-                "find_company": "Find a company for the entry qualification",
-                "apply": "Apply for entry qualification"
+                "apprenticeship": "Apprenticeship (dual system).",
+                "counselling": "Make a counselling appointment with the Employment Agency or Jobcenter, let them check whether you meet the requirements for this project.",
+                "apply": "Apply for entry qualification, Wait for approval.",
+                "sponsoring": "Ask for sponsoring from the work agency/jobcenter.",
+                "find_company": "Find a company for the entry qualification.",
+                "ai_help": "Let AI explain you, how the project EQ can lead to your desired workplace training/apprenticeship."
             }
         },
         "dual_apprenticeship": {
@@ -255,33 +308,34 @@
             "title": "School Certificate (Catch up / Upgrade)",
             "description": "You do not yet have a school certificate or would like to achieve a higher qualification? In Germany, there are many ways to catch up on or improve a school certificate – even if you had to leave school, are new to Germany or are still learning German. Here you will find an overview of the most important pathways and support options.",
             "tips": {
-                "obtain_after_compulsory": "A school certificate can also be obtained after compulsory schooling has ended.",
-                "advice_saves_time": "Getting advice before you start saves time and helps avoid detours.",
+                "after_compulsory": "A school certificate can also be obtained after compulsory schooling has ended.",
+                "get_advice": "Getting advice before you start saves time and helps avoid detours.",
                 "language_improvement": "German language skills can be improved alongside completing a school certificate.",
-                "free_programmes": "Many programmes are free of charge or publicly funded.",
-                "several_pathways": "It is normal to consider several pathways before making a decision."
+                "free_programs": "Many programmes are free of charge or publicly funded.",
+                "consider_pathways": "It is normal to consider several pathways before making a decision.",
+                "private_costs": "Important: Private offers may involve costs – always check in advance."
             },
             "links": {
-                "ba_school_advice": "Employment Agency – School Qualifications & Advice",
-                "jba_advice": "Youth Employment Agency (JBA) - personal advice for young people up to age 25",
-                "vhs_main": "Adult Education Center (VHS) – Germany-wide search for courses",
-                "vhs_finder": "VHS Course Finder (Filter by location)",
-                "mv_educational_counseling": "School Authority / Educational Counseling in MV",
-                "mv_school_types": "Regional schools, qualifications and pathways in MV",
-                "jmd_service": "JMD (Youth Migration Service) - Personal advice for 12-27 year olds",
-                "jmd4you_portal": "Online advice portal (jmd4YOU) – available in Russian/Ukrainian",
-                "mbeon_app": "MBE (Migration Counseling for Adults) – App counseling and chat"
+                "agency_advice": "Employment Agency – School Qualifications & Advice. Explains what school qualifications are available in Germany, how to catch up on them, and what options are available.",
+                "vhs_general": "Adult Education Center (VHS) – Germany-wide search for VHS courses (final exams, German, preparation for secondary school).",
+                "vhs_finder": "VHS Course Finder – Filter by location (IMPORTANT for results).",
+                "school_authority": "School Authority (Educational Counseling) – Official information from the federal state on school types, qualifications, and compulsory education.",
+                "regional_schools": "Explains regional schools, qualifications (vocational qualification/intermediate qualification) and pathways.",
+                "jmd_service": "JMD (Youth Migration Services) – Personal advice for 12-27 year olds (school, training, authorities, language).",
+                "jmd4you": "Online advice (extremely low threshold for young people) – ask questions anonymously, without an appointment, also available in Russian/Ukrainian.",
+                "mbeon": "MBE (Migration Counseling for Adults) – App counseling, chat with counselors in many languages."
             },
             "steps": {
-                "vocational_qual": "Catching up on vocational qualifications (Berufsreife, Hauptschulabschluss)",
-                "intermediate_qual": "Catching up on intermediate qualifications (Mittlere Reife, Realschulabschluss)",
-                "abitur": "Abitur / university entrance qualification",
-                "ukrainian_qual": "Information on Ukrainian school qualification equivalence",
-                "bvj_pathway": "BVJ (vocational preparation year) – useful if you are still unsure",
-                "evening_school": "Evening school / adult education center",
-                "distance_learning": "Distance learning / distance education",
-                "external_exam": "External examination / non-school examination",
-                "check_form": "Check which form (evening school, distance learning, external studies) suits you best"
+                "catch_up_vocational": "Catching up on vocational qualifications (Berufsreife, Hauptschulabschluss) -> useful if you want to start vocational training but don't have a diploma.",
+                "catch_up_intermediate": "Catching up on intermediate qualifications (Mittlere Reife, Realschulabschluss) -> useful for many vocational training programs or technical college.",
+                "abitur_entrance": "Abitur/University entrance qualification -> if you want to study or pursue more demanding careers.",
+                "ukrainian_qual": "Ukrainian school qualification? After 9 years: comparable to Berufsreife. After 11 years: usually recognized at Mittlere Reife level.",
+                "bvj_prep": "BVJ (vocational preparation year) -> very useful if you are still unsure, your German is not yet sufficient, or you want to try out different professions.",
+                "evening_school": "Evening school / adult education center -> useful if you are working part-time or are older.",
+                "distance_learning": "Distance learning / distance education -> useful if you can learn independently or cannot be on site regularly.",
+                "external_exam": "External examination / non-school examination -> useful if you are good at studying on your own or already have prior knowledge.",
+                "check_form": "Check which form (evening school, distance learning, external studies) suits you best.",
+                "use_ai": "Let AI explain which qualification will really help you and which goal is realistic."
             }
         },
         "lower_secondary_certificate": {
@@ -351,11 +405,461 @@
                 "bafog_mv": "Information about BAföG student funding specifically for Mecklenburg-Vorpommern"
             },
             "steps": {
+                "goto_no_idea": "I'll do the school certificate, but what then? (Career advice)",
+                "goto_have_idea": "I know my goal – how do I apply for a job/training now?",
                 "research_schools": "Research different distance schools and available certificates.",
                 "choose_and_apply": "Choose a school that fits your needs and apply.",
                 "create_study_plan": "Order your learning materials and create a weekly study plan.",
                 "use_support_systems": "Actively use tutors, forums, and study groups provided by the school.",
                 "register_exams": "Don't forget to register for the official final exams in time."
+            }
+        },
+        "abitur": {
+            "title": "Abitur / University entrance qualification",
+            "description": "The Abitur is the highest school certificate in Germany. It gives you a general university entrance qualification — you can study at any university or college. Normally students get the Abitur at a Gymnasium (grade 12 or 13). But you can also complete it later as an adult (second education pathway). The final exam includes several written and oral exams. You do not always have to return to normal school — there are different options depending on your situation.",
+            "tips": {
+                "study_fields": "The Abitur is important if you want to study (e.g. IT, medicine, engineering, teaching).",
+                "language_skills": "You usually need good German skills (about B2–C1 level).",
+                "pathway_options": "Typical options: Adult college (full-time school), Evening high school (part-time while working), Distance learning school (study from home), External examination (self-study, only exams).",
+                "self_check": "Honestly check your level (German and Math are key).",
+                "duration": "Expect about 2–4 years.",
+                "pros_cons": "Adult college = fastest but full-time; Evening school = good if you work; Distance learning = flexible but requires discipline; External exam = hardest option.",
+                "learning_aids": "Use learning apps, videos and AI explanations.",
+                "restart_help": "Adult education courses help a lot when restarting learning."
+            },
+            "links": {
+                "schulliste": "Find schools and colleges near you.",
+                "abitur_nachholen": "Explanations and tips for catching up on the Abitur via the second educational pathway."
+            },
+            "steps": {
+                "adult_college": "Adult college (full-time school).",
+                "evening_school": "Evening high school (part-time while working).",
+                "distance_learning": "Distance learning school (study from home).",
+                "external_exam": "External examination (self-study, only exams).",
+                "search_school": "Search for an adult college or evening high school near you.",
+                "check_recognition": "Check recognition of your Ukrainian school certificate.",
+                "placement_test": "Take a placement test (German/Math).",
+                "counseling": "Talk to education counseling or youth career service.",
+                "realistic_check": "Think realistically: university or vocational training first?",
+                "online_prep": "Start preparing with online learning platforms.",
+                "use_ai": "Use AI tools to explain difficult topics."
+            }
+        },
+        "evening_school_vhs": {
+            "title": "Evening school for adults / adult education centre (VHS)",
+            "description": "A Volkshochschule (VHS) is an adult education centre. Attendance is voluntary. You learn in small groups and can choose from many different courses. There are school classes in the afternoon/evening for language learning and school certificate preparation while you work at daytime or attend courses.",
+            "tips": {
+                "where_to_get_advice": "Where can I get advice? You can get information and personal guidance directly at your local adult education centre (VHS).",
+                "offered_courses": "What courses are offered? VHS centres offer many types of courses: German language courses, hobby and interest courses (cooking, sports, art) and school certificates: lower secondary certificate (Hauptschule level), intermediate secondary certificate (Realschule level).",
+                "when_classes_take_place": "When do classes take place? This depends on the centre and the course. Most courses are available in the morning and afternoon/evening. The best option: contact the VHS near you and ask.",
+                "cost_info": "How much does it cost? Fees vary depending on the course, the VHS centre and the federal state. There is no fixed price — always check in advance."
+            },
+            "links": {
+                "mv_system_overview": "Overview of the second-chance education system in Mecklenburg-Vorpommern.",
+                "mv_vhs_finder": "Find adult education centres (VHS) in Mecklenburg-Vorpommern.",
+                "germany_vhs_finder": "Find a VHS centre anywhere in Germany.",
+                "vhs_info_portal": "Information portal of the VHS association Mecklenburg-Vorpommern.",
+                "vhs_explainer_video": "Short video explaining what you can do at a VHS."
+            },
+            "steps": {
+                "goto_no_idea": "I'm not sure which course/path helps me most – I need advice.",
+                "goto_have_idea": "I have a plan – show me how to start my career/training.",
+                "vhs_search_tool": "In our link list you will find a VHS search tool for Mecklenburg-Vorpommern and for all of Germany.",
+                "language_learning_sections": "Interested in language learning? See the sections Integration course, job language course and learn German.",
+                "complete_school_certificate": "Want to complete a school certificate? Check the sections Hauptschule, Realschule or Abitur.",
+                "second_education_pathway": "The section second education pathway explains how you can complete school outside the normal school system."
+            }
+        },
+        "external_candidate_exam": {
+            "title": "External candidate examination",
+            "description": "The external candidate exam lets you earn an official school certificate without attending a regular school full-time.",
+            "tips": {
+                "certificates_available": "You can get: lower secondary certificate, intermediate certificate, or Abitur (depending on preparation and level).",
+                "preparation_methods": "Preparation is mostly self-study. Distance schools, adult education centers (VHS), or private tutors can support you.",
+                "be_realistic": "Be realistic: you need a learning plan and regular study time every week.",
+                "use_ai": "Use AI tools to understand topics, compare subjects, and practice exam questions.",
+                "application_deadline": "You must apply for admission (usually before 15 January of the exam year)."
+            },
+            "links": {
+                "mv_info": "Official information from the state of Mecklenburg-Vorpommern about the external school-leaving exam (lower or intermediate certificate), including requirements, procedure and registration.",
+                "abitur_pathway": "Simple explanation of how to obtain the Abitur through an external exam without attending school regularly, including preparation tips.",
+                "find_authority": "List of all regional school authorities in Mecklenburg-Vorpommern with contact details — this is where you apply for the external candidate exam."
+            },
+            "steps": {
+                "goto_no_idea": "After the exam: I don't know what to do next.",
+                "goto_have_idea": "After the exam: I know exactly what I want to study/work.",
+                "read_certificates": "First, read about the different German school certificates on our website.",
+                "check_prep_options": "Check if evening school or distance learning would help you prepare.",
+                "plan_workload": "Plan your time and learning workload early.",
+                "use_digital_tools": "Use digital learning tools and practice tests.",
+                "contact_authority": "Contact your local state school authority (depends on where you live)."
+            }
+        },
+        "college_prep_adults": {
+            "title": "College-prep school for adults / evening grammar school",
+            "description": "These are special schools for adults who want to get the German Abitur (university entrance qualification) later in life. You do not need to go back to a normal high school. There are two main versions: 'Kolleg' (full-time during the day, like a normal school, takes 2-3 years) and 'Abendgymnasium' (classes in the evening so you can work during the day, takes 3-4 years). After finishing, you can study at a university or start higher-level vocational training.",
+            "tips": {
+                "common_pathway": "This path is very common in Germany — many adults do their Abitur at 20-30 years old.",
+                "prerequisites": "You usually need the intermediate school certificate (Realschulabschluss/Mittlere Reife) first.",
+                "german_improvement": "Schools often help with German improvement while you study.",
+                "financial_support": "You may be eligible for student financial support (BAföG!).",
+                "studienkolleg_distinction": "Don't confuse it with 'Studienkolleg' — that is for foreign students before university, not for Abitur."
+            },
+            "links": {
+                "ba_overview": "Federal Employment Agency: explains the second-chance education pathway to Abitur.",
+                "evening_schools_overview": "Overview of evening schools and Kollegs in Germany.",
+                "greifswald_school": "Greifswald evening school: apply directly here.",
+                "neubrandenburg_school": "Neubrandenburg evening school: apply directly here.",
+                "rostock_school": "Rostock evening school: apply directly here.",
+                "schwerin_school": "Schwerin evening school: apply directly here."
+            },
+            "steps": {
+                "goto_no_idea": "I'll get the Abitur, but I don't know what to study yet.",
+                "goto_have_idea": "I'm getting the Abitur because I have a specific study/job goal.",
+                "check_certs": "Check if you already have a recognized school certificate. If not, visit 'School certificate (catch-up)' first.",
+                "contact_school": "Contact a nearby evening school or Kolleg and ask for a counseling appointment. Ask if BAföG funding is possible.",
+                "prepare_docs": "Bring: Passport/residence permit, school certificates, and CV (if available).",
+                "language_check": "If your German is still weak, choose a language course first (integration course or BSK)."
+            }
+        },
+        "have_idea": {
+            "title": "I have an idea/ a wish what I`d like to do - but how to get there?",
+            "description": "You already have an idea what you would like to do — that's great. Now the question is: what do you need to get there? Many careers in Germany follow clear steps (training -> work -> further qualification). Sometimes your goal is correct, but the path is different than expected. You might need a school certificate before you can start training. In Germany you often learn a job through dual training (company + vocational school). If your German is not strong yet, this does not mean you must give up the goal. You don't have to choose perfectly — you only need the next realistic step. You can change direction later. Many people do.",
+            "tips": {
+                "check_requirements": "Find out whether the job requires training, school, or a specific certificate.",
+                "real_examples": "Look up real examples: how did other people enter this job?",
+                "compare_professions": "Compare at least two similar professions.",
+                "cert_check": "Ask: Do I need Realschule, intermediate certificate, or Abitur?",
+                "start_early": "Search for training positions early (1 year ahead).",
+                "prep_programs": "You can start with preparation programs or language courses.",
+                "ask_counselors": "Ask teachers, social workers or counselors to check your plan.",
+                "use_ai": "Use AI tools to understand job tasks or to practice applications."
+            },
+            "links": {
+                "berufenet": "Detailed information about nearly every profession.",
+                "planet_beruf": "Easy explanations about apprenticeships and career paths.",
+                "berufe_tv": "Videos showing real workplaces.",
+                "counseling": "Free personal career counseling from the Employment Agency about school, training and career choices.",
+                "azubi_de": "Apprenticeships, requirements and salary information. Find apprenticeships, compare careers and get application tips for trainees.",
+                "vhs_portal": "Free online German learning platform with exercises, courses and optional tutor support.",
+                "jobcenter": "Contact job center and support services.",
+                "berufe_tv_workplaces": "Career videos — you can see real workplaces.",
+                "azubi_de_desc": "Job descriptions with tasks, salary, and requirements.",
+                "berufenet_advanced": "Detailed information on almost every profession (for advanced learners).",
+                "planet_beruf_simple": "Very good, simple explanations of apprenticeship professions (also for those with weaker German skills)."
+            },
+            "steps": {
+                "school_cert": "School certificate (catch up).",
+                "professions_demand": "professions in demand in MV.",
+                "bvb_prep": "Career preparation program (BvB).",
+                "prevocational_school": "Pre-Vocational School Program (language).",
+                "eq_internship": "Pre-Apprenticeship internship (EQ).",
+                "create_cv": "Create a CV and simple application letter.",
+                "talk_counselor": "Talk to a career counselor (JBA/Employment Agency).",
+                "contact_companies": "Contact companies and ask about internships.",
+                "learn_german": "Learn German.",
+                "prepare_email": "Prepare a short email asking for an internship."
+            }
+        },
+        "ukrainian_school_qualification": {
+            "title": "Ukrainian school qualification",
+            "description": "After 9 years of schooling you receive a certificate comparable to the German lower secondary school certificate (Berufsreife/Hauptschulabschluss). After 11 years of schooling you obtain a Ukrainian school-leaving certificate that gives access to university in Ukraine and can USUALLY be recognised in Germany at least at the level of the intermediate secondary certificate (Mittlere Reife/Realschulabschluss). You want to obtain or complete a Ukrainian school certificate, even if you currently live in Germany? There are ways to continue the Ukrainian school pathway online or externally and obtain a state-recognised Ukrainian certificate. This pathway can be useful if you want to continue studying in Ukraine later or use a Ukrainian certificate for recognition procedures.",
+            "tips": {
+                "decide_location": "Decide first: University in Germany or in Ukraine?",
+                "check_license": "It is important that the school is officially state-licensed (check accreditation). Verify the school in EDEBO registry.",
+                "ausbildung_vs_uni": "If planning Ausbildung -> German school certificate may be more useful than a Ukrainian one.",
+                "recognition_procedure": "For Ukrainian certificates a recognition procedure for Germany may be required.",
+                "abitur_warning": "Attention: An 11-year Ukrainian certificate does NEVER automatically equal German Abitur!!"
+            },
+            "links": {
+                "edebo_registry": "Find public Ukrainian schools (regional filter). If school is not found here -> be very careful!",
+                "online_schools": "State-licensed Ukrainian online schools.",
+                "mon_ministry": "Ukrainian Ministry of Education (MON Ukraine) - Check accreditation, compare certificates.",
+                "mon_schooling": "Ukrainian Ministry of Education (MON Ukraine) - Director of School Education.",
+                "testportal": "Information on state exams: 9-class, 11-class, and NMT/ZNO (University access).",
+                "anerkennung_counseling": "Counseling centers in Germany.",
+                "anerkennung_pro": "Counseling on recognition of Ukrainian professional qualifications.",
+                "zab_kmk": "Recognition of Ukrainian certificates (ZAB/KMK). THIS is the real recognition authority!",
+                "anabin": "Anabin: THIS is the tool that German authorities use!!"
+            },
+            "steps": {
+                "supplementary_classes": "Supplementary classes DE/UA (Ukrainian curriculum in addition to German school).",
+                "distance_learning": "Distance learning (UA only).",
+                "external_learning": "External learning (UA only).",
+                "private_schools": "Private schools.",
+                "clarify_target": "Ask yourself: where is your target (GE/UA)? Clarify whether German school attendance must continue (Schulpflicht!).",
+                "ai_explanation": "Let AI explain you, how recognition of school certificates work in Germany.",
+                "check_registry": "Check the school in the Ukrainian registry (EDEBO). Only after this, register yourself there.",
+                "keep_copies": "Keep copies of all report cards (even Ukrainian PDFs)."
+            }
+        },
+        "supplementary_classes": {
+            "title": "Supplementary classes",
+            "description": "Supplementary classes (Ukrainian education component) are additional online lessons offered by a Ukrainian school while the student attends a regular German school. They do not replace regular schooling. In these supplementary classes, students mainly learn Ukrainian language, Ukrainian literature, and the history of Ukraine. Sometimes other subjects from the Ukrainian curriculum are also taught. These classes help students keep their Ukrainian language skills, reduce the learning load because not all subjects have to be studied twice, and can help with the recognition of school results. This type of learning can be useful for students who want to receive a Ukrainian school certificate.",
+            "tips": {
+                "recognition_not_automatic": "The recognition of grades does not happen automatically. Each [case needs verification].",
+                "check_official_status": "Make sure that the school is officially recognized by the state and is allowed to issue official Ukrainian school certificates."
+            },
+            "links": {
+                "ukraine_is_home": "Information portal on education, recognition, programs, and support.",
+                "mon_enrollment": "Information about enrollment.",
+                "school_list": "List of schools that can offer supplementary classes."
+            },
+            "steps": {
+                "recognition_process": "Start the recognition process of your Ukrainian school certificates in Germany.",
+                "choose_school": "Choose a suitable, state-recognized Ukrainian school.",
+                "ask_about_subjects": "Before you sign up, ask by email if subjects from a German school can be accepted.",
+                "collect_reports": "Collect and keep all German grade reports.",
+                "complete_subjects": "Complete the required Ukrainian subjects.",
+                "keep_records": "Keep records of all documents."
+            }
+        },
+        "distance_learning": {
+            "title": "Distance learning",
+            "description": "Distance learning is a recognized form of education in Ukraine, even though classes do not take place at school. In distance learning, students take part in online classes on a regular basis. There is a fixed timetable. Assignments and tests are given regularly. The time required is similar to regular school education.",
+            "tips": {
+                "contact_previous_school": "Contact your previous school in Ukraine by email or phone and ask if they offer this option.",
+                "attend_current_or_other": "You can attend distance learning at your current school or at another school that offers distance learning.",
+                "german_attendance_rules": "Distance learning from Ukraine does not always automatically replace school attendance in Germany. It is important to discuss your type of schooling with your German school."
+            },
+            "links": {
+                "mon_gov_ua": "Official website of the Ukrainian Ministry of Education.",
+                "isuo_org": "Information platform for education in Ukraine.",
+                "edbo_database": "Unified electronic education database of Ukraine."
+            },
+            "steps": {
+                "recognition_process": "Plan the official recognition of your certificate in Germany.",
+                "contact_school_step": "Contact your previous school in Ukraine by email or phone.",
+                "find_new_school": "If you no longer have a school, contact another school in your area. Ask if they offer distance learning and how you can take part.",
+                "prepare_docs": "Prepare your documents and sign up.",
+                "inform_german_school": "Inform your German school that you are taking part in distance learning."
+            }
+        },
+        "external_schooling": {
+            "title": "External schooling",
+            "description": "External schooling is an officially recognized type of education in Ukraine. You do not need to attend regular lessons. Instead, you study most of the subjects on your own. You mainly contact the school for tests, exams, and the final yearly evaluation.",
+            "tips": {
+                "flexible_learning": "Flexible and self-directed learning is possible.",
+                "stay_connected": "You stay connected to the Ukrainian school system.",
+                "official_certificates": "You receive officially recognized Ukrainian school certificates.",
+                "combine_abroad": "It is possible to combine school abroad with a Ukrainian school.",
+                "less_time": "You need less time because there are no regular classes.",
+                "online_platforms": "Using free online learning platforms like the All-Ukrainian Online School makes learning easier."
+            },
+            "links": {
+                "uis_org": "International Ukrainisch school.",
+                "lms_eschool": "Official Ukrainian online learning platform 'All-Ukrainian Online School'.",
+                "mon_gov": "Official website of the Ukrainian Ministry of Education."
+            },
+            "steps": {
+                "recognition_process": "Plan the official recognition of your certificate in Germany.",
+                "choose_school": "Choose a Ukrainian school that offers external learning. Not every school offers this.",
+                "email_admin": "Write an email to the school administration and ask to be enrolled in the external study program.",
+                "prepare_docs": "Prepare the documents. For enrollment, you usually need an application, a copy of the birth certificate or passport, and, if available, documents from your previous schooling."
+            }
+        },
+        "private_schools": {
+            "title": "Private schools",
+            "description": "Private schools are schools that are not fully paid by the government. You can get the same German school certificates at many private schools (Hauptschule, Realschule, sometimes Abitur). Some private schools are helpful for students who had problems in public school (language, moving countries, gaps in education). Many private schools offer support classes, German language help or smaller groups.",
+            "tips": {
+                "prices_vary": "Prices are very different. Some schools cost about 50 € per month.",
+                "not_easier": "Important: A private school does NOT automatically make school easier. You still need to learn and pass exams.",
+                "check_recognition": "Always check if the school is officially recognised by the state. Otherwise the certificate may not be valid.",
+                "beware_contracts": "Beware of contracts: some schools require long-term payment even if you leave."
+            },
+            "links": {
+                "privatschulberatung": "Search and find private schools.",
+                "bildungsserver": "Useful information about private schools."
+            },
+            "steps": {
+                "recognition_process": "Plan the official recognition of your certificate in Germany.",
+                "search_compare": "Look for private schools in your area and compare them.",
+                "check_certificate_need": "Check which school certificate you actually need for your future (Ausbildung or university).",
+                "contact_school": "Talk to the school directly and ask: costs, timetable, language support and exams.",
+                "check_contract": "Before signing a contract, show it to a social worker, teacher or advisor."
+            }
+        },
+        "recognition_certificates": {
+            "title": "Recognition of certificates",
+            "description": "A school certificate from another country can be recognized in Mecklenburg-Vorpommern as lower secondary school leaving certificate (Berufsreife) or intermediate school leaving certificate (Mittlere Reife). To do this, you must show that you successfully completed at least ten years at a general school. Your school certificate must also include grades in important subjects, such as your mother tongue, a foreign language, mathematics, a science subject, and a social studies subject. In Mecklenburg-Vorpommern, the Ministry for Education and Childcare is responsible for recognizing school certificates.",
+            "tips": {
+                "application_method": "The application for recognition must be sent by post (not by email). The application does not need a special form.",
+                "incomplete_apps": "Incomplete applications are the most common reason for long waiting times. It is better to submit too many documents than too few.",
+                "official_certification": "Make sure that all copies are officially certified.",
+                "translation_requirement": "School certificates from abroad must be translated into German by an official translator.",
+                "cost_coverage": "The costs for translations can be covered by the Jobcenter or the Employment Agency under certain conditions."
+            },
+            "links": {
+                "mv_info": "Information about the recognition of foreign school certificates in Mecklenburg-Vorpommern."
+            },
+            "steps": {
+                "goto_no_idea": "I don't have a plan yet – what can I do with this certificate?",
+                "goto_have_idea": "I have a plan – how do I start training or work now?",
+                "prepare_docs": "Prepare all required documents. To get to know which documents you need, follow the link!",
+                "ask_funding": "Ask in advance if Jobcenter or Employment Agency can pay for the translation.",
+                "translate_docs": "Have all documents officially translated into German by a sworn translator.",
+                "certify_copies": "Have copies of all documents officially certified.",
+                "send_post": "Send the application for recognition together with all documents by post to the Ministry for Education and Childcare."
+            }
+        },
+        "learn_german": {
+            "title": "Learn German",
+            "description": "Good German language skills are the key to school, vocational training and work in Germany. There are many ways to learn German - in courses, online or in everyday life. Here you will find an overview of useful ways to improve your German skills, no matter which level you start at.",
+            "tips": {
+                "practice_over_grammar": "Language is learned through practice - not only through grammar.",
+                "combine_life_courses": "Courses and everyday life can be combined well.",
+                "free_offers": "Many offers are free of charge or publicly funded.",
+                "start_early": "Even with limited German, it is worth starting early.",
+                "work_improves_skills": "German often improves faster when you work, do an internship or attend school.",
+                "imperfect_okay": "Good to know: You do not need to speak perfect German to take the next step.",
+                "decide_method": "Decide: Course, app or combination?",
+                "daily_success": "Practice small successes daily.",
+                "use_ai": "Use AI to have texts explained or corrected for you."
+            },
+            "links": {
+                "bamf_integration": "BAMF – Informations about integration courses.",
+                "vhs_portal": "The vhs learning portal offers suitable online German courses for self-study at different levels (A1–B2). No prior knowledge of German is required. The offer is free of charge.",
+                "goethe_institute": "The Goethe-Institut provides exercises for self-study of German. Exercises are available for all language levels (A1–C2). Registration is recommended but not required.",
+                "dw_learn_german": "Comprehensive self-study offers for learning German. All offers are free of charge and can be used online or via app. Includes support for orientation in the German labour market.",
+                "babbel_app": "The Babbel language learning app offers free online courses for Ukrainian refugees."
+            },
+            "steps": {
+                "integration_courses": "Integration courses.",
+                "job_related_courses": "Job related German language courses (Jobcenter/Employment Agency funding).",
+                "vhs_portal": "VHS learning portal.",
+                "goethe_institute": "Goethe Institute.",
+                "language_exams": "Language exams / language level (A1 - B2).",
+                "everyday_practice": "Practice German in everyday life.",
+                "apps_others": "Practice apps and others."
+            }
+        },
+        "integration_courses": {
+            "title": "Integration courses",
+            "description": "Integration courses help people who are new to Germany to learn German and find their way in everyday life. They consist of a language course and an orientation course covering history, culture, laws and daily life in Germany. Integration courses are organised by the Federal Office for Migration and Refugees (BAMF) and are offered by approved education providers.",
+            "tips": {
+                "course_structure": "An integration course always consists of a language course and an orientation course.",
+                "placement_test": "A placement test is carried out before the course starts to find the right level.",
+                "course_types": "There are different types of courses: general courses, special courses and intensive courses.",
+                "attendance_mode": "Courses can be attended full-time or part-time.",
+                "ukrainian_refugees": "Ukrainian refugees are not automatically obliged to attend, but may be required to participate.",
+                "costs_fee": "Participation is usually subject to a fee. Exemption from costs is possible under certain conditions.",
+                "fee_exemption": "Important: A fee exemption must be applied for - it does not apply automatically."
+            },
+            "links": {
+                "bamf_info": "Federal Office for Migration and Refugees (BAMF).",
+                "bamf_finder": "Federal Office for Migration and Refugees (BAMF) - Finding integration courses.",
+                "bamf_application": "Federal Office for Migration and Refugees (BAMF) - Application for Integration Course."
+            },
+            "steps": {
+                "check_suitability": "Check whether an integration course is suitable for you.",
+                "take_test": "Take a placement test.",
+                "apply_admission": "Apply for admission to an integration course.",
+                "find_provider": "Find a suitable education provider.",
+                "register_course": "Register for the course."
+            }
+        },
+        "job_related_courses": {
+            "title": "Job-related Language Courses (BSK)",
+            "description": "Job-related language courses (BSK) help people with a refugee or migration background to improve their German language skills specifically for the workplace. They build on integration courses and are funded by the Federal Office for Migration and Refugees (BAMF). The aim is to support entry into training, employment or everyday working life through targeted language learning.",
+            "tips": {
+                "b1_requirement": "Job-related language courses usually require German language skills at least at B1 level at entry.",
+                "course_variety": "There are courses with certificate examinations (A2-C2) and workplace-related courses.",
+                "format_options": "Job-related language courses can take place in person or online.",
+                "flexibility": "Courses are available as full-time or part-time alongside employment.",
+                "cost_rules": "Participation is free of charge up to an annual taxable income of €20,000. If income is higher, a contribution may be required (can be covered by employer).",
+                "participation_permit": "Important: Check if you can get a participation permit — you cannot register without it. Available at Jobcenter, Employment Agency or migration counseling."
+            },
+            "links": {
+                "bamf_general": "Federal Office for Migration and Refugees (BAMF) – Job-related language courses.",
+                "bamf_azubi": "(Azubi-BSK) - Language support accompanying vocational training.",
+                "bamf_participation": "Jobcenter / Employment Agency - Participation info."
+            },
+            "steps": {
+                "contact_authority": "First go to the Jobcenter, Employment Agency or a migration counseling office (MBE/MD) and ask for a job-related German course.",
+                "check_permit": "They will check if you can get a participation permit. If your German is below B1, you will usually be sent to an integration course first.",
+                "choose_school": "With the permit, choose a language school (course provider) near you.",
+                "bring_docs": "Bring your documents: residence permit, registration certificate (Anmeldung), school or work certificates.",
+                "placement_test": "The school will do a placement test and assign you to the right level (A2, B1, B2 or C1).",
+                "attend_regularly": "Wait for the course to start (often 2-6 weeks) and attend regularly — missing classes can cause problems with benefits.",
+                "final_exam": "After the course you take an official exam (telc or DTB) -> very important for training or employment."
+            }
+        },
+        "vhs_learning_platform": {
+            "title": "VHS-learning platform",
+            "description": "A Volkshochschule (VHS) is an adult education centre. Attendance is voluntary. Classes are in groups and there are many different courses. Besides language courses there are hobby courses (cooking, sports, art) and you can also earn their intermediate certificate (Realschulabschluss) or lower secondary certificate (Hauptschulabschluss). Classes depend on the centre and the course. Most offer morning and afternoon classes — ask directly at the centre. Fees vary depending on the course, centre and federal state. There is no single fixed price.",
+            "tips": {
+                "advice": "Where can I get advice? You can get information and personal counselling at your local adult education centre.",
+                "language_interest": "Interested in language courses? Check the sections Integration Course, Job-related Language Courses and Learn German.",
+                "school_certificate": "Do you want to gain or catch up a school certificate? See the sections Hauptschulabschluss, Realschulabschluss and Abitur. The section 'second-chance education' explains alternative ways."
+            },
+            "links": {
+                "mv_overview": "Overview of the second-chance education pathway in Mecklenburg-Vorpommern.",
+                "mv_finder": "Find adult education centres in Mecklenburg-Vorpommern.",
+                "de_finder": "Find adult education centres in Germany.",
+                "mv_association": "Website of the adult education association in Mecklenburg-Vorpommern with useful information.",
+                "explainer_video": "What is a VHS? Short explainer video."
+            },
+            "steps": {
+                "find_nearest": "Find your nearest VHS. Use the school finder and choose the closest adult education centre. Check the courses page of that centre.",
+                "book_appointment": "Book a counselling appointment. Call, email or visit the office hours ('Beratung' / 'Sprechzeit'). Ask which course fits your level and your goal (job, training or certificate).",
+                "take_test": "Take a placement test. Most VHS offer a short German test. This decides whether you start with Integration course, B1/B2 or job language course.",
+                "choose_goal": "Choose your goal. Decide ONE first step: Learn German for daily life, prepare for training (Ausbildung), catch up a school certificate.",
+                "register_course": "Register for a course. Bring: ID/passport, residence permit (if available), jobcenter/agentur letter (if you have one).",
+                "check_funding": "Check funding. Ask: Jobcenter / Employment Agency, BAMF eligibility. Many participants pay nothing.",
+                "start_routine": "Start learning routine. Attend regularly, use homework + online learning (apps, VHS Lernportal), ask teachers about next course level.",
+                "plan_next": "Plan the next step early. Already during the course ask: internship, training preparation (BvB/BVJ), school certificate courses."
+            }
+        },
+        "apps_private_offers": {
+            "title": "Apps & private offers",
+            "description": "In addition to public and officially recognised language courses, there are many apps and private offers that can help you practise German. These tools are useful for practice, but they usually do not replace an official language course.",
+            "tips": {
+                "supplement_course": "Well suited as a supplement to a course or school.",
+                "watch_costs": "Pay attention to costs, subscriptions and advertising.",
+                "free_limits": "Free versions are often limited.",
+                "provider_transparency": "Serious providers clearly explain what is paid and what is free.",
+                "practice_only": "Tip: Use apps to practise, not as your only learning path."
+            },
+            "links": {
+                "duolingo": "Free language learning app with a playful approach, suitable for beginners.",
+                "babbel": "Language learning app with structured courses, partly subject to fees.",
+                "busuu": "Language learning app with community features and exercises.",
+                "dw_learn": "Free German learning resources provided by Deutsche Welle.",
+                "youtube": "Many free learning videos quality varies, choose carefully."
+            },
+            "steps": {
+                "check_public_courses": "Check public and recognised language courses.",
+                "practice_everyday": "Practise German in everyday life.",
+                "assess_level": "Assess your language level (A1 - C2).",
+                "combine_learning": "Combine learning with school, training or work."
+            }
+        },
+        "find_job": {
+            "title": "Find a job",
+            "description": "Now you have the knowledge you need to take the next step and find your place in the German job market. Use the right job portals and be active. Every application helps you move forward. If you keep going, show initiative, and believe in yourself, your chances of finding a suitable job will increase.",
+            "tips": {
+                "portal_focus": "Each job portal has a different focus. Do not rely on just one platform.",
+                "similar_positions": "Do not search only for your job title, but also for similar positions. Some jobs have different names in Germany than in your home country.",
+                "support_services": "Use the support services offered by the Jobcenter and the Federal Employment Agency.",
+                "hidden_market": "Many jobs are not posted online. Asking employers directly can often lead to better results than online applications.",
+                "internships": "Also consider internships or trial work. Very often, this can lead to a permanent job.",
+                "apply_anyway": "Apply even if you do not meet 100% of the requirements.",
+                "track_applications": "Keep a list of your applications so you can easily see where you have already applied."
+            },
+            "links": {
+                "arbeitsagentur": "Job portal (Arbeitsagentur).",
+                "indeed": "Germany’s job search.",
+                "stepstone": "Job portal (Stepstone).",
+                "lebenslauf_de": "CV templates.",
+                "lebenslauf_com": "CV templates and examples.",
+                "easy_lebenslauf": "Create a CV easily online."
+            },
+            "steps": {
+                "register_portals": "Register on job portals. Create a profile and upload your CV.",
+                "use_ai": "Use AI tools to create CV templates and cover letters.",
+                "adapt_cv": "Adapt your CV and cover letter to each job you apply for.",
+                "search_routine": "Search for new job openings two to three times per week and respond to any feedback or replies.",
+                "google_companies": "Use Google to find companies near you. Go there in person or call them."
             }
         }
     }
