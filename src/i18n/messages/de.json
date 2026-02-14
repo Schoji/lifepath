@@ -2,6 +2,29 @@
     "home": {
         "header": "Finde deinen Weg im neuen Leben. Wir begleiten dich Schritt für Schritt durch Bildung, Beruf und Integration."
     },
+    "navbar": {
+        "home": "Startseite",
+        "contact_us": "Kontakt"
+    },
+    "contact": {
+        "title": "Kontakt",
+        "subtitle_line1": "Hast du eine Frage, einen Vorschlag oder brauchst Hilfe bei deinen Möglichkeiten?",
+        "subtitle_line2": "Melde dich jederzeit bei uns.",
+        "email": "stephan.wittig@freenet.de",
+        "get_in_touch": {
+            "title": "Kontakt aufnehmen",
+            "description": "Wenn du Fragen zu den Wegen hast, Unterstützung brauchst oder ein Problem mit der Website melden möchtest, schreib uns gern eine E-Mail. Wir antworten so schnell wie möglich."
+        },
+        "credits": {
+            "title": "Mitwirkende",
+            "description": "LifePath Ukraine wurde entwickelt, um junge Ukrainerinnen und Ukrainer beim Leben im Ausland zu unterstützen. Dieses Projekt wurde durch das Engagement der folgenden Personen möglich:",
+            "development_role": "Entwicklung",
+            "development_name": "Piotr Wittig",
+            "content_research_role": "Inhalt & Recherche",
+            "content_research_name": "Stephan Wittig"
+        },
+        "footer_note": "Dies ist ein nicht-kommerzielles Projekt, das jungen Ukrainerinnen und Ukrainern helfen soll, ihren Weg zu finden."
+    },
     "your_path": {
         "home": "Startseite",
         "tips_and_tricks": "Tipps & Tricks",

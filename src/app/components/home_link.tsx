@@ -1,27 +1,36 @@
-import { Link, LucideIcon } from 'lucide-react';
+import { LucideIcon } from 'lucide-react';
+import Link from 'next/link';
 
 interface HomeLinkProps {
     header: string;
     content: string;
     href: string;
     icon: LucideIcon;
-    iconColor: string;
+    iconColor?: string;
+    iconBackground?: string;
+    ctaLabel?: string;
 }
 
-const HomeLink = ({ header, content, href, icon: Icon, iconColor }: HomeLinkProps) => {
+const HomeLink = ({
+    header,
+    content,
+    href,
+    icon: Icon,
+    iconColor = "text-white",
+    iconBackground = "bg-blue-700",
+    ctaLabel = "Get Started",
+}: HomeLinkProps) => {
     return (
-        // <Link className="w-full bg-white rounded-xl border-2 border-gray-400 p-10 flex flex-col gap-2" href={href}>
-        //     <div className="p-4 bg-blue-600 rounded-lg">
-        //         <div className={iconColor}>
-        //             <Icon />
-        //         </div>
-        //     </div>
-        //     <h1 className="text-2xl font-bold">{header}</h1>
-        //     <p className="text-gray-700">{content}</p>
-        //     <p className="text-blue-800 font-bold">Get started →</p>
-        // </Link>
-        <Link href={href} className="btn btn-primary">
-            {header}
+        <Link
+            className="w-full rounded-2xl border border-zinc-300 bg-white p-8 shadow-sm transition-all duration-200 ease-out hover:border-blue-600 hover:shadow-xl"
+            href={href}
+        >
+            <div className={`inline-flex h-12 w-12 items-center justify-center rounded-xl ${iconBackground}`}>
+                <Icon className={iconColor} size={24} />
+            </div>
+            <h1 className="mt-5 text-3xl sm:text-4xl font-semibold leading-tight text-zinc-900">{header}</h1>
+            <p className="mt-3 text-xl sm:text-2xl leading-relaxed text-zinc-600">{content}</p>
+            <p className="mt-6 text-xl sm:text-2xl font-semibold text-blue-700">{ctaLabel} →</p>
         </Link>
     );
 };

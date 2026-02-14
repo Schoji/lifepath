@@ -2,6 +2,29 @@
     "home": {
         "header": "Find your path in your new life. We help you navigate education, career, and integration step by step."
     },
+    "navbar": {
+        "home": "Home",
+        "contact_us": "Contact Us"
+    },
+    "contact": {
+        "title": "Contact Us",
+        "subtitle_line1": "Have a question, suggestion, or need help navigating your options?",
+        "subtitle_line2": "Reach out to us anytime.",
+        "email": "stephan.wittig@freenet.de",
+        "get_in_touch": {
+            "title": "Get in Touch",
+            "description": "If you have any questions about the pathways, need guidance, or want to report an issue with the website, feel free to send us an email. We will do our best to respond as quickly as possible."
+        },
+        "credits": {
+            "title": "Credits",
+            "description": "LifePath Ukraine was created to support young Ukrainians navigating life abroad. This project was made possible by the dedication of the following people:",
+            "development_role": "Development",
+            "development_name": "Piotr Wittig",
+            "content_research_role": "Content & Research",
+            "content_research_name": "Stephan Wittig"
+        },
+        "footer_note": "This is a non-commercial project created to help young Ukrainians find their path forward."
+    },
     "your_path": {
         "home": "Home",
         "tips_and_tricks": "Tips & tricks",
