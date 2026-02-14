@@ -1,5 +1,5 @@
 'use client';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import {
     findQuestionById,
     findStationById,
@@ -41,11 +41,6 @@ const Questionaire = () => {
         setQuestionHistory([...questionHistory, { node: nextNode }]);
         setCurrentNode(nextNode);
     };
-
-    useEffect(() => {
-        // getShortestPath(currentNode.id);
-        console.log(questionHistory);
-    }, [currentNode]);
 
     return (
         <div className='flex min-h-screen w-full flex-col items-center gap-4 bg-zinc-100 px-3 py-4 text-black font-sans sm:gap-5 sm:px-4 sm:py-6'>

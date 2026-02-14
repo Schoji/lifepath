@@ -18,7 +18,6 @@ const YourPath = () => {
     const ChangeQuestion = (questionId: string, label: string) => {
         const nextQuestion = findQuestionById(questionId);
         if (!nextQuestion) {
-            console.log("Invalid question ID in ChangeQuestion");
             return;
         }
         setCurrentQuestion(nextQuestion);
