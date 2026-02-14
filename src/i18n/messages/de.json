@@ -1,6 +1,12 @@
 {
     "home": {
-        "header": "Finde deinen Weg im neuen Leben. Wir begleiten dich Schritt für Schritt durch Bildung, Beruf und Integration."
+        "header": "Finde deinen Weg im neuen Leben. Wir begleiten dich Schritt für Schritt durch Bildung, Beruf und Integration.",
+        "choose_your_guide": "Wähle deinen Wegweiser",
+        "quiz_title": "LifePath-Quiz",
+        "quiz_content": "Ein kurzer Entscheidungsbaum, der dir hilft, deine nächsten Schritte nach der Schule zu finden.",
+        "pathways_title": "Pathways-Leitfaden",
+        "pathways_content": "Ausführlicher Leitfaden mit detaillierten Informationen zu Arbeit, Bildung und Deutschlernen.",
+        "get_started": "Loslegen"
     },
     "navbar": {
         "home": "Startseite",
@@ -25,8 +31,877 @@
         },
         "footer_note": "Dies ist ein nicht-kommerzielles Projekt, das jungen Ukrainerinnen und Ukrainern helfen soll, ihren Weg zu finden."
     },
+    "questionaire": {
+        "questions": {
+            "start": {
+                "answers": {
+                    "german_not_good_enough": "Mein Deutsch ist noch nicht gut genug",
+                    "unsure": "Ich weiß es noch nicht",
+                    "work": "Ich möchte arbeiten und Geld verdienen",
+                    "school_certificate": "Ich brauche einen Schulabschluss",
+                    "learn_german": "Ich muss Deutsch lernen"
+                },
+                "title": "Was ist für dich am wichtigsten?"
+            },
+            "what_is_missing_for_work": {
+                "answers": {
+                    "orientation": "Ich brauche Orientierung / möchte verschiedene Berufe erkunden",
+                    "german": "Mein Deutsch ist noch zu schwach",
+                    "preparation": "Ich brauche Vorbereitung (BVJ/BvB)",
+                    "recognition": "Ich weiß nicht, ob mein ukrainisches Zeugnis anerkannt ist"
+                },
+                "title": "Was fehlt für Arbeit/Ausbildung?"
+            },
+            "what_do_you_want_to_do": {
+                "title": "Was möchtest du als Nächstes tun?",
+                "answers": {
+                    "improve_german_first": "Erst Deutsch verbessern",
+                    "school_options": "Mögliche Schulwege kennenlernen",
+                    "try_jobs_first": "Erst Berufe ausprobieren",
+                    "go_to_work": "Arbeiten gehen"
+                }
+            },
+            "what_happened_after_trying": {
+                "title": "Was ist nach dem Ausprobieren passiert?",
+                "answers": {
+                    "still_uncertain": "Ich bin noch unsicher",
+                    "need_preparation": "Ich brauche mehr Vorbereitung",
+                    "german_still_poor": "Mein Deutsch ist noch zu schwach",
+                    "apply_apprenticeship": "Wie bewerbe ich mich für eine Ausbildung?"
+                }
+            },
+            "what_level_do_you_need": {
+                "title": "Welchen Abschluss brauchst du wirklich?",
+                "answers": {
+                    "study_later": "Ich möchte später studieren / brauche Hochschulzugang",
+                    "intermediate_certificate": "Mittlerer Schulabschluss",
+                    "lower_certificate_for_work": "Ich möchte direkt arbeiten ohne höheren Abschluss – Berufsreife"
+                }
+            },
+            "what_step_is_missing": {
+                "title": "Welcher Schritt fehlt?",
+                "answers": {
+                    "german_level_missing": "Mir fehlt das Deutschniveau",
+                    "studienkolleg_needed": "Ein Studienkolleg ist nötig",
+                    "certificate_recognition": "Anerkennung von Zeugnissen"
+                }
+            },
+            "ready_to_search": {
+                "title": "Bereit für die Suche?",
+                "answers": {
+                    "search_and_apply": "Suchen und bewerben"
+                }
+            },
+            "what_fits_you_best": {
+                "title": "Was passt am besten zu dir?",
+                "answers": {
+                    "overwhelmed": "Ich fühle mich unsicher / überfordert",
+                    "strengths": "Ich weiß nicht, was meine Stärken sind"
+                }
+            },
+            "what_kind_of_german": {
+                "title": "Welche Art von Deutsch brauchst du?",
+                "answers": {
+                    "work": "Deutsch für Arbeit / Ausbildung",
+                    "general": "Allgemeines Deutsch"
+                }
+            },
+            "from_where_certificate": {
+                "title": "Wo möchtest du einen Abschluss machen?",
+                "answers": {
+                    "in_germany": "Ich möchte in Deutschland lernen oder studieren",
+                    "online_ukraine": "Online in der Ukraine (Fern-/Extern-Modus)",
+                    "uncertain": "Ich bin unsicher – es hängt davon ab, wie meine bisherigen Zeugnisse anerkannt werden"
+                }
+            }
+        },
+        "stations": {
+            "you_dont_have_to_decide": {
+                "steps": {
+                    "continue": "Weiter",
+                    "pick_one_action": "Such dir eine kleine Aufgabe für diese Woche aus.",
+                    "try_one_week": "Teste eine Option für 1-2 Wochen und schreib auf, was du gelernt hast.",
+                    "talk_to_advisor": "Sprich mit einem Berater oder Lehrer, um deine Optionen zu vergleichen.",
+                    "review_and_choose": "Schau dir deine Notizen an und entscheide dich nach dem Ausprobieren für den nächsten Schritt."
+                },
+                "title": "Du musst dich nicht sofort entscheiden",
+                "content": "Es ist völlig okay, wenn du noch unsicher bist. Du brauchst heute keine endgültige Entscheidung für dein Leben treffen. Erst erkunden, kleine Dinge testen und dann mit mehr Sicherheit entscheiden.",
+                "tips": {
+                    "explore_first": "Erst erkunden: Lerne verschiedene Möglichkeiten kennen, bevor du einen Weg wählst.",
+                    "small_steps": "Mach jede Woche kleine Schritte, statt auf den perfekten Plan zu warten.",
+                    "try_options": "Probiere Dinge in der Realität aus (Praktika, Beratung, Schnupperkurse).",
+                    "no_perfect_choice": "Es gibt keine perfekte erste Wahl – du kannst deine Richtung später anpassen.",
+                    "combine_paths": "Du kannst Wege kombinieren (z. B. Deutsch lernen und gleichzeitig ein Praktikum machen).",
+                    "decide_later": "Entscheide später mit besseren Informationen, nicht unter Druck."
+                },
+                "links": {
+                    "check_u": {
+                        "title": "Check-U",
+                        "description": "Berufsorientierungstest zur Erkundung von Interessen und Stärken."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Einfache Berufsinformationen zum Erkunden von Jobs."
+                    }
+                }
+            },
+            "integration_courses": {
+                "steps": {
+                    "continue_work_goals": "Weiter -> Arbeitsziele",
+                    "check_fit": "Prüfen.",
+                    "placement_test": "Einen Einstufungstest machen.",
+                    "apply_admission": "Zulassung zum Integrationskurs beantragen.",
+                    "find_provider": "Einen passenden Kursträger finden.",
+                    "enroll": "Zum Kurs anmelden."
+                },
+                "title": "Integrationskurse",
+                "content": "Integrationskurse helfen Menschen, die neu in Deutschland sind, Deutsch zu lernen und sich im Alltag zurechtzufinden. Sie umfassen einen Sprachkurs und einen Orientierungskurs und werden vom BAMF organisiert.",
+                "tips": {
+                    "structure": "Ein Integrationskurs besteht meist aus zwei Teilen: Sprache + Orientierung.",
+                    "placement_test": "Du machst meist einen Einstufungstest, um das richtige Level zu finden.",
+                    "course_types": "Es gibt verschiedene Kurstypen: allgemein, speziell und intensiv.",
+                    "format": "Vollzeit oder Teilzeit.",
+                    "costs": "Die Teilnahme ist meist kostenpflichtig; eine Befreiung ist oft möglich.",
+                    "fee_exemption": "Wichtig: Eine Kostenbefreiung muss beantragt werden – das passiert nicht automatisch."
+                },
+                "links": {
+                    "bamf_overview": {
+                        "title": "BAMF: Übersicht Integrationskurse",
+                        "description": "Offizielle BAMF-Infos zu Integrationskursen."
+                    },
+                    "bamf_registration": {
+                        "title": "BAMF: Kurssuche / Anmeldung",
+                        "description": "BAMF-Navigation und Einstieg in die Kurssuche."
+                    },
+                    "bamf_application_pdf": {
+                        "title": "BAMF: Antrag auf Zulassung (PDF)",
+                        "description": "Offizielles Formular für die Zulassung zum Integrationskurs."
+                    }
+                }
+            },
+            "lower_secondary_school_certificate": {
+                "steps": {
+                    "if_needed_recognition": "Falls nötig: Anerkennung",
+                    "photo_certificate": "Mach ein Foto von deinem letzten Schulzeugnis (ukrainisch ist okay).",
+                    "make_appointment": "Frag Schule, Jobcenter oder JBA nach einem Termin.",
+                    "check_equivalence": "Prüfen lassen, welchem deutschen Abschluss dein Zeugnis entspricht.",
+                    "no_certificate": "Wenn du kein Zeugnis hast: Frag nach BVJ oder Berufsschuloptionen.",
+                    "decide_path": "Entscheide dich zwischen Tagesschule und flexiblen Lernwegen.",
+                    "use_tools": "Nutze Websites oder KI-Tools, um Schulthemen zu verstehen und zu üben.",
+                    "ask_support": "Frag nach finanzieller Unterstützung."
+                },
+                "title": "Berufsreife (Hauptschulabschluss)",
+                "content": "Die Berufsreife ist ein staatlich anerkannter deutscher Schulabschluss, meist nach der 9. Klasse. Sie ist oft die Mindestvoraussetzung für eine Berufsausbildung.",
+                "tips": {
+                    "not_immediate": "Du musst den Abschluss nicht sofort machen.",
+                    "many_paths": "Viele machen erst ein BVJ, Praktika oder Jobs und holen den Abschluss später nach.",
+                    "catch_up": "Wenn du die Schule noch nicht beendet hast, kannst du das auf verschiedenen Wegen nachholen.",
+                    "recognition": "Wenn du ein ukrainisches Zeugnis hast, kann es oft offiziell anerkannt werden."
+                },
+                "links": {
+                    "vhs_mv": {
+                        "title": "VHS Mecklenburg-Vorpommern",
+                        "description": "Kurse und Vorbereitungsprogramme für Schulabschlüsse."
+                    },
+                    "recognition_mv": {
+                        "title": "Anerkennung ausländischer Schulzeugnisse (MV)",
+                        "description": "Offizielle Behörde zur Prüfung der Gleichwertigkeit von Schulabschlüssen."
+                    }
+                }
+            },
+            "intermediate_secondary_school_certificate": {
+                "steps": {
+                    "if_needed_recognition": "Falls nötig: Anerkennung",
+                    "recognize": "Lass dein ukrainisches Schulzeugnis offiziell anerkennen.",
+                    "ask_support": "Sprich mit der Schule, Jugendberufsagentur oder dem Jobcenter.",
+                    "contact_vhs": "Kontaktiere eine lokale VHS für Kurse und Prüfungsvorbereitung.",
+                    "evening_distance": "Überlege dir Abendschule oder Fernunterricht, wenn du arbeitest.",
+                    "schedule": "Lernplan machen.",
+                    "online_tools": "Nutze Online-Lernen oder KI-Tools, um schwierige Themen zu erklären.",
+                    "financial_support": "Frag nach finanzieller Unterstützung (Kurse, Fahrtkosten, Material)."
+                },
+                "title": "Mittlerer Schulabschluss",
+                "content": "Der mittlere Schulabschluss (oft Realschulabschluss) ist eine mittlere Qualifikation in Deutschland (meist nach Klasse 10). Er erleichtert den Zugang zu Ausbildung und weiteren schulischen Wegen.",
+                "tips": {
+                    "performance": "Nicht nur der Schultyp entscheidet über den Abschluss, sondern deine Leistung.",
+                    "attendance": "Anwesenheit und Mitarbeit sind sehr wichtig.",
+                    "key_subjects": "Fokus auf Deutsch, Mathe und Englisch – das sind die Hauptfächer in der Prüfung.",
+                    "recognition": "Ukrainische Schulzeugnisse können evtl. offiziell anerkannt werden.",
+                    "parallel": "Sprache lernen und Schulabschluss können parallel laufen."
+                },
+                "links": {
+                    "mv_education": {
+                        "title": "Bildungsministerium MV",
+                        "description": "Informationen zum Nachholen von Schulabschlüssen."
+                    },
+                    "vhs": {
+                        "title": "Volkshochschule (VHS)",
+                        "description": "Zentren für Erwachsenenbildung mit Kursen und Vorbereitungsklassen."
+                    }
+                }
+            },
+            "abendschule_kolleg": {
+                "steps": {
+                    "if_needed_recognition": "Falls nötig: Anerkennung",
+                    "choose_provider": "Vergleiche Anbieter (z. B. ILS, SGD, Fernakademie Klett).",
+                    "research_options": "Wenn du nach Studienkolleg suchst, prüfe, ob dieser Weg wirklich zu deinem Ziel passt.",
+                    "find_mv_links": "Nutze die Linkliste, um Abendgymnasien/Kollegs in MV zu finden.",
+                    "prepare_documents": "Bereite Unterlagen vor (Anmeldung, Ausweis, Lebenslauf, beglaubigte Kopien)."
+                },
+                "title": "Abendschule / Kolleg",
+                "content": "Kollegs und Abendschulen sind typische Wege des Zweiten Bildungswegs in Deutschland, um Abschlüsse nachzuholen, oft kombiniert mit Arbeit.",
+                "tips": {
+                    "online_possible": "Manche Anbieter haben auch Online-Optionen.",
+                    "not_studienkolleg": "Nicht verwechseln mit dem Studienkolleg (für internationale Studienbewerber).",
+                    "mv_schools": "Es gibt mehrere Abendschulen/Kollegs in Mecklenburg-Vorpommern.",
+                    "requirements": "Voraussetzungen sind oft vorherige Schulbildung und Arbeits-/Lebenssituation."
+                },
+                "links": {
+                    "ba_second_path": {
+                        "title": "Arbeitsagentur: Zweiter Bildungsweg",
+                        "description": "Informationen zum Nachholen von Abschlüssen."
+                    },
+                    "fernstudi": {
+                        "title": "Fernstudi Abendschulen",
+                        "description": "Übersicht über Abendschulen und Kollegs in Deutschland."
+                    },
+                    "wikipedia": {
+                        "title": "Kollegs in Deutschland (Wikipedia)",
+                        "description": "Liste und Kontext zu Kollegs."
+                    },
+                    "berlin_kolleg": {
+                        "title": "Berlin Kolleg",
+                        "description": "Online-Abitur-Option für Berufstätige."
+                    },
+                    "greifswald": {
+                        "title": "Abendgymnasium Greifswald",
+                        "description": "Offizielle Schulwebsite."
+                    },
+                    "neubrandenburg": {
+                        "title": "Abendgymnasium Neubrandenburg",
+                        "description": "Offizielle Schulwebsite."
+                    },
+                    "rostock": {
+                        "title": "Abendgymnasium Rostock",
+                        "description": "Offizielle Schulwebsite."
+                    },
+                    "schwerin": {
+                        "title": "Abendgymnasium Schwerin",
+                        "description": "Offizielle Schulwebsite."
+                    }
+                }
+            },
+            "recognition_of_certificates": {
+                "steps": {
+                    "apply_uni_job": "Bewerben (Studium/Job)",
+                    "check_route": "Prüfe, ob du schulische, berufliche oder universitäre Anerkennung brauchst.",
+                    "find_office": "Finde die zuständige Stelle in deiner Region.",
+                    "prepare_documents": "Bereite Dokumente, Übersetzungen und Ausweispapiere vor.",
+                    "submit": "Reiche den Antrag ein und bezahle ggf. Gebühren.",
+                    "follow_up": "Hake nach und frag nach Unterstützung, wenn die Bearbeitung lange dauert."
+                },
+                "title": "Anerkennung von Zeugnissen",
+                "content": "Die Anerkennung hilft festzustellen, welchem deutschen Niveau dein ausländisches Zeugnis entspricht. Sie ist oft nötig für schulische Wege, Ausbildung und Uni-Bewerbungen.",
+                "tips": {
+                    "collect_docs": "Sammle zuerst alle Schulunterlagen und Zeugnisse.",
+                    "certified_translations": "Nutze beglaubigte Übersetzungen, wo nötig.",
+                    "check_authority": "Prüfe die richtige Behörde für dein Bundesland und deinen Abschlusstyp.",
+                    "not_automatic": "Anerkennung passiert nicht automatisch – du brauchst meist einen Antrag.",
+                    "keep_copies": "Behalte digitale und gedruckte Kopien von allem, was du einreichst."
+                },
+                "links": {
+                    "kennung_de": {
+                        "title": "Anerkennung in Deutschland",
+                        "description": "Offizielles Anerkennungsportal und Einstieg in die Beratung."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Referenzdatenbank für ausländische Qualifikationen."
+                    },
+                    "zab": {
+                        "title": "ZAB Zeugnisbewertung",
+                        "description": "Offizielle Stelle für akademische/schulische Bewertungen."
+                    }
+                }
+            },
+            "job_related_language_courses": {
+                "steps": {
+                    "continue_work_goals": "Weiter zu den Arbeitszielen",
+                    "get_permit": "Frag zuerst Jobcenter, Agentur für Arbeit oder Migrationsberatung (MBE/JMD) nach einer Berechtigung.",
+                    "documents": "Bring Aufenthaltstitel, Anmeldung und Schul-/Arbeitszeugnisse mit.",
+                    "placement_test": "Mach den Einstufungstest, damit die Schule dein Level bestimmen kann.",
+                    "attend": "Nimm regelmäßig teil, sobald der Kurs startet.",
+                    "exam": "Mach die Abschlussprüfung (telc/DTB) nach dem Kurs."
+                },
+                "title": "Berufssprachkurse (BSK)",
+                "content": "Berufsbezogene Sprachkurse (BSK) helfen Menschen mit Flucht- oder Migrationshintergrund, ihr Deutsch für die Arbeit zu verbessern. Sie bauen auf Integrationskursen auf und werden vom BAMF gefördert.",
+                "tips": {
+                    "b1": "Einstieg erfordert oft ca. B1-Niveau.",
+                    "levels": "Es gibt zertifizierte Level von A2 bis C2 mit Berufsfokus.",
+                    "format": "Kurse können in Präsenz oder online sein.",
+                    "part_time": "Viele Angebote sind Vollzeit oder berufsbegleitend (Teilzeit).",
+                    "costs": "Teilnahme ist meist kostenlos; in manchen Fällen gibt es eine Zuzahlung.",
+                    "permit": "Prüfe frühzeitig, ob du eine Berechtigung bekommst."
+                },
+                "links": {
+                    "bamf": {
+                        "title": "BAMF: Berufsbezogene Deutschkurse",
+                        "description": "Infoseite des Bundesamtes für Migration und Flüchtlinge."
+                    },
+                    "azubi_bsk": {
+                        "title": "BAMF: Azubi-BSK",
+                        "description": "Sprachförderung begleitend zur Ausbildung."
+                    },
+                    "bsk_info": {
+                        "title": "BAMF: BSK Übersicht",
+                        "description": "Allgemeine BSK-Infos und Einstiegspunkte."
+                    }
+                }
+            },
+            "german_school_pathway": {
+                "steps": {
+                    "continue": "Weiter",
+                    "check_fit": "Ich möchte prüfen, welcher Abschluss zu mir passt.",
+                    "register_school": "Ich möchte mich an einer Schule anmelden.",
+                    "recognition_help": "Ich brauche Hilfe bei der Zeugnisanerkennung.",
+                    "combine_school_internships": "Ich möchte Schule mit Praktika kombinieren.",
+                    "study_later": "Ich möchte später studieren (Abitur/Fachabitur)."
+                },
+                "title": "Station: Deutscher Schulweg (Berufsreife / Mittlere Reife / Abitur)",
+                "content": "In Deutschland gibt es stufenweise Schulwege. Du kannst mit einem einfachen oder mittleren Abschluss beginnen und später höhere Qualifikationen wie das Abitur machen.",
+                "tips": {
+                    "certificate_helps": "Ein deutscher Schulabschluss hilft sehr bei Ausbildung und Jobs.",
+                    "catch_up": "Wenn du noch keinen Abschluss hast, kannst du das nachholen.",
+                    "realschule": "Die Realschule ist oft ein realistischer und nützlicher Startpunkt.",
+                    "age": "Mit 16-18 bist du nicht zu alt, um Schulwege fortzusetzen.",
+                    "internships": "Praktika und Motivation zählen oft mehr als perfekte Noten.",
+                    "recognition": "Wenn dein ausländisches Zeugnis nicht anerkannt wird, gibt es Alternativen."
+                },
+                "links": {
+                    "kmk": {
+                        "title": "KMK Anerkennungs-Infos",
+                        "description": "Offizielle Infos zur Anerkennung ausländischer Zeugnisse."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Erste Orientierungsdatenbank für ausländische Zeugnisse."
+                    },
+                    "biz": {
+                        "title": "BIZ Informationszentrum",
+                        "description": "Kostenlose Infos zu Schule, Ausbildung und Beruf."
+                    },
+                    "ba_education": {
+                        "title": "Arbeitsagentur Bildungsübersicht",
+                        "description": "Übersicht über Bildungs- und Ausbildungswege."
+                    },
+                    "kmk_schools": {
+                        "title": "KMK Schulsystem Übersicht",
+                        "description": "Basisinfos zu deutschen Schultypen und Abschlüssen."
+                    }
+                }
+            },
+            "bvj_bvb_preparation": {
+                "steps": {
+                    "try_outs_after_preparation": "Berufe ausprobieren nach der Vorbereitung",
+                    "career_guidance": "Mach einen Termin bei der Berufsberatung der Arbeitsagentur.",
+                    "ask_school": "Frag deine Schule nach BVJ-Plätzen an Berufsschulen in der Nähe.",
+                    "prepare_cv": "Bereite einen einfachen Lebenslauf vor und bring ihn zum Termin mit.",
+                    "search_internships": "Such nach lokalen Firmen für Praktika."
+                },
+                "title": "Station: BVJ / BvB (Berufsvorbereitung)",
+                "content": "BVJ und BvB helfen dir, wenn du noch nicht bereit für eine Ausbildung bist. Du verbesserst dein Deutsch, probierst Jobs in Praktika aus und bekommst Hilfe bei Bewerbungen.",
+                "tips": {
+                    "honest_level": "Sei ehrlich bezüglich deines Deutsch-Levels, damit die Hilfe passt.",
+                    "ask_referral": "Bitte Schule oder Sozialarbeiter um Vermittlung zur Beratung.",
+                    "cv_not_perfect": "Du brauchst keinen perfekten Lebenslauf, bevor du Kontakt aufnimmst.",
+                    "internship": "Nimm Praktika ernst – sie öffnen oft Türen.",
+                    "attendance": "Geh regelmäßig hin; Anwesenheit ist wichtig für nächste Schritte.",
+                    "digital_helpers": "Nutze digitale Helfer für Fragen und Bewerbungsentwürfe."
+                },
+                "links": {
+                    "ba_vocational": {
+                        "title": "Arbeitsagentur: Berufsvorbereitung",
+                        "description": "Übersicht über berufsvorbereitende Maßnahmen."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Jugendgerechtes Portal mit Berufsbildern und Bewerbungshilfe."
+                    },
+                    "ba_office": {
+                        "title": "Dienststellen der Arbeitsagentur",
+                        "description": "Finde deine lokale Stelle und Berufsberatung."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Detaillierte Berufedatenbank mit Aufgaben und Anforderungen."
+                    },
+                    "school_mv": {
+                        "title": "Schule MV",
+                        "description": "Infos zu Berufsschulen und Optionen in Mecklenburg-Vorpommern."
+                    }
+                }
+            },
+            "career_exploration_tryouts": {
+                "steps": {
+                    "ask_company_internship": "Wie fragt man eine Firma nach einem Praktikum?",
+                    "career_guidance": "Mach einen Termin bei der Berufsberatung.",
+                    "ask_school": "Frag deine Schule nach Schnupperpraktika.",
+                    "prepare_cv": "Bereite einen einfachen Lebenslauf vor.",
+                    "search_internship": "Such lokale Firmen, wo du ein Praktikum machen kannst."
+                },
+                "title": "Berufsorientierung & Ausprobieren (BOP / EQ / Praktika)",
+                "content": "Nutze kurze Praxisphasen, um Berufe echt zu testen. Das hilft dir, realistische nächste Schritte zu wählen und verbessert deine Bewerbungen.",
+                "tips": {
+                    "honest_level": "Sei ehrlich mit deinem Deutsch-Level, damit die Unterstützung passt.",
+                    "ask_referral": "Frag Schule oder Sozialarbeiter nach Praktikumshilfe.",
+                    "cv_not_perfect": "Ein perfekter Lebenslauf ist für den Start nicht nötig.",
+                    "serious_internship": "Nimm mindestens ein Praktikum von Anfang bis Ende ernst.",
+                    "attendance": "Erscheine zuverlässig – Anwesenheit ist entscheidend.",
+                    "notes": "Schreib dir nach jedem Test auf, was dir gefallen hat und was nicht."
+                },
+                "links": {
+                    "ba_vocational": {
+                        "title": "Arbeitsagentur: Berufsvorbereitung",
+                        "description": "Übersicht über Vorbereitungs- und Testwege."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Berufsprofile und Praktikumstipps."
+                    },
+                    "ba_office": {
+                        "title": "Dienststellen der Arbeitsagentur",
+                        "description": "Finde lokale Unterstützung und Termine."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Detaillierte Berufsinfos nach Feldern."
+                    },
+                    "school_mv": {
+                        "title": "Schule MV",
+                        "description": "Regionale Bildungs- und Schulinformationen."
+                    }
+                }
+            },
+            "how_to_apply_apprenticeship": {
+                "steps": {
+                    "begin_dual_system_apprenticeship": "Mit einer dualen Ausbildung beginnen",
+                    "prepare_cv": "Erstelle einen einseitigen Lebenslauf.",
+                    "collect_documents": "Sammle deine wichtigsten Dokumente (Zeugnis, Ausweis, evtl. Referenzen).",
+                    "search_offers": "Suche Ausbildungsangebote in deiner Region.",
+                    "write_message": "Schreibe ein kurzes Bewerbungsanschreiben für jede Firma.",
+                    "send_and_track": "Verschicke Bewerbungen und notiere, wo und wann du dich beworben hast.",
+                    "prepare_interview": "Bereite dich auf Telefonate und Vorstellungsgespräche vor.",
+                    "continue_find_job": "Weiter: Job finden"
+                },
+                "title": "Wie bewerbe ich mich für eine Ausbildung?",
+                "content": "Sich für eine Ausbildung zu bewerben, ist ein Prozess, den du Schritt für Schritt lernen kannst. Du brauchst kein perfektes Deutsch oder perfekte Unterlagen für den Start. Wichtig ist, dass du dich regelmäßig bewirbst, dich verbesserst und dranbleibst.",
+                "tips": {
+                    "simple_docs": "Starte mit einfachen Unterlagen: Lebenslauf, kurzes Anschreiben und dein letztes Zeugnis.",
+                    "short_message": "Halte dein Anschreiben kurz, klar und freundlich.",
+                    "multiple_applications": "Bewirb dich bei mehreren Firmen, nicht nur bei einer.",
+                    "tailor_each": "Passe Lebenslauf und Text für jede Stelle an.",
+                    "follow_up": "Wenn nach 1-2 Wochen keine Antwort kommt, frag höflich nach.",
+                    "rejections_normal": "Absagen sind normal. Sie gehören zum Prozess dazu.",
+                    "ask_feedback": "Frag nach Feedback, wenn möglich, und verbessere die nächste Bewerbung."
+                },
+                "links": {
+                    "jobboerse": {
+                        "title": "Arbeitsagentur Jobsuche",
+                        "description": "Suche nach Ausbildungsplätzen nach Ort und Beruf."
+                    },
+                    "planet_docs": {
+                        "title": "Planet-Beruf: Bewerbungsunterlagen",
+                        "description": "Praktischer Ratgeber für Lebenslauf und Anschreiben."
+                    },
+                    "europass": {
+                        "title": "Europass Lebenslauf",
+                        "description": "Erstelle kostenlos eine klare Lebenslauf-Vorlage."
+                    },
+                    "azubi_examples": {
+                        "title": "Azubi: Bewerbungsbeispiele",
+                        "description": "Einfache Beispiele für Ausbildungsbewerbungen."
+                    },
+                    "ba_guidance": {
+                        "title": "Arbeitsagentur: Berufsberatung",
+                        "description": "Kostenlose Unterstützung bei Bewerbungen und Interview-Vorbereitung."
+                    }
+                }
+            },
+            "find_job": {
+                "steps": {
+                    "if_not_successful_adjust_path": "Wenn es nicht klappt -> Weg anpassen",
+                    "create_basic_cv": "Erstelle einen Basis-Lebenslauf (Name, Adresse, Schule, Fähigkeiten).",
+                    "search_and_write": "Suche einen Job oder Ausbildungsplatz und schreibe ein kurzes Anschreiben.",
+                    "send_application": "Schicke die Bewerbung per E-Mail oder über ein Jobportal ab.",
+                    "follow_up": "Wenn du nach 1-2 Wochen keine Antwort hast, frag höflich nach.",
+                    "after_rejection": "Ich möchte Tipps nach einer Absage.",
+                    "message_example": "Ich möchte ein einfaches Muster-Anschreiben."
+                },
+                "title": "Wie bewerbe ich mich für einen Job?",
+                "content": "Eine Bewerbung für Job oder Ausbildung in Deutschland erfordert meist eine einfache Mappe: kurzes Anschreiben, Lebenslauf und oft Schulzeugnisse. Du brauchst kein perfektes Deutsch – Firmen wollen vor allem Motivation und Zuverlässigkeit sehen. Du kannst Bewerbungen Schritt für Schritt vorbereiten und dir von Lehrern, Beratern oder digitalen Tools helfen lassen.",
+                "tips": {
+                    "cv_simple": "Halte deinen Lebenslauf einfach und klar – eine Seite reicht am Anfang.",
+                    "mention_internships": "Erwähne Praktika, Schulprojekte oder Hilfstätigkeiten (das zählt als Erfahrung).",
+                    "simple_german": "Nutze einfache deutsche Sätze; Fehler sind normal.",
+                    "friendly_message": "Schreibe eine kurze, freundliche Nachricht, warum du den Job willst.",
+                    "interview_questions": "Bereite dich auf Fragen vor wie: Warum dieser Job? Was sind deine Stärken?",
+                    "review_before_send": "Lass jemanden deine Bewerbung lesen, bevor du sie abschickst.",
+                    "rejections_normal": "Es ist normal, Absagen zu bekommen. Bewirb dich weiter – Erfolg kommt oft nach mehreren Versuchen.",
+                    "no_long_letters": "Lange formelle Briefe sind nicht nötig. Klar und freundlich ist besser.",
+                    "message_template": "Sehr geehrte Damen und Herren,\nmein Name ist ___ und ich suche einen Ausbildungsplatz als ___.\nIch habe bereits ein Praktikum gemacht und interessiere mich sehr für diesen Beruf.\nIch lerne noch Deutsch, bin aber motiviert und zuverlässig.\nGerne stelle ich mich persönlich vor.\nMit freundlichen Grüßen, ___"
+                },
+                "links": {
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Offizielles Jugendportal mit Erklärungen, Lebenslauf-Beispielen und Tipps."
+                    },
+                    "arbeitsagentur_jobsuche": {
+                        "title": "Arbeitsagentur Jobsuche",
+                        "description": "Suchmaschine für Ausbildung und Jobs der Bundesagentur für Arbeit."
+                    },
+                    "azubi_portal": {
+                        "title": "Azubi.de",
+                        "description": "Großes Ausbildungsportal mit vielen Angeboten und Erklärungen."
+                    },
+                    "canva_templates": {
+                        "title": "Canva Lebenslauf-Vorlagen",
+                        "description": "Kostenlose Vorlagen, um einen Lebenslauf online zu erstellen."
+                    },
+                    "europass": {
+                        "title": "Europass Lebenslauf",
+                        "description": "Erstelle einen strukturierten europäischen Lebenslauf online."
+                    },
+                    "planet_rejection": {
+                        "title": "Planet-Beruf: Tipps bei Absage",
+                        "description": "Was tun nach einer Absage."
+                    },
+                    "azubi_message_examples": {
+                        "title": "Azubi Bewerbungsbeispiele",
+                        "description": "Einfache Bewerbungsbeispiele."
+                    }
+                }
+            },
+            "dual_apprenticeship_basics": {
+                "steps": {
+                    "continue": "Weiter",
+                    "weekly_schedule": "Ich möchte verstehen, wie der Wochenplan funktioniert.",
+                    "company_duties": "Ich möchte meine Pflichten im Betrieb kennen.",
+                    "help_school_subjects": "Ich brauche Hilfe bei Berufsschulfächern.",
+                    "salary_insurance": "Ich möchte Gehalt und Versicherung verstehen.",
+                    "final_exam": "Ich möchte wissen, was nach der Abschlussprüfung passiert.",
+                    "problems_apprenticeship": "Ich brauche Hilfe bei Problemen in der Ausbildung.",
+                    "language_support_training": "Ich möchte Sprachförderung während der Ausbildung.",
+                    "career_after": "Ich möchte Karriereoptionen nach der Ausbildung kennen."
+                },
+                "title": "Grundlagen der dualen Ausbildung in Deutschland",
+                "content": "In der dualen Ausbildung lernst du an zwei Orten: im Betrieb und in der Berufsschule. Du bekommst ab dem ersten Monat Gehalt und entwickelst dich in jedem Lehrjahr weiter.",
+                "tips": {
+                    "probation": "Die ersten 3-4 Monate sind meist Probezeit.",
+                    "sick_leave": "Informiere den Betrieb frühzeitig, wenn du krank bist.",
+                    "school_subjects": "Ignoriere die Berufsschulfächer nicht.",
+                    "documents": "Bewahre deinen Vertrag und wichtige Dokumente sicher auf.",
+                    "ask_early": "Wenn du Schwierigkeiten hast, frag frühzeitig Lehrer oder Ausbilder.",
+                    "right_to_training": "Du hast ein Recht auf echte Ausbildung, nicht nur einfache Arbeit.",
+                    "language_support": "Sprich jeden Tag bei der Arbeit; Fehler werden erwartet.",
+                    "after_training": "Nach der Ausbildung kannst du dich weiterbilden und aufsteigen."
+                },
+                "links": {
+                    "planet_daily": {
+                        "title": "Planet-Beruf: Ausbildungsalltag",
+                        "description": "Zeigt den Alltag in der Ausbildung."
+                    },
+                    "ihk_contract": {
+                        "title": "IHK Ausbildungsvertrag",
+                        "description": "Grundlegende Pflichten in der Ausbildung."
+                    },
+                    "azubi_school": {
+                        "title": "Azubi Berufsschul-Tipps",
+                        "description": "Tipps für Erfolg in der Berufsschule."
+                    },
+                    "ba_salary": {
+                        "title": "Arbeitsagentur: Ausbildungsvergütung",
+                        "description": "Erklärt Azubi-Gehalt und Leistungen."
+                    },
+                    "ihk_exams": {
+                        "title": "IHK Prüfungen",
+                        "description": "Infos zu Abschlussprüfungen."
+                    },
+                    "asa": {
+                        "title": "Assistierte Ausbildung (AsA)",
+                        "description": "Hilfsprogramm für Azubis, die Unterstützung brauchen."
+                    },
+                    "bamf_deufov": {
+                        "title": "BAMF Berufsdeutsch (DeuFöV)",
+                        "description": "Berufsbezogene Deutschkurse während der Ausbildung."
+                    },
+                    "make_it_germany": {
+                        "title": "Make it in Germany",
+                        "description": "Karrierewege nach der Ausbildung."
+                    }
+                }
+            },
+            "skills_and_strengths": {
+                "title": "Station: Orientierung (Fähigkeiten & Stärken)",
+                "content": "Wenn du keine Idee hast, was du machen sollst, fang mit Orientierung an. Du kannst deine Interessen, Stärken und mögliche Jobs durch einfache Tests, kurze Praktika und Berufsinfos entdecken. Das hilft dir, einen realistischen Weg (Schule, Ausbildung oder Vorbereitung) zu wählen, statt zufällig zu entscheiden.",
+                "tips": {
+                    "activities": "Denk an Aktivitäten, die dir im Alltag Spaß machen (Leuten helfen, reparieren, Computer, Kreativität).",
+                    "ask_people": "Frag Freunde, Lehrer oder Familie, was du ihrer Meinung nach gut kannst.",
+                    "tests": "Mach kurze Online-Berufstests – sie geben Ideen, keine endgültigen Entscheidungen.",
+                    "internship": "Mach mindestens ein kurzes Praktikum, um echte Arbeit zu sehen.",
+                    "videos": "Schau Job-Videos, um die täglichen Aufgaben zu verstehen, nicht nur Jobtitel.",
+                    "notes": "Schreib dir nach jeder Erfahrung auf, was dir gefallen hat und was nicht."
+                },
+                "steps": {
+                    "check_u": "Mach einen Online-Orientierungstest (z. B. Check-U).",
+                    "career_guidance": "Mach einen Termin bei der Berufsberatung.",
+                    "trial_internship": "Frag deine Schule nach einem Schnupperpraktikum.",
+                    "job_list": "Erstelle eine einfache Liste mit 3 Jobs, über die du mehr lernen willst.",
+                    "continue": "Weiter"
+                },
+                "links": {
+                    "check_u": {
+                        "title": "Check-U",
+                        "description": "Interaktiver Interessen- und Stärkentest der Arbeitsagentur."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Jugendgerechtes Portal zur Berufsorientierung mit Profilen und Tipps."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Datenbank mit detaillierten Berufsbeschreibungen und Anforderungen."
+                    },
+                    "youtube": {
+                        "title": "YouTube: Berufe in Deutschland",
+                        "description": "Videos, die den Arbeitsalltag zeigen (wähle verlässliche Kanäle)."
+                    }
+                }
+            },
+            "ukrainian_school_qualification": {
+                "title": "Ukrainischer Schulabschluss",
+                "content": "Nach 9 Jahren Schule in der Ukraine erhältst du meist ein Zeugnis, das der deutschen Berufsreife ähnelt. Nach 11 Jahren erhältst du einen Abschluss, der in Deutschland oft als Mittlere Reife anerkannt wird. Du kannst den ukrainischen Schulweg auch vom Ausland aus fortsetzen (Ergänzungsunterricht, Fernlernen oder Externenprüfung).",
+                "tips": {
+                    "decide_path": "Entscheide zuerst: Weg zur Uni in Deutschland oder in der Ukraine.",
+                    "official_school": "Nutze nur offiziell lizenzierte Schulen und prüfe die Akkreditierung im EDEBO-Register.",
+                    "recognition_first": "Prüfe Anerkennungsoptionen in Deutschland, bevor du einen Schulweg wählst.",
+                    "abroad_possible": "Ein ukrainischer Abschluss kann auch gemacht werden, wenn du im Ausland lebst.",
+                    "recognition_needed": "Anerkennungsverfahren in Deutschland können trotzdem nötig sein.",
+                    "german_option": "Wenn eine Ausbildung dein Ziel ist, kann ein deutscher Schulabschluss nützlicher sein.",
+                    "warning": "Achtung: Prüfe immer zuerst Kosten und Seriosität von Angeboten.",
+                    "abitur_note": "Ein 11-jähriger ukrainischer Abschluss ist nicht automatisch das deutsche Abitur."
+                },
+                "steps": {
+                    "supplementary_classes": "Ergänzungsunterricht.",
+                    "distance_learning": "Distanzlernen.",
+                    "external_exam": "Externenprüfung (nur UA).",
+                    "check_school_obligation": "Kläre, ob du in Deutschland schulpflichtig bist.",
+                    "keep_documents": "Behalte Kopien aller Zeugnisse (auch ukrainische PDFs).",
+                    "after_9_years": "Verstehe den Weg zur Anerkennung nach 9 Jahren.",
+                    "after_11_years": "Verstehe den Weg zur Anerkennung nach 11 Jahren."
+                },
+                "links": {
+                    "edebo_registry": {
+                        "title": "EDEBO Register",
+                        "description": "Offizielles Register ukrainischer Schulen (Regionalfilter verfügbar)."
+                    },
+                    "school_org": {
+                        "title": "school.org.ua",
+                        "description": "Online-Schulen."
+                    },
+                    "mon": {
+                        "title": "Bildungsministerium (UA)",
+                        "description": "Offizielle Website des Bildungsministeriums (Ukraine)."
+                    },
+                    "mon_secondary": {
+                        "title": "MON Sekundarbildung",
+                        "description": "Direkter Infobereich für ukrainische Schulbildung."
+                    },
+                    "testportal": {
+                        "title": "Ukrainisches Testportal",
+                        "description": "Infos zu nationalen Schulprüfungen und Zugang."
+                    },
+                    "kennung_de": {
+                        "title": "Anerkennung in Deutschland",
+                        "description": "Beratungsstellen zur Anerkennung in Deutschland."
+                    },
+                    "kennung_schule": {
+                        "title": "Anerkennung Schulzeugnisse",
+                        "description": "Leitfaden zur Anerkennung von Schulabschlüssen."
+                    },
+                    "zab": {
+                        "title": "ZAB Zeugnisbewertung",
+                        "description": "Offizielle Stelle für Zeugnisbewertung."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Referenzdatenbank deutscher Behörden."
+                    }
+                }
+            },
+            "university_path_germany": {
+                "title": "Dein Weg an die Uni in Deutschland",
+                "content": "Oft kannst du nach der Ankunft nicht direkt an die Uni. Kläre erst Zeugnisse, Sprachlevel und Anerkennung, dann bewirb dich Schritt für Schritt.",
+                "tips": {
+                    "deadlines": "Prüfe Bewerbungsfristen frühzeitig.",
+                    "studienkolleg": "Studienkolleg ist für viele internationale Studenten normal.",
+                    "recognition_needed": "Ohne Anerkennung kannst du dich oft nicht bewerben.",
+                    "language": "Uni-Wege erfordern meist starkes Deutsch (oft B2/C1).",
+                    "no_time_lost": "Schule oder Berufsvorbereitung vorher ist keine verlorene Zeit."
+                },
+                "steps": {
+                    "check_qualification": "Ich möchte prüfen, ob mein Zeugnis für die Uni reicht.",
+                    "recognize": "Ich möchte mein Zeugnis anerkennen lassen.",
+                    "learn_studienkolleg": "Ich möchte mich über das Studienkolleg informieren.",
+                    "improve_language": "Ich möchte mein Deutsch für die Uni verbessern.",
+                    "apply": "Ich möchte mich an einer Uni bewerben."
+                },
+                "links": {
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Prüfe, ob dein Zeugnis für die Uni qualifiziert."
+                    },
+                    "uni_assist": {
+                        "title": "uni-assist",
+                        "description": "Service für Bewerbung und Zeugnisbewertung."
+                    },
+                    "studienkollegs": {
+                        "title": "Studienkollegs",
+                        "description": "Infos zum Vorbereitungsjahr vor der Uni."
+                    },
+                    "daad": {
+                        "title": "DAAD Studienplanung",
+                        "description": "Offizieller Guide zum Studieren in Deutschland."
+                    },
+                    "hochschulkompass": {
+                        "title": "Hochschulkompass",
+                        "description": "Suche nach Studiengängen und Hochschulen."
+                    }
+                }
+            },
+            "ask_company_internship": {
+                "title": "Wie frage ich nach einem Praktikum? (Einfaches Skript)",
+                "content": "In Deutschland findet man viele Praktika durch direktes Fragen bei Firmen. Freundliche und klare Kommunikation ist wichtiger als perfekte Grammatik.",
+                "tips": {
+                    "go_in_person": "Geh wenn möglich persönlich hin; das klappt oft besser als nur E-Mail.",
+                    "take_cv": "Nimm einen kurzen einseitigen Lebenslauf mit.",
+                    "ask_internship": "Frag nach einem Praktikum, nicht nach einem vollen Job.",
+                    "keep_trying": "Wenn eine Firma Nein sagt, frag die nächste.",
+                    "best_time": "Beste Zeit: vormittags (8:00-11:00).",
+                    "simple_clothes": "Trag saubere, normale Kleidung. Kein Anzug nötig.",
+                    "learning_german": "Wenn dein Deutsch schwach ist, sag, dass du lernst und motiviert bist."
+                },
+                "steps": {
+                    "practice_entry": "Ich möchte üben, was ich sage, wenn ich reinkomme.",
+                    "create_cv": "Ich möchte einen einfachen Lebenslauf erstellen.",
+                    "simple_sentence": "Ich möchte einen einfachen Satz, den ich sagen kann.",
+                    "phone_tips": "Ich möchte Tipps für Telefonate mit Firmen.",
+                    "email_request": "Ich möchte eine einfache E-Mail-Anfrage schreiben.",
+                    "documents": "Ich möchte wissen, welche Dokumente ich mitbringen soll.",
+                    "short_script": "Ich möchte ein kurzes Skript zum Auswendiglernen."
+                },
+                "links": {
+                    "planet_find": {
+                        "title": "Planet-Beruf: Praktikum finden",
+                        "description": "Beispiele und Anleitung zur Praktikumssuche."
+                    },
+                    "europass": {
+                        "title": "Europass Lebenslauf",
+                        "description": "Erstelle eine kostenlose Basis-Vorlage."
+                    },
+                    "vhs": {
+                        "title": "vhs-Lernportal",
+                        "description": "Kostenloses Deutsch-Lernportal (Basis-Sätze)."
+                    },
+                    "planet_prepare": {
+                        "title": "Planet-Beruf: Vorbereitung",
+                        "description": "Tipps vor der Kontaktaufnahme."
+                    },
+                    "azubi_mail": {
+                        "title": "Azubi: Praktikums-E-Mail Tipps",
+                        "description": "Beispiel-E-Mail für Praktikumsanfragen."
+                    },
+                    "ba_guidance": {
+                        "title": "Arbeitsagentur: Berufsberatung",
+                        "description": "Berater können dir beim Üben helfen."
+                    }
+                }
+            },
+            "apprenticeship_application": {
+                "title": "Bewerbung für Ausbildung in Deutschland",
+                "content": "Für eine Ausbildung braucht man meist eine einfache Bewerbung: kurzes Anschreiben, Lebenslauf und oft Schulzeugnisse. Motivation und Zuverlässigkeit sind entscheidend.",
+                "tips": {
+                    "cv_simple": "Halte deinen Lebenslauf einfach und klar – eine Seite reicht am Anfang.",
+                    "multi_applications": "Schicke Bewerbungen an mehrere Firmen.",
+                    "internship_boost": "Praktikumserfahrung verbessert deine Chancen enorm.",
+                    "probearbeit": "Erster Kontakt kann ein kurzes Interview oder ein Probetag sein.",
+                    "contract_help": "Wenn du einen Vertrag nicht verstehst, frag vor dem Unterschreiben nach Hilfe.",
+                    "deadlines": "Fang früh an; Bewerbungen starten oft Monate vor Ausbildungsbeginn.",
+                    "rejections": "Absagen sind normal. Bewirb dich weiter.",
+                    "simple_message": "Lange formelle Briefe sind nicht nötig; klar und freundlich ist besser."
+                },
+                "steps": {
+                    "create_cv": "Ich möchte einen Lebenslauf erstellen.",
+                    "search_offers": "Ich möchte Ausbildungsangebote in meiner Nähe sehen.",
+                    "documents_needed": "Ich möchte verstehen, welche Dokumente ich brauche.",
+                    "prepare_interview": "Ich möchte mich auf ein Interview vorbereiten.",
+                    "check_contract": "Ich brauche Hilfe beim Prüfen eines Vertrags.",
+                    "deadlines": "Ich möchte wichtige Fristen kennen.",
+                    "after_rejection": "Ich möchte Tipps nach einer Absage.",
+                    "message_example": "Ich möchte ein einfaches Muster-Anschreiben.",
+                    "continue_find_job": "Weiter: Job finden"
+                },
+                "links": {
+                    "europass": {
+                        "title": "Europass Lebenslauf",
+                        "description": "Erstelle eine einfache kostenlose Vorlage."
+                    },
+                    "jobboerse": {
+                        "title": "Arbeitsagentur Jobsuche",
+                        "description": "Suche Ausbildungsplätze in deiner Gegend."
+                    },
+                    "planet_docs": {
+                        "title": "Planet-Beruf: Bewerbungsunterlagen",
+                        "description": "Erklärt Lebenslauf und Dokumente."
+                    },
+                    "planet_interview": {
+                        "title": "Planet-Beruf: Interview-Vorbereitung",
+                        "description": "Tipps für Vorstellungsgespräche."
+                    },
+                    "ba_guidance": {
+                        "title": "Arbeitsagentur: Berufsberatung",
+                        "description": "Kostenlose Beratung vor der Unterschrift."
+                    },
+                    "ihk": {
+                        "title": "IHK",
+                        "description": "IHK-Kammern bieten lokale Ausbildungsinfos."
+                    },
+                    "planet_rejection": {
+                        "title": "Planet-Beruf: Tipps bei Absage",
+                        "description": "Was tun nach einer Absage."
+                    },
+                    "azubi_examples": {
+                        "title": "Azubi Bewerbungsbeispiele",
+                        "description": "Einfache Bewerbungsbeispiele."
+                    }
+                }
+            }
+        },
+        "intro": {
+            "title": "LifePath-Quiz",
+            "description": "Ein kurzer Entscheidungsbaum, der dir hilft, deine nächsten Schritte nach der Schule zu finden.",
+            "cta": "Loslegen"
+        },
+        "ui": {
+            "image_alt": "Fragenbild",
+            "tips_and_tricks": "Tipps & Tricks",
+            "next_steps": "Nächste Schritte",
+            "further_resources": "Weitere Ressourcen",
+            "back": "< Zurück"
+        }
+    },
     "your_path": {
         "home": "Startseite",
+        "back": "Zurück",
         "tips_and_tricks": "Tipps & Tricks",
         "next_steps": "Nächste Schritte",
         "further_resources": "Weitere Infos (kostenlos & seriös)",
@@ -378,7 +1253,7 @@
                 "make_appointment": "Termin zur Beratung machen.",
                 "check_equivalence": "Anerkennung prüfen lassen.",
                 "no_certificate_query": "Kein Zeugnis? Nach BVJ fragen.",
-                "decide_pathway": "Schulform wählen.",
+                "decide_path": "Schulform wählen.",
                 "use_ai_tools": "Lern-Apps nutzen.",
                 "financial_support": "Förderung beantragen (BAföG?)."
             }
@@ -638,144 +1513,144 @@
             }
         },
         "distance_learning": {
-            "title": "Distanzunterricht (Ukraine)",
+            "title": "Distanzunterricht",
             "description": "Regulärer Online-Unterricht mit festem Stundenplan und Tests aus der Ukraine.",
             "tips": {
                 "contact_previous_school": "Alte Schule fragen.",
                 "attend_current_or_other": "Teilnahme organisieren.",
-                "german_attendance_rules": "Ersetzt nicht immer die deutsche Schulpflicht! Mit der deutschen Schule sprechen."
+                "german_attendance_rules": "Deutsche Schulpflicht beachten!"
             },
             "links": {
-                "mon_gov_ua": "MON Ukraine.",
-                "isuo_org": "Bildungsplattform UA.",
-                "edbo_database": "Elektronische Datenbank UA."
+                "mon_gov_ua": "Ministerium.",
+                "isuo_org": "Bildungsportal.",
+                "edbo_database": "Datenbank."
             },
             "steps": {
                 "recognition_process": "Anerkennung.",
-                "contact_school_step": "Schule in UA anrufen/mailen.",
-                "find_new_school": "Neue Schule für Distanzlernen suchen.",
+                "contact_school_step": "Kontakt aufnehmen.",
+                "find_new_school": "Neue Schule finden.",
                 "prepare_docs": "Anmelden.",
                 "inform_german_school": "Deutsche Schule informieren."
             }
         },
         "external_schooling": {
             "title": "Externat (Ukraine)",
-            "description": "Selbststudium ohne täglichen Unterricht. Kontakt zur Schule nur für Tests und Jahresabschluss.",
+            "description": "Selbststudium nach ukrainischem Plan. Nur Prüfungen werden abgenommen.",
             "tips": {
                 "flexible_learning": "Flexibles Lernen möglich.",
                 "stay_connected": "Verbindung zum UA-System bleibt.",
                 "official_certificates": "Staatliche UA-Zeugnisse erhalten.",
-                "combine_abroad": "Gut mit Schule im Ausland kombinierbar.",
-                "less_time": "Kein täglicher Online-Präsenzunterricht.",
-                "online_platforms": "Lernplattformen wie 'All-Ukrainian Online School' nutzen."
+                "combine_abroad": "Gut kombinierbar.",
+                "less_time": "Weniger Zeitaufwand.",
+                "online_platforms": "Plattformen nutzen."
             },
             "links": {
-                "uis_org": "Internationale Ukrainische Schule.",
-                "lms_eschool": "Plattform 'All-Ukrainian Online School'.",
-                "mon_gov": "MON Website."
+                "uis_org": "Internationale Schule.",
+                "lms_eschool": "Online-Schule.",
+                "mon_gov": "Ministerium."
             },
             "steps": {
                 "recognition_process": "Anerkennung.",
-                "choose_school": "Schule mit Externat wählen.",
-                "email_admin": "E-Mail an Schulleitung schreiben.",
-                "prepare_docs": "Unterlagen bereithalten (Pass, Zeugnisse)."
+                "choose_school": "Schule wählen.",
+                "email_admin": "Kontaktieren.",
+                "prepare_docs": "Anmelden."
             }
         },
         "private_schools": {
             "title": "Privatschulen",
-            "description": "Schulen in freier Trägerschaft. Oft kleinere Gruppen und mehr Sprachförderung, aber kostenpflichtig.",
+            "description": "Schulen privater Träger. Oft gute Förderung, aber kostenpflichtig.",
             "tips": {
-                "prices_vary": "Preise stark unterschiedlich (ab ca. 50 €/Monat).",
-                "not_easier": "Kein Erfolgsautomatismus – man muss trotzdem lernen.",
-                "check_recognition": "Staatliche Anerkennung der Schule prüfen!",
-                "beware_contracts": "Vertragslaufzeiten beachten."
+                "prices_vary": "Preise vergleichen.",
+                "not_easier": "Lernen muss man auch hier.",
+                "check_recognition": "Staatliche Anerkennung ist Pflicht.",
+                "beware_contracts": "Vertrag lesen."
             },
             "links": {
-                "privatschulberatung": "Privatschulen suchen.",
-                "bildungsserver": "Infos zu Privatschulen."
+                "privatschulberatung": "Beratung.",
+                "bildungsserver": "Infos."
             },
             "steps": {
-                "recognition_process": "Anerkennung planen.",
-                "search_compare": "Schulen in der Nähe vergleichen.",
-                "check_certificate_need": "Zielabschluss klären.",
-                "contact_school": "Direkt nach Kosten und Förderung fragen.",
-                "check_contract": "Vertrag vor Unterschrift prüfen lassen."
+                "recognition_process": "Anerkennung.",
+                "search_compare": "Vergleichen.",
+                "check_certificate_need": "Ziel prüfen.",
+                "contact_school": "Kontaktieren.",
+                "check_contract": "Vertrag prüfen."
             }
         },
         "recognition_certificates": {
             "title": "Zeugnisanerkennung",
             "description": "Lass deine ausländischen Zeugnisse offiziell in Deutschland anerkennen. Zuständig in MV ist das Ministerium für Bildung.",
             "tips": {
-                "application_method": "Per Post senden (nicht E-Mail).",
-                "incomplete_apps": "Häufigster Grund für Verzögerungen.",
-                "official_certification": "Beglaubigte Kopien beilegen.",
-                "translation_requirement": "Offizielle deutsche Übersetzung nötig.",
-                "cost_coverage": "Jobcenter/Agentur können Kosten oft übernehmen."
+                "application_method": "Antrag per Post.",
+                "incomplete_apps": "Alles vollständig einreichen.",
+                "official_certification": "Beglaubigungen nötig.",
+                "translation_requirement": "Übersetzungen nötig.",
+                "cost_coverage": "Jobcenter kann zahlen."
             },
             "links": {
-                "mv_info": "Ministerium MV – Anerkennung ausländischer Abschlüsse."
+                "mv_info": "Infos MV."
             },
             "steps": {
-                "goto_no_idea": "Ich habe die Anerkennung, was nun?",
-                "goto_have_idea": "Plan vorhanden – wie starte ich?",
-                "prepare_docs": "Alle Unterlagen gemäß Linkliste prüfen.",
-                "ask_funding": "Kostenübernahme klären.",
-                "translate_docs": "Übersetzung beim vereidigten Übersetzer beauftragen.",
-                "certify_copies": "Kopien beglaubigen lassen.",
-                "send_post": "Antrag per Post ans Ministerium senden."
+                "goto_no_idea": "Beratung.",
+                "goto_have_idea": "Starten.",
+                "prepare_docs": "Vorbereiten.",
+                "ask_funding": "Kosten klären.",
+                "translate_docs": "Übersetzen.",
+                "certify_copies": "Beglaubigen.",
+                "send_post": "Abschicken."
             }
         },
         "learn_german": {
             "title": "Deutsch lernen",
             "description": "Sprache ist der Schlüssel. Ob Kurs, App oder Alltag: Hier findest du Wege, dein Level zu verbessern.",
             "tips": {
-                "practice_over_grammar": "Sprechen ist wichtiger als nur Grammatik.",
-                "combine_life_courses": "Kurse und Alltag ergänzen sich.",
-                "free_offers": "Viele Angebote sind kostenlos.",
-                "start_early": "Sofort anfangen lohnt sich.",
-                "work_improves_skills": "Praxis beschleunigt das Lernen.",
-                "imperfect_okay": "Man muss nicht perfekt sein, um anzufangen.",
-                "decide_method": "Kurs, App oder beides?",
-                "daily_success": "Jeden Tag eine Kleinigkeit lernen.",
-                "use_ai": "KI für Korrekturen nutzen."
+                "practice_over_grammar": "Sprechen üben.",
+                "combine_life_courses": "Kombinieren.",
+                "free_offers": "Kostenloses nutzen.",
+                "start_early": "Sofort anfangen.",
+                "work_improves_skills": "Arbeit hilft.",
+                "imperfect_okay": "Fehler sind okay.",
+                "decide_method": "Methode wählen.",
+                "daily_success": "Täglich üben.",
+                "use_ai": "KI nutzen."
             },
             "links": {
-                "bamf_integration": "BAMF – Integrationskurse.",
-                "vhs_portal": "vhs-Lernportal (A1–B2) – kostenlos.",
-                "goethe_institute": "Goethe-Institut Übungen.",
-                "dw_learn_german": "Deutsche Welle – Top-Angebote.",
-                "babbel_app": "Babbel (oft gratis für Ukrainer)."
+                "bamf_integration": "BAMF Infos.",
+                "vhs_portal": "vhs-Lernportal.",
+                "goethe_institute": "Goethe Übungen.",
+                "dw_learn_german": "DW Deutsch lernen.",
+                "babbel_app": "Babbel App."
             },
             "steps": {
-                "integration_courses": "Integrationskurse.",
-                "job_related_courses": "Berufssprachkurse (BSK).",
-                "vhs_portal": "vhs-Lernportal.",
-                "goethe_institute": "Goethe-Institut.",
-                "language_exams": "Prüfungen / Level (A1 - B2).",
-                "everyday_practice": "Deutsch im Alltag.",
-                "apps_others": "Lern-Apps."
+                "integration_courses": "Integrationskurs.",
+                "job_related_courses": "Berufssprachkurs.",
+                "vhs_portal": "Online lernen.",
+                "goethe_institute": "Goethe.",
+                "language_exams": "Prüfungen.",
+                "everyday_practice": "Alltag.",
+                "apps_others": "Apps."
             }
         },
         "integration_courses": {
             "title": "Integrationskurse",
             "description": "Der wichtigste Kurs für Neuzugewanderte. Sprache + Orientierung.",
             "tips": {
-                "course_structure": "Sprache + Orientierung.",
-                "placement_test": "Einstufungstest vorab.",
-                "course_types": "Allgemein, Intensiv oder Spezielle Kurse.",
-                "attendance_mode": "Vollzeit oder Teilzeit.",
-                "ukrainian_refugees": "Können zur Teilnahme verpflichtet werden.",
-                "costs_fee": "Kostenbefreiung oft möglich.",
-                "fee_exemption": "Muss beantragt werden!"
+                "course_structure": "Aufbau.",
+                "placement_test": "Einstufung.",
+                "course_types": "Kurstypen.",
+                "attendance_mode": "Zeitmodelle.",
+                "ukrainian_refugees": "Verpflichtung möglich.",
+                "costs_fee": "Kosten.",
+                "fee_exemption": "Befreiung."
             },
             "links": {
-                "bamf_info": "BAMF Website.",
-                "bamf_finder": "BAMF-Navi (Kurse finden).",
-                "bamf_application": "Antragsformulare."
+                "bamf_info": "BAMF.",
+                "bamf_finder": "Kurssuche.",
+                "bamf_application": "Antrag."
             },
             "steps": {
                 "check_suitability": "Prüfen.",
-                "take_test": "Einstufungstest machen.",
+                "take_test": "Testen.",
                 "apply_admission": "Beantragen.",
                 "find_provider": "Suchen.",
                 "register_course": "Anmelden."
@@ -783,106 +1658,106 @@
         },
         "job_related_courses": {
             "title": "Berufssprachkurse (BSK)",
-            "description": "Deutsch für den Beruf. Baut auf dem Integrationskurs auf (meist ab B1).",
+            "description": "Deutsch für den Beruf (ab B1). Gefördert vom BAMF.",
             "tips": {
-                "b1_requirement": "Start meist ab B1-Level.",
-                "course_variety": "Prüfungen A2 bis C2.",
-                "format_options": "Präsenz oder online.",
-                "flexibility": "Vollzeit oder berufsbegleitend.",
-                "cost_rules": "Kostenlos bis 20.000 € zu versteuerndem Einkommen.",
-                "participation_permit": "Berechtigung vom Jobcenter/Agentur nötig!"
+                "b1_requirement": "B1 nötig.",
+                "course_variety": "Kursarten.",
+                "format_options": "Formate.",
+                "flexibility": "Flexibilität.",
+                "cost_rules": "Kosten.",
+                "participation_permit": "Berechtigung."
             },
             "links": {
-                "bamf_general": "BAMF – Berufsbezogene Sprachförderung.",
-                "bamf_azubi": "Azubi-BSK (während der Ausbildung).",
-                "bamf_participation": "Infos zur Teilnahme."
+                "bamf_general": "Infos.",
+                "bamf_azubi": "Azubi-Kurse.",
+                "bamf_participation": "Teilnahme."
             },
             "steps": {
-                "contact_authority": "Jobcenter/Agentur nach BSK fragen.",
-                "check_permit": "Berechtigung prüfen lassen.",
-                "choose_school": "Sprachschule wählen.",
-                "bring_docs": "Unterlagen mitbringen.",
-                "placement_test": "Einstufungstest machen.",
-                "attend_regularly": "Regelmäßig teilnehmen.",
-                "final_exam": "Zertifikat erwerben (DTB)."
+                "contact_authority": "Kontakt aufnehmen.",
+                "check_permit": "Prüfen lassen.",
+                "choose_school": "Schule wählen.",
+                "bring_docs": "Dokumente.",
+                "placement_test": "Test.",
+                "attend_regularly": "Teilnehmen.",
+                "final_exam": "Prüfung."
             }
         },
         "vhs_learning_platform": {
-            "title": "vhs-Lernportal & Angebote",
-            "description": "Die vhs bietet Bildung für alle: Sprachen, Abschlüsse, Kurse. Meist günstig oder gefördert.",
+            "title": "vhs-Lernportal",
+            "description": "Kostenlos Deutsch lernen mit der Volkshochschule. Online und per App.",
             "tips": {
-                "advice": "Persönliche Beratung vor Ort nutzen.",
-                "language_interest": "Integration, BSK und Deutsch.",
-                "school_certificate": "Hauptschule, Realschule, Abitur."
+                "advice": "Beratung.",
+                "language_interest": "Sprache.",
+                "school_certificate": "Abschluss."
             },
             "links": {
-                "mv_overview": "Zweiter Bildungsweg MV.",
-                "mv_finder": "vhs in MV finden.",
-                "de_finder": "vhs in DE suchen.",
-                "mv_association": "vhs-Verband MV.",
-                "explainer_video": "Video: Was ist eine vhs?"
+                "mv_overview": "Überblick.",
+                "mv_finder": "vhs finden.",
+                "de_finder": "vhs DE.",
+                "mv_association": "Verband.",
+                "explainer_video": "Video."
             },
             "steps": {
-                "find_nearest": "vhs in der Nähe finden.",
-                "book_appointment": "Beratung buchen.",
-                "take_test": "Einstufungstest machen.",
-                "choose_goal": "Ziel wählen.",
+                "find_nearest": "Finden.",
+                "book_appointment": "Termin.",
+                "take_test": "Test.",
+                "choose_goal": "Ziel.",
                 "register_course": "Anmelden.",
-                "check_funding": "Förderung klären.",
-                "start_routine": "Regelmäßig lernen.",
-                "plan_next": "Nächsten Schritt planen."
+                "check_funding": "Förderung.",
+                "start_routine": "Lernen.",
+                "plan_next": "Planen."
             }
         },
         "apps_private_offers": {
             "title": "Apps & Private Angebote",
-            "description": "Apps sind super zum Üben, ersetzen aber meist keinen offiziellen Kurs.",
+            "description": "Nützliche Tools zum Üben.",
             "tips": {
-                "supplement_course": "Gute Ergänzung.",
-                "watch_costs": "Abos und Werbung prüfen.",
-                "free_limits": "Gratisversionen oft begrenzt.",
-                "provider_transparency": "Seriöse Anbieter klären über Kosten auf.",
-                "practice_only": "Nur zum Üben nutzen."
+                "supplement_course": "Ergänzung.",
+                "watch_costs": "Kosten.",
+                "free_limits": "Limits.",
+                "provider_transparency": "Transparenz.",
+                "practice_only": "Nur Übung."
             },
             "links": {
-                "duolingo": "Duolingo – spielerisch lernen.",
-                "babbel": "Babbel – strukturierte Kurse.",
-                "busuu": "Busuu – Community & Übungen.",
-                "dw_learn": "DW – top Ressourcen.",
-                "youtube": "Lernkanäle (Qualität prüfen)."
+                "duolingo": "Duolingo.",
+                "babbel": "Babbel.",
+                "busuu": "Busuu.",
+                "dw_learn": "Deutsche Welle.",
+                "youtube": "YouTube."
             },
             "steps": {
-                "check_public_courses": "Offizielle Kurse prüfen.",
-                "practice_everyday": "Alltagssprache nutzen.",
-                "assess_level": "Level einschätzen (A1-C2).",
-                "combine_learning": "Mit Praxis verbinden."
+                "check_public_courses": "Kurse prüfen.",
+                "practice_everyday": "Üben.",
+                "assess_level": "Level checken.",
+                "combine_learning": "Kombinieren."
             }
         },
         "find_job": {
             "title": "Job finden",
             "description": "Nutze Portale, zeig Initiative. Jeder Versuch bringt dich weiter.",
             "tips": {
-                "portal_focus": "Verschiedene Portale nutzen.",
-                "similar_positions": "Nach ähnlichen Berufsbezeichnungen suchen.",
-                "support_services": "Jobcenter/Agentur helfen.",
-                "hidden_market": "Initiativbewerbung und persönliches Vorbeigehen.",
-                "internships": "Praktikum als Einstieg nutzen.",
-                "apply_anyway": "Auch bewerben, wenn man nicht 100% passt.",
-                "track_applications": "Liste über Bewerbungen führen."
+                "portal_focus": "Portale.",
+                "similar_positions": "Ähnliche Jobs.",
+                "support_services": "Hilfe.",
+                "hidden_market": "Initiativ.",
+                "internships": "Praktika.",
+                "apply_anyway": "Trotzdem bewerben.",
+                "track_applications": "Liste führen."
             },
             "links": {
-                "arbeitsagentur": "Jobbörse der BA.",
-                "indeed": "Indeed Deutschland.",
-                "stepstone": "Stepstone Portale.",
-                "lebenslauf_de": "Vorlagen Lebenslauf.",
-                "lebenslauf_com": "Muster für Bewerbungen.",
-                "easy_lebenslauf": "Online-Editor."
+                "arbeitsagentur": "Jobbörse.",
+                "indeed": "Indeed.",
+                "stepstone": "Stepstone.",
+                "lebenslauf_de": "Lebenslauf.",
+                "lebenslauf_com": "Muster.",
+                "easy_lebenslauf": "Editor."
             },
             "steps": {
-                "register_portals": "Profile erstellen & Lebenslauf hochladen.",
-                "use_ai": "KI für Anschreiben nutzen.",
-                "adapt_cv": "Lebenslauf an den Job anpassen.",
-                "search_routine": "2-3 Mal pro Woche suchen.",
-                "google_companies": "Firmen in der Nähe auf Google suchen & anrufen."
+                "register_portals": "Registrieren.",
+                "use_ai": "KI.",
+                "adapt_cv": "Anpassen.",
+                "search_routine": "Routine.",
+                "google_companies": "Google."
             }
         }
     }

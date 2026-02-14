@@ -1,6 +1,12 @@
 {
     "home": {
-        "header": "Find your path in your new life. We help you navigate education, career, and integration step by step."
+        "header": "Find your path in your new life. We help you navigate education, career, and integration step by step.",
+        "choose_your_guide": "Choose Your Guide",
+        "quiz_title": "LifePath Quiz",
+        "quiz_content": "A quick decision tree to help you figure out your next steps after finishing school.",
+        "pathways_title": "Pathways Guide",
+        "pathways_content": "Comprehensive guide with detailed information about earning money, education, and learning German.",
+        "get_started": "Get Started"
     },
     "navbar": {
         "home": "Home",
@@ -25,8 +31,877 @@
         },
         "footer_note": "This is a non-commercial project created to help young Ukrainians find their path forward."
     },
+    "questionaire": {
+        "intro": {
+            "title": "LifePath Quiz",
+            "description": "A quick decision tree to help you figure out your next steps after finishing school.",
+            "cta": "Get Started"
+        },
+        "ui": {
+            "image_alt": "question image",
+            "tips_and_tricks": "Tips & Tricks",
+            "next_steps": "Next steps",
+            "further_resources": "Further resources",
+            "back": "< Back"
+        },
+        "questions": {
+            "start": {
+                "title": "What is most important for you?",
+                "answers": {
+                    "unsure": "I don't know yet",
+                    "work": "I'd like to work and earn money",
+                    "school_certificate": "I need a School certificate",
+                    "learn_german": "I have to learn German",
+                    "german_not_good_enough": "My German is not good enough"
+                }
+            },
+            "what_fits_you_best": {
+                "title": "What fits you best?",
+                "answers": {
+                    "overwhelmed": "I feel unsure / overwhelmed",
+                    "strengths": "I don't know which are my strengths"
+                }
+            },
+            "what_kind_of_german": {
+                "title": "What kind of German do you need?",
+                "answers": {
+                    "work": "German for work / for apprenticeship",
+                    "general": "General German"
+                }
+            },
+            "from_where_certificate": {
+                "title": "From where do you want to get a certificate?",
+                "answers": {
+                    "in_germany": "I want to learn or study in Germany",
+                    "online_ukraine": "Online in Ukraine, in distance / external mode",
+                    "uncertain": "I'm uncertain, depends on how my so-far certificates are recognised"
+                }
+            },
+            "what_is_missing_for_work": {
+                "title": "What is missing for work/apprenticeship?",
+                "answers": {
+                    "german": "German is still poor",
+                    "preparation": "I need preparation (BVJ/BvB)",
+                    "recognition": "I don't know if my Ukrainian certificate is recognised",
+                    "orientation": "I need orientation / want to explore work in various professions"
+                }
+            },
+            "what_do_you_want_to_do": {
+                "title": "What do you want to do next?",
+                "answers": {
+                    "improve_german_first": "Improve German first",
+                    "school_options": "Get to know possible school options",
+                    "try_jobs_first": "Try jobs first",
+                    "go_to_work": "Go to work"
+                }
+            },
+            "what_happened_after_trying": {
+                "title": "What happened after trying?",
+                "answers": {
+                    "still_uncertain": "Still uncertain",
+                    "need_preparation": "I need more preparation",
+                    "german_still_poor": "German is still poor",
+                    "apply_apprenticeship": "How to apply for an apprenticeship?"
+                }
+            },
+            "what_level_do_you_need": {
+                "title": "What level do you aim for? And what do you really need?",
+                "answers": {
+                    "study_later": "I want to study later / university entrance qualification",
+                    "intermediate_certificate": "Intermediate secondary school certificate",
+                    "lower_certificate_for_work": "I want to get a direct job that does not require higher education - lower secondary school certificate"
+                }
+            },
+            "what_step_is_missing": {
+                "title": "Which step is missing?",
+                "answers": {
+                    "german_level_missing": "German level is missing",
+                    "studienkolleg_needed": "Studienkolleg is needed",
+                    "certificate_recognition": "Certificate recognition"
+                }
+            },
+            "ready_to_search": {
+                "title": "Ready to search?",
+                "answers": {
+                    "search_and_apply": "Search and apply"
+                }
+            }
+        },
+        "stations": {
+            "skills_and_strengths": {
+                "title": "Station: Skills & strengths orientation",
+                "content": "If you have no idea what to do next, start with orientation. You can discover your interests, strengths and possible jobs through simple tests, short internships and career information. This step helps you choose a realistic path (school, training or preparation) instead of deciding randomly.",
+                "tips": {
+                    "activities": "Think about activities you enjoy in everyday life (helping people, fixing things, computers, creativity).",
+                    "ask_people": "Ask friends, teachers or family what they think you are good at.",
+                    "tests": "Do short online career tests - they give ideas, not final decisions.",
+                    "internship": "Try at least one short internship to see real work.",
+                    "videos": "Watch job videos to understand daily tasks, not just job titles.",
+                    "notes": "Write down what you liked and disliked after each experience."
+                },
+                "steps": {
+                    "check_u": "Take an online orientation test (e.g. Check-U).",
+                    "career_guidance": "Make an appointment with career guidance (Berufsberatung).",
+                    "trial_internship": "Ask your school about a trial internship (Praktikum).",
+                    "job_list": "Create a simple list of 3 jobs you want to learn more about.",
+                    "continue": "Continue"
+                },
+                "links": {
+                    "check_u": {
+                        "title": "Check-U",
+                        "description": "Interactive interest and strengths test by the German Employment Agency."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Youth-friendly career orientation portal with job profiles and application tips."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Database with detailed descriptions of professions and requirements."
+                    },
+                    "youtube": {
+                        "title": "YouTube: Berufe in Deutschland",
+                        "description": "Videos showing everyday work in different jobs (choose reliable channels)."
+                    }
+                }
+            },
+            "you_dont_have_to_decide": {
+                "title": "You don't have to decide now",
+                "content": "It is completely okay if you are not sure yet. You do not need one final life decision today. First explore, test small options, and then decide with more confidence.",
+                "tips": {
+                    "explore_first": "Explore first: learn about different options before choosing one path.",
+                    "small_steps": "Take small steps each week instead of waiting for the perfect plan.",
+                    "try_options": "Try options in real life (internships, counseling, short courses).",
+                    "no_perfect_choice": "There is no perfect first choice - you can adjust your direction later.",
+                    "combine_paths": "You can combine paths (for example: learn German while doing an internship).",
+                    "decide_later": "Decide later with better information, not under pressure."
+                },
+                "steps": {
+                    "pick_one_action": "Pick one small action for this week.",
+                    "try_one_week": "Test one option for 1-2 weeks and write down what you learned.",
+                    "talk_to_advisor": "Talk to a counselor or trusted teacher to compare your options.",
+                    "review_and_choose": "Review your notes and choose your next step after exploring.",
+                    "continue": "Continue"
+                },
+                "links": {
+                    "check_u": {
+                        "title": "Check-U",
+                        "description": "Career orientation test to explore interests and strengths."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Easy career information to explore jobs before deciding."
+                    }
+                }
+            },
+            "integration_courses": {
+                "title": "Integration courses",
+                "content": "Integration courses help people who are new in Germany learn German and navigate daily life. They include a language course and an orientation course and are organized by BAMF with approved providers.",
+                "tips": {
+                    "structure": "An integration course usually has two parts: language + orientation.",
+                    "placement_test": "You usually take a placement test to find the right level.",
+                    "course_types": "There are different course types: general, special and intensive courses.",
+                    "format": "Courses can be attended full-time or part-time.",
+                    "costs": "Participation is usually paid; fee exemptions can be possible in some cases.",
+                    "fee_exemption": "Important: a fee exemption must be requested - it is not automatic."
+                },
+                "steps": {
+                    "continue_work_goals": "Continue -> work goals",
+                    "check_fit": "Check whether an integration course is suitable for you.",
+                    "placement_test": "Complete a placement test.",
+                    "apply_admission": "Apply for admission to the integration course.",
+                    "find_provider": "Find a suitable course provider.",
+                    "enroll": "Enroll in the course."
+                },
+                "links": {
+                    "bamf_overview": {
+                        "title": "BAMF: Integration courses overview",
+                        "description": "Official BAMF information about integration courses."
+                    },
+                    "bamf_registration": {
+                        "title": "BAMF: Course search / registration",
+                        "description": "BAMF navigation and course-related entry points."
+                    },
+                    "bamf_application_pdf": {
+                        "title": "BAMF: Admission application (PDF)",
+                        "description": "Official application form for integration course admission."
+                    }
+                }
+            },
+            "lower_secondary_school_certificate": {
+                "title": "Lower secondary school certificate",
+                "content": "The lower secondary school certificate (Berufsreife) is an officially recognized German certificate, usually after grade 9. It is often the minimum requirement for vocational training.",
+                "tips": {
+                    "not_immediate": "You don't have to finish your certificate immediately.",
+                    "many_paths": "Many people first do BVJ, internships, jobs, and complete the certificate later.",
+                    "catch_up": "If you didn't finish school yet, you can still catch up through several routes.",
+                    "recognition": "If you have a Ukrainian certificate, it can often be officially recognized."
+                },
+                "steps": {
+                    "photo_certificate": "Take a photo of your latest school certificate (Ukrainian is fine).",
+                    "make_appointment": "Ask school, Jobcenter or JBA for an appointment.",
+                    "check_equivalence": "Check which German qualification your certificate equals.",
+                    "no_certificate": "If you have no certificate, ask about BVJ or vocational school options.",
+                    "decide_path": "Decide between daily school and flexible learning routes.",
+                    "use_tools": "Use websites or AI tools to practice and understand school topics.",
+                    "ask_support": "Ask if financial support is available.",
+                    "if_needed_recognition": "If needed: recognition"
+                },
+                "links": {
+                    "vhs_mv": {
+                        "title": "VHS Mecklenburg-Vorpommern",
+                        "description": "Courses and preparation programmes to obtain school certificates."
+                    },
+                    "recognition_mv": {
+                        "title": "Recognition of foreign school certificates (MV)",
+                        "description": "Official authority checking equivalence of school certificates."
+                    }
+                }
+            },
+            "intermediate_secondary_school_certificate": {
+                "title": "Intermediate secondary school certificate",
+                "content": "The intermediate secondary certificate is a medium-level qualification in Germany (typically after grade 10). It supports access to vocational training and further school pathways.",
+                "tips": {
+                    "performance": "School type alone does not decide the certificate - performance does.",
+                    "attendance": "Attendance and participation matter a lot.",
+                    "key_subjects": "Focus on German, Maths and English - key final exam subjects.",
+                    "recognition": "Ukrainian school certificates may be officially recognized.",
+                    "parallel": "Language learning and school qualification can run in parallel."
+                },
+                "steps": {
+                    "recognize": "Have your Ukrainian school certificate officially recognized.",
+                    "ask_support": "Talk to school, Youth Employment Agency or Jobcenter.",
+                    "contact_vhs": "Contact a local VHS for courses and exam preparation.",
+                    "evening_distance": "Consider evening school or distance learning if you work.",
+                    "schedule": "Create a realistic learning schedule (German, Maths, English).",
+                    "online_tools": "Use online learning or AI tools to explain difficult topics.",
+                    "financial_support": "Ask about financial support (courses, transport, materials).",
+                    "if_needed_recognition": "If needed: recognition"
+                },
+                "links": {
+                    "mv_education": {
+                        "title": "Ministry of Education Mecklenburg-Vorpommern",
+                        "description": "Information about catching up school qualifications."
+                    },
+                    "vhs": {
+                        "title": "Volkshochschule (VHS)",
+                        "description": "Adult Education Centres with courses and preparation classes."
+                    }
+                }
+            },
+            "abendschule_kolleg": {
+                "title": "Abendschule / Kolleg",
+                "content": "Kollegs and evening schools are common second-path options in Germany to catch up qualifications, often while combining study and work.",
+                "tips": {
+                    "online_possible": "Some providers also offer online options.",
+                    "not_studienkolleg": "Do not confuse this with Studienkolleg for international university entry.",
+                    "mv_schools": "There are several evening schools/kollegs in Mecklenburg-Vorpommern.",
+                    "requirements": "Requirements often include prior schooling and work/life status criteria."
+                },
+                "steps": {
+                    "choose_provider": "Compare providers (e.g. ILS, SGD, Fernakademie Klett).",
+                    "research_options": "If you search for Studienkolleg, check if this pathway really matches your goal.",
+                    "find_mv_links": "Use the link list to find Abendgymnasium/Kolleg options in MV.",
+                    "prepare_documents": "Prepare documents (application, ID, CV, certified copies).",
+                    "if_needed_recognition": "If needed: recognition"
+                },
+                "links": {
+                    "ba_second_path": {
+                        "title": "Employment Agency: second educational pathway",
+                        "description": "Information on catching up qualifications."
+                    },
+                    "fernstudi": {
+                        "title": "Fernstudi Abendschulen",
+                        "description": "Overview of evening schools and kollegs in Germany."
+                    },
+                    "wikipedia": {
+                        "title": "Kollegs in Germany (Wikipedia)",
+                        "description": "List and context for Kolleg institutions."
+                    },
+                    "berlin_kolleg": {
+                        "title": "Berlin Kolleg",
+                        "description": "Online Abitur option for working adults."
+                    },
+                    "greifswald": {
+                        "title": "Abendgymnasium Greifswald",
+                        "description": "Official school website."
+                    },
+                    "neubrandenburg": {
+                        "title": "Abendgymnasium Neubrandenburg",
+                        "description": "Official school website."
+                    },
+                    "rostock": {
+                        "title": "Abendgymnasium Rostock",
+                        "description": "Official school website."
+                    },
+                    "schwerin": {
+                        "title": "Abendgymnasium Schwerin",
+                        "description": "Official school website."
+                    }
+                }
+            },
+            "recognition_of_certificates": {
+                "title": "Recognition of Certificates",
+                "content": "Recognition helps determine which German level your foreign certificate equals. It is often required for school pathways, vocational training and university applications.",
+                "tips": {
+                    "collect_docs": "Collect all school documents and report cards first.",
+                    "certified_translations": "Use certified translations where required.",
+                    "check_authority": "Check the correct authority for your federal state and certificate type.",
+                    "not_automatic": "Recognition is not automatic - you usually need an application.",
+                    "keep_copies": "Keep digital and printed copies of everything you submit."
+                },
+                "steps": {
+                    "check_route": "Check whether you need school, vocational, or university recognition.",
+                    "find_office": "Find the responsible office in your region.",
+                    "prepare_documents": "Prepare documents, translations and identity papers.",
+                    "submit": "Submit the application and pay fees if required.",
+                    "follow_up": "Follow up and ask for support if processing takes long.",
+                    "apply_uni_job": "Apply (uni/job)"
+                },
+                "links": {
+                    "kennung_de": {
+                        "title": "Anerkennung in Deutschland",
+                        "description": "Official recognition portal and counseling entry point."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Reference database for foreign qualifications."
+                    },
+                    "zab": {
+                        "title": "ZAB certificate evaluation",
+                        "description": "Official authority for academic/qualification evaluations."
+                    }
+                }
+            },
+            "job_related_language_courses": {
+                "title": "Job-related Language Courses (BSK)",
+                "content": "Job-related language courses (BSK) help people with a refugee or migration background improve their German for work. They build on integration courses and are funded by BAMF.",
+                "tips": {
+                    "b1": "Entry often requires around B1 German level.",
+                    "levels": "There are certified levels from A2 up to C2 with workplace focus.",
+                    "format": "Courses can be in-person or online.",
+                    "part_time": "Many offers are full-time or part-time alongside work.",
+                    "costs": "Participation is usually free; in some cases co-payment may apply.",
+                    "permit": "Check early that you can get a participation permit."
+                },
+                "steps": {
+                    "get_permit": "First ask Jobcenter, Employment Agency or migration counseling (MBE/JMD) for a participation permit.",
+                    "documents": "Bring your residence permit, registration and school/work certificates.",
+                    "placement_test": "Do the placement test so the school can assign your level.",
+                    "attend": "Attend regularly once the course starts.",
+                    "exam": "Take the final exam (telc/DTB) after the course.",
+                    "continue_work_goals": "Continue on work goals"
+                },
+                "links": {
+                    "bamf": {
+                        "title": "BAMF: Job-related German courses",
+                        "description": "Federal Office for Migration and Refugees information page."
+                    },
+                    "azubi_bsk": {
+                        "title": "BAMF: Azubi-BSK",
+                        "description": "Language support that accompanies vocational training."
+                    },
+                    "bsk_info": {
+                        "title": "BAMF: BSK overview",
+                        "description": "General BSK information and entry points."
+                    }
+                }
+            },
+            "german_school_pathway": {
+                "title": "Station: German school pathway (lower / intermediate / Abitur)",
+                "content": "In Germany there are step-by-step school pathways. You can start with a lower or intermediate certificate and continue later toward higher qualifications like Abitur.",
+                "tips": {
+                    "certificate_helps": "A German school certificate helps a lot for Ausbildung and jobs.",
+                    "catch_up": "If you do not have a certificate yet, you can still catch up.",
+                    "realschule": "Realschule is often a realistic and useful starting point.",
+                    "age": "At 16-18, you are not too old to continue school routes.",
+                    "internships": "Internships and motivation often matter more than perfect grades.",
+                    "recognition": "If your foreign certificate is not recognized, there are still alternatives."
+                },
+                "steps": {
+                    "check_fit": "I want to check which certificate fits me.",
+                    "register_school": "I want to register at a school.",
+                    "recognition_help": "I want help with recognition of my certificate.",
+                    "combine_school_internships": "I want to combine school with internships.",
+                    "study_later": "I want to study later (Abitur/Fachabitur).",
+                    "continue": "Continue"
+                },
+                "links": {
+                    "kmk": {
+                        "title": "KMK recognition info",
+                        "description": "Official information about recognition of foreign certificates."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Initial orientation database for foreign certificates."
+                    },
+                    "biz": {
+                        "title": "BIZ information center",
+                        "description": "Free info on school, apprenticeship and careers."
+                    },
+                    "ba_education": {
+                        "title": "Employment Agency education overview",
+                        "description": "Overview of education and training pathways."
+                    },
+                    "kmk_schools": {
+                        "title": "KMK school system overview",
+                        "description": "Basic information on German school types and certificates."
+                    }
+                }
+            },
+            "ukrainian_school_qualification": {
+                "title": "Ukrainian school qualification",
+                "content": "After 9 years of school in Ukraine you usually receive a certificate comparable to the German lower secondary level. After 11 years you obtain a school-leaving certificate that can often be recognized in Germany at intermediate level. You can also continue the Ukrainian school pathway from abroad through supplementary classes, distance learning, or external examination.",
+                "tips": {
+                    "decide_path": "Decide first: university path in Germany or in Ukraine.",
+                    "official_school": "Use only officially licensed schools and verify accreditation in the EDEBO registry.",
+                    "recognition_first": "Check recognition options in Germany before choosing a school route.",
+                    "abroad_possible": "A Ukrainian school certificate can be completed while living abroad.",
+                    "recognition_needed": "Recognition procedures may still be required in Germany.",
+                    "german_option": "If Ausbildung is your goal, a German school certificate can be more useful.",
+                    "warning": "Attention: always verify costs and legitimacy of offers first.",
+                    "abitur_note": "An 11-year Ukrainian certificate does not automatically equal German Abitur."
+                },
+                "steps": {
+                    "supplementary_classes": "Supplementary classes DE/UA (Ukrainian curriculum in addition to German school).",
+                    "distance_learning": "Distance learning (UA only).",
+                    "external_exam": "External examination (UA only).",
+                    "check_school_obligation": "Clarify whether German school attendance must continue.",
+                    "keep_documents": "Keep copies of all report cards (also Ukrainian PDFs).",
+                    "after_9_years": "Understand the 9-year certificate recognition path.",
+                    "after_11_years": "Understand the 11-year certificate recognition path."
+                },
+                "links": {
+                    "edebo_registry": {
+                        "title": "EDEBO registry",
+                        "description": "Official registry of Ukrainian schools (regional filter available)."
+                    },
+                    "school_org": {
+                        "title": "school.org.ua",
+                        "description": "State-licensed Ukrainian online schools."
+                    },
+                    "mon": {
+                        "title": "Ministry of Education (UA)",
+                        "description": "Official Ministry of Education website (Ukraine)."
+                    },
+                    "mon_secondary": {
+                        "title": "MOH/MON secondary education section",
+                        "description": "Direct information area for Ukrainian school education."
+                    },
+                    "testportal": {
+                        "title": "Ukrainian test portal",
+                        "description": "Information about national school examinations and access."
+                    },
+                    "kennung_de": {
+                        "title": "Anerkennung in Deutschland",
+                        "description": "Recognition counseling offices in Germany."
+                    },
+                    "kennung_schule": {
+                        "title": "School certificates in Germany recognition",
+                        "description": "Guidance for recognition of school certificates."
+                    },
+                    "zab": {
+                        "title": "ZAB certificate evaluation",
+                        "description": "Official authority for foreign certificate evaluation."
+                    },
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Reference database used by German authorities."
+                    }
+                }
+            },
+            "university_path_germany": {
+                "title": "Your way to university in Germany",
+                "content": "In many cases you cannot go directly to university after arrival. First clarify certificates, language level and recognition, then apply step by step.",
+                "tips": {
+                    "deadlines": "Check application deadlines early.",
+                    "studienkolleg": "Studienkolleg is normal for many international students.",
+                    "recognition_needed": "Without recognition you often cannot apply.",
+                    "language": "University paths usually require strong German (often B2/C1).",
+                    "no_time_lost": "School or vocational preparation first is not lost time."
+                },
+                "steps": {
+                    "check_qualification": "I want to check if my certificate allows university.",
+                    "recognize": "I want to recognize my certificate.",
+                    "learn_studienkolleg": "I want to learn about Studienkolleg.",
+                    "improve_language": "I want to improve German for university.",
+                    "apply": "I want to apply to a university."
+                },
+                "links": {
+                    "anabin": {
+                        "title": "anabin",
+                        "description": "Check whether your certificate qualifies for university."
+                    },
+                    "uni_assist": {
+                        "title": "uni-assist",
+                        "description": "Application and certificate evaluation service."
+                    },
+                    "studienkollegs": {
+                        "title": "Studienkollegs",
+                        "description": "Preparatory year information before university."
+                    },
+                    "daad": {
+                        "title": "DAAD study planning",
+                        "description": "Official guide to studying in Germany."
+                    },
+                    "hochschulkompass": {
+                        "title": "Hochschulkompass",
+                        "description": "Search study programs and universities."
+                    }
+                }
+            },
+            "bvj_bvb_preparation": {
+                "title": "Station: BVJ / BvB (vocational preparation)",
+                "content": "BVJ and BvB help if you are not yet ready for apprenticeship. You improve German, try jobs in internships and get support with applications.",
+                "tips": {
+                    "honest_level": "Be honest about your German level to get the right support.",
+                    "ask_referral": "Ask school or social worker for referral to guidance.",
+                    "cv_not_perfect": "You do not need a perfect CV before contacting support offices.",
+                    "internship": "Take internships seriously - they often open doors.",
+                    "attendance": "Attend regularly; attendance matters for next steps.",
+                    "digital_helpers": "Use digital helpers for questions and application drafts."
+                },
+                "steps": {
+                    "career_guidance": "Make an appointment with career guidance at the Employment Agency.",
+                    "ask_school": "Ask your school about BVJ places at nearby vocational schools.",
+                    "prepare_cv": "Prepare a simple CV and bring it to your appointment.",
+                    "search_internships": "Search local companies for internships.",
+                    "try_outs_after_preparation": "Try-outs after preparation"
+                },
+                "links": {
+                    "ba_vocational": {
+                        "title": "Employment Agency: vocational preparation",
+                        "description": "Overview of vocational preparation programs."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Youth-friendly portal with job descriptions and application help."
+                    },
+                    "ba_office": {
+                        "title": "Employment Agency offices",
+                        "description": "Find your local office and career guidance contacts."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Detailed profession database with tasks and requirements."
+                    },
+                    "school_mv": {
+                        "title": "Schule MV",
+                        "description": "Information about vocational schools and options in Mecklenburg-Vorpommern."
+                    }
+                }
+            },
+            "career_exploration_tryouts": {
+                "title": "Career exploration & try-outs (BOP / EQ / internships)",
+                "content": "Use short practical phases to test professions in real life. This helps you choose realistic next steps and improves your applications.",
+                "tips": {
+                    "honest_level": "Be honest about your German level so support fits your needs.",
+                    "ask_referral": "Ask school or social worker for internship guidance.",
+                    "cv_not_perfect": "A perfect CV is not required to start.",
+                    "serious_internship": "Take at least one internship seriously from start to finish.",
+                    "attendance": "Show up reliably - attendance is crucial.",
+                    "notes": "Write down what you liked and disliked after each try-out."
+                },
+                "steps": {
+                    "career_guidance": "Make an appointment with career guidance.",
+                    "ask_school": "Ask your school for trial internship options.",
+                    "prepare_cv": "Prepare a simple CV.",
+                    "search_internship": "Search local companies where you can do an internship.",
+                    "ask_company_internship": "How to ask a company for an internship?"
+                },
+                "links": {
+                    "ba_vocational": {
+                        "title": "Employment Agency: vocational preparation",
+                        "description": "Overview of preparation and try-out pathways."
+                    },
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Profiles of professions and internship tips."
+                    },
+                    "ba_office": {
+                        "title": "Employment Agency offices",
+                        "description": "Find local support and appointments."
+                    },
+                    "berufenet": {
+                        "title": "BERUFENET",
+                        "description": "Detailed profession information by field."
+                    },
+                    "school_mv": {
+                        "title": "Schule MV",
+                        "description": "Regional education and school information."
+                    }
+                }
+            },
+            "ask_company_internship": {
+                "title": "How to ask a company for an internship (simple script)",
+                "content": "In Germany many internships are found by asking companies directly. Friendly and clear communication matters more than perfect grammar.",
+                "tips": {
+                    "go_in_person": "If possible, go in person; this often works better than only email.",
+                    "take_cv": "Take a short one-page CV with you.",
+                    "ask_internship": "Ask for an internship, not for a full job.",
+                    "keep_trying": "If one company says no, ask the next one.",
+                    "best_time": "Best time to go: morning (8:00-11:00).",
+                    "simple_clothes": "Wear clean, simple clothes. No formal suit needed.",
+                    "learning_german": "If your German is weak, say you are learning and motivated."
+                },
+                "steps": {
+                    "practice_entry": "I want to practice what to say when I enter a company.",
+                    "create_cv": "I want to create a simple CV (Lebenslauf).",
+                    "simple_sentence": "I want a simple sentence I can say in German.",
+                    "phone_tips": "I want tips for phone calls with companies.",
+                    "email_request": "I want to write a simple email request.",
+                    "documents": "I want to know what documents to bring.",
+                    "short_script": "I want a short script I can memorize."
+                },
+                "links": {
+                    "planet_find": {
+                        "title": "Planet-Beruf: find internship",
+                        "description": "Examples and guidance for finding internships."
+                    },
+                    "europass": {
+                        "title": "Europass CV",
+                        "description": "Create a free basic CV template."
+                    },
+                    "vhs": {
+                        "title": "vhs-Lernportal",
+                        "description": "Free German learning portal (basic phrases)."
+                    },
+                    "planet_prepare": {
+                        "title": "Planet-Beruf: internship preparation",
+                        "description": "Preparation tips before contacting companies."
+                    },
+                    "azubi_mail": {
+                        "title": "Azubi: internship email tips",
+                        "description": "Example email for internship requests."
+                    },
+                    "ba_guidance": {
+                        "title": "Employment Agency: career guidance",
+                        "description": "Counselors can help you practice."
+                    }
+                }
+            },
+            "apprenticeship_application": {
+                "title": "Applying for apprenticeship in Germany",
+                "content": "Applying for an apprenticeship usually needs a simple package: short message, CV and often school certificates. Motivation and reliability are key.",
+                "tips": {
+                    "cv_simple": "Keep your CV simple and clear - one page is enough at the beginning.",
+                    "multi_applications": "Send applications to several companies.",
+                    "internship_boost": "Internship experience strongly improves your chances.",
+                    "probearbeit": "First contact can be a short interview or trial day.",
+                    "contract_help": "If you do not understand a contract, ask for help before signing.",
+                    "deadlines": "Start early; applications can begin months before training starts.",
+                    "rejections": "Rejections are normal. Keep applying.",
+                    "simple_message": "Long formal letters are not required; clear and friendly is better."
+                },
+                "steps": {
+                    "create_cv": "I want to create a CV (Lebenslauf).",
+                    "search_offers": "I want to see apprenticeship offers near me.",
+                    "documents_needed": "I want to understand what documents I need.",
+                    "prepare_interview": "I want to prepare for an interview.",
+                    "check_contract": "I want help checking a contract.",
+                    "deadlines": "I want to know important deadlines.",
+                    "after_rejection": "I want tips after a rejection.",
+                    "message_example": "I want a simple application message example.",
+                    "continue_find_job": "Continue: Find a job"
+                },
+                "links": {
+                    "europass": {
+                        "title": "Europass CV",
+                        "description": "Create a simple free CV template."
+                    },
+                    "jobboerse": {
+                        "title": "Federal Employment Agency jobsuche",
+                        "description": "Search apprenticeships in your area."
+                    },
+                    "planet_docs": {
+                        "title": "Planet-Beruf: application documents",
+                        "description": "Explains CV and application documents."
+                    },
+                    "planet_interview": {
+                        "title": "Planet-Beruf: interview prep",
+                        "description": "Tips for apprenticeship interviews."
+                    },
+                    "ba_guidance": {
+                        "title": "Employment Agency: career guidance",
+                        "description": "Free counseling before signing."
+                    },
+                    "ihk": {
+                        "title": "IHK",
+                        "description": "IHK chambers provide local training information."
+                    },
+                    "planet_rejection": {
+                        "title": "Planet-Beruf: rejection tips",
+                        "description": "What to do after rejection."
+                    },
+                    "azubi_examples": {
+                        "title": "Azubi application examples",
+                        "description": "Simple application examples."
+                    }
+                }
+            },
+            "how_to_apply_apprenticeship": {
+                "title": "How to apply for an apprenticeship",
+                "content": "Applying for an apprenticeship is a process you can learn step by step. You do not need perfect German or perfect documents to start. What matters most is that you apply consistently, improve with each application, and keep going.",
+                "tips": {
+                    "simple_docs": "Start with simple documents: CV, short message and your latest school certificate.",
+                    "short_message": "Keep your application message short, clear and friendly.",
+                    "multiple_applications": "Apply to multiple companies, not just one.",
+                    "tailor_each": "Adjust your CV and short message for each role.",
+                    "follow_up": "If there is no answer after 1-2 weeks, send a polite follow-up.",
+                    "rejections_normal": "Rejections are normal. They are part of the process.",
+                    "ask_feedback": "Ask for feedback when possible and improve your next application."
+                },
+                "steps": {
+                    "prepare_cv": "Prepare a one-page CV.",
+                    "collect_documents": "Collect your main documents (certificate, ID, references if available).",
+                    "search_offers": "Search apprenticeship offers in your region.",
+                    "write_message": "Write a short application message for each company.",
+                    "send_and_track": "Send applications and track where and when you applied.",
+                    "prepare_interview": "Prepare for phone calls and interviews.",
+                    "continue_find_job": "Continue: Find a job",
+                    "begin_dual_system_apprenticeship": "Begin a dual system apprenticeship"
+                },
+                "links": {
+                    "jobboerse": {
+                        "title": "Employment Agency jobsuche",
+                        "description": "Search for apprenticeship offers by location and profession."
+                    },
+                    "planet_docs": {
+                        "title": "Planet-Beruf: application documents",
+                        "description": "Practical guide for CVs and application messages."
+                    },
+                    "europass": {
+                        "title": "Europass CV",
+                        "description": "Create a clear CV template for free."
+                    },
+                    "azubi_examples": {
+                        "title": "Azubi: application examples",
+                        "description": "Simple apprenticeship application examples."
+                    },
+                    "ba_guidance": {
+                        "title": "Employment Agency: career guidance",
+                        "description": "Free support for applications and interview preparation."
+                    }
+                }
+            },
+            "find_job": {
+                "title": "How to apply for a job",
+                "content": "Applying for a job or apprenticeship in Germany usually requires a simple application: a short cover message, a CV (Lebenslauf) and sometimes school certificates. You do not need perfect German - companies mainly want to see motivation and reliability. You can prepare applications step by step and get help from teachers, advisors or digital tools.",
+                "tips": {
+                    "cv_simple": "Keep your CV simple and clear - one page is enough at the beginning.",
+                    "mention_internships": "Mention internships, school projects or helping activities (they count as experience).",
+                    "simple_german": "Use simple German sentences; mistakes are normal.",
+                    "friendly_message": "Write a short, friendly message explaining why you want the job.",
+                    "interview_questions": "Prepare for questions like: Why this job? What are your strengths?",
+                    "review_before_send": "Ask someone to read your application before sending it.",
+                    "rejections_normal": "It is normal to receive rejections. Continue applying - success often comes after several tries.",
+                    "no_long_letters": "Long formal letters are not required. Clear and friendly is better.",
+                    "message_template": "Dear Sir or Madam,\nmy name is ___ and I am looking for an apprenticeship as a ___.\nI already completed an internship and I am very interested in this profession.\nI am still learning German, but I am motivated and reliable.\nI would be happy to introduce myself personally.\nKind regards, ___"
+                },
+                "steps": {
+                    "create_basic_cv": "Create a basic CV (name, address, school, skills).",
+                    "search_and_write": "Search for one job or apprenticeship and write a short application message.",
+                    "send_application": "Send the application by email or through a job portal.",
+                    "follow_up": "If you get no answer after 1-2 weeks, politely ask again.",
+                    "after_rejection": "I want tips after a rejection.",
+                    "message_example": "I want a simple application message example.",
+                    "if_not_successful_adjust_path": "If not successful -> adjust path"
+                },
+                "links": {
+                    "planet_beruf": {
+                        "title": "Planet-Beruf",
+                        "description": "Official youth career portal with explanations, CV examples and application tips."
+                    },
+                    "arbeitsagentur_jobsuche": {
+                        "title": "Arbeitsagentur Jobsuche",
+                        "description": "Search engine for apprenticeships and jobs from the Federal Employment Agency."
+                    },
+                    "azubi_portal": {
+                        "title": "Azubi.de",
+                        "description": "Large apprenticeship portal with many offers and explanations."
+                    },
+                    "canva_templates": {
+                        "title": "Canva Resume Templates",
+                        "description": "Free templates to create a CV online."
+                    },
+                    "europass": {
+                        "title": "Europass CV",
+                        "description": "Create a structured European CV online (also available in multiple languages)."
+                    },
+                    "planet_rejection": {
+                        "title": "Planet-Beruf: rejection tips",
+                        "description": "What to do after rejection."
+                    },
+                    "azubi_message_examples": {
+                        "title": "Azubi application examples",
+                        "description": "Simple application examples."
+                    }
+                }
+            },
+            "dual_apprenticeship_basics": {
+                "title": "Dual apprenticeship basics in Germany",
+                "content": "In dual apprenticeship you learn in two places: company and vocational school. You earn a salary from the first month and progress each training year.",
+                "tips": {
+                    "probation": "The first 3-4 months are usually probation time.",
+                    "sick_leave": "Inform the company early when sick.",
+                    "school_subjects": "Do not ignore vocational school subjects.",
+                    "documents": "Keep your contract and important documents safe.",
+                    "ask_early": "If you struggle, ask teacher or trainer early.",
+                    "right_to_training": "You have a right to proper training, not only simple labor.",
+                    "language_support": "Speak at work every day; mistakes are expected.",
+                    "after_training": "After apprenticeship you can continue education and advance further."
+                },
+                "steps": {
+                    "weekly_schedule": "I want to understand how the weekly schedule works.",
+                    "company_duties": "I want to know my duties at the company.",
+                    "help_school_subjects": "I want help with vocational school subjects.",
+                    "salary_insurance": "I want to understand my salary and insurance.",
+                    "final_exam": "I want to know what happens after the final exam.",
+                    "problems_apprenticeship": "I want help if I have problems in my apprenticeship.",
+                    "language_support_training": "I want language support during training.",
+                    "career_after": "I want to know career options after apprenticeship.",
+                    "continue": "Continue"
+                },
+                "links": {
+                    "planet_daily": {
+                        "title": "Planet-Beruf: apprenticeship daily life",
+                        "description": "Shows daily life during apprenticeship."
+                    },
+                    "ihk_contract": {
+                        "title": "IHK training contract",
+                        "description": "Basic responsibilities in apprenticeship."
+                    },
+                    "azubi_school": {
+                        "title": "Azubi vocational school tips",
+                        "description": "Tips for vocational school success."
+                    },
+                    "ba_salary": {
+                        "title": "Employment Agency: training salary",
+                        "description": "Explains apprentice salary and benefits."
+                    },
+                    "ihk_exams": {
+                        "title": "IHK exams",
+                        "description": "Information about final exams."
+                    },
+                    "asa": {
+                        "title": "Assistierte Ausbildung (AsA)",
+                        "description": "Support program for apprentices who need help."
+                    },
+                    "bamf_deufov": {
+                        "title": "BAMF vocational German (DeuFöV)",
+                        "description": "Vocational German courses during training."
+                    },
+                    "make_it_germany": {
+                        "title": "Make it in Germany",
+                        "description": "Career paths after vocational training."
+                    }
+                }
+            }
+        }
+    },
     "your_path": {
         "home": "Home",
+        "back": "Back",
         "tips_and_tricks": "Tips & tricks",
         "next_steps": "Next steps",
         "further_resources": "Further resources (free of charge, reputable)",

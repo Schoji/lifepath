@@ -1,63 +1,31 @@
-'use client';
-import React, { useEffect, useState } from 'react';
-import { findQuestionById, QuestionNode, questions } from './questions';
-import Image from 'next/image';
-import { useRouter } from 'next/navigation';
+import Link from "next/link";
+import { useTranslations } from "next-intl";
 
-
-
-const Questionaire = () => {
-    const [selectedQuestion, setSelectedQuestion] = useState<QuestionNode>(questions[0]);
-    const [questionHistory, setQuestionHistory] = useState<number[]>([questions[0].id]);
-    const router = useRouter();
-
-    useEffect(() => {
-        // getShortestPath(selectedQuestion.id);
-        console.log(questionHistory);
-    }, [selectedQuestion]);
+export default function QuestionaireIntro() {
+    const t = useTranslations("questionaire");
 
     return (
-        <div className='flex gap-5 flex-col min-h-screen items-center justify-center bg-zinc-100 text-black font-sans'>
-            <progress className="progress progress-primary w-2xl" value={questionHistory.length} max={questions.length / 3}></progress>
-            {selectedQuestion.image != null &&
-                <div className='relative w-2xl h-64 '>
-                    <Image src={selectedQuestion.image} alt={"image"} fill={true} className='rounded-lg shadow-sm object-cover'></Image>
+        <main className="flex min-h-[calc(100vh-65px)] w-full items-center justify-center bg-zinc-100 px-4 py-8 text-zinc-900 sm:py-10">
+            <div className="w-full max-w-4xl text-center">
+
+                <h1 className="mt-4 text-4xl font-bold tracking-tight sm:mt-6 sm:text-6xl md:text-7xl">{t("intro.title")}</h1>
+
+                <div className="mt-6 flex items-center justify-center gap-3">
+                    <span className="h-2 w-20 rounded-full bg-blue-700 sm:w-32" />
+                    <span className="h-2 w-20 rounded-full bg-yellow-500 sm:w-32" />
                 </div>
-            }
-            <div className='w-2xl text-4xl font-bold p-10 border border-zinc-300 shadow-sm rounded-xl text-center'>
-                <h1> {selectedQuestion.title}</h1>
-            </div>
-            <div className='w-2xl flex flex-col gap-3'>
-                {selectedQuestion.answers && selectedQuestion.answers.map((answer) =>
-                    <button
-                        onClick={() => {
-                            if (answer.next_question_id != null) {
-                                const nextQuestion = findQuestionById(answer.next_question_id);
-                                if (nextQuestion != null) {
-                                    setQuestionHistory([...questionHistory, selectedQuestion.id]);
-                                    setSelectedQuestion(nextQuestion);
-                                }
-                            }
-                            else {
-                                console.log(answer);
-                                router.push("/result");
-                            }
-                        }
-                        }
-                        className={`btn w-full h-16 rounded-lg shadow-sm ${answer.color ?? "btn-primary"} `}
-                        key={answer.title}>
-                        {answer.title}
 
-                    </button>)}
-                {questionHistory.length > 1 ?
-                    <button className='btn btn-ghost h-16 rounded-lg' onClick={() => {
-                        setQuestionHistory(questionHistory.slice(0, -1));
-                        setSelectedQuestion(findQuestionById(questionHistory[questionHistory.length - 1])!);
-                    }}> {"< Back"}</button>
-                    : null}
+                <p className="mx-auto mt-6 max-w-3xl text-lg leading-relaxed text-zinc-600 sm:mt-8 sm:text-2xl md:text-3xl">
+                    {t("intro.description")}
+                </p>
+
+                <Link
+                    href="/questionaire/start"
+                    className="btn mt-8 h-14 rounded-2xl bg-blue-700 px-8 text-xl font-semibold text-white hover:bg-blue-800 sm:mt-12 sm:h-16 sm:px-14 sm:text-3xl"
+                >
+                    {t("intro.cta")}
+                </Link>
             </div>
-        </div>
+        </main>
     );
-};
-
-export default Questionaire;
+}

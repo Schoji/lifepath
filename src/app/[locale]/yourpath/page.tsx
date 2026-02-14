@@ -1,9 +1,8 @@
 "use client";
-import { ArrowRight, CheckCircle2, ExternalLink, Lightbulb } from 'lucide-react';
+import { ArrowLeft, ArrowRight, CheckCircle2, ExternalLink, Lightbulb } from 'lucide-react';
 import Image from 'next/image';
 import { findQuestionById, QuestionNode, questions } from './questions';
 import React, { useState } from 'react';
-import Link from 'next/link';
 import { useTranslations } from 'next-intl';
 import { motion } from 'motion/react';
 
@@ -57,7 +56,14 @@ const YourPath = () => {
                     </div>
                 }
                 <div className='relative h-56 sm:h-72 lg:h-96 w-full'>
-                    <Image src={currentQuestion.image} alt={"image"} fill={true} className='rounded-lg shadow-md object-cover'></Image>
+                    <Image
+                        src={currentQuestion.image}
+                        alt={"image"}
+                        fill={true}
+                        loading={questionHistory.length === 1 ? "eager" : "lazy"}
+                        sizes="(max-width: 640px) 100vw, (max-width: 1024px) 80vw, 1024px"
+                        className='rounded-lg shadow-md object-cover'
+                    />
                 </div>
                 <h1 className='text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight wrap-break-word'>{t(currentQuestion.title)}</h1>
                 <p className='whitespace-normal text-base sm:text-lg lg:text-xl text-gray-700 wrap-break-word'>{t(currentQuestion.content)}</p>
@@ -99,14 +105,29 @@ const YourPath = () => {
                     <div className='flex flex-col gap-2'>
                         <h1 className='text-xl sm:text-2xl font-bold'>{t("further_resources")}</h1>
                         {currentQuestion.links.map((link, index) =>
-                            <Link key={index}
+                            <a key={index}
                                 href={link.url}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className='btn btn-outline w-full min-h-14 sm:min-h-16 px-4 py-3 flex justify-between items-center border-zinc-300 shadow-sm cursor-pointer text-sm sm:text-base font-medium text-left rounded-lg'>
                                 <span className='whitespace-normal wrap-break-word'>{t(link.title)}</span>
                                 <ExternalLink size={16} />
-                            </Link>)}
+                            </a>)}
                     </div>
                 }
+                {questionHistory.length > 1 && (
+                    <div className='pt-2'>
+                        <button
+                            onClick={() => {
+                                GoBackQuestion(questionHistory.length - 2);
+                            }}
+                            className='btn btn-ghost w-full min-h-12 sm:min-h-14 border border-zinc-300 rounded-lg'
+                        >
+                            <ArrowLeft size={16} />
+                            {t("back")}
+                        </button>
+                    </div>
+                )}
             </motion.div>
         </div>
     );
